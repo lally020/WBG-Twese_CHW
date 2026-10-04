@@ -75,7 +75,7 @@ Generated from real calls on the synthetic database (long lists cut to two items
 ```json
 {
   "name": "TWESE CHW AI",
-  "config_version": "2026-10-04a",
+  "config_version": "2026-10-04b",
   "approved": false,
   "approved_by": "",
   "banner": "Thresholds not yet physician-approved. Demonstration only.",
@@ -93,8 +93,8 @@ Generated from real calls on the synthetic database (long lists cut to two items
       ]
     },
     "trajectory": "knn-v2",
-    "llm": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
-    "llm_primary": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
+    "llm": "gemma3:4b",
+    "llm_primary": "gemma3:4b",
     "llm_fallback": "gemma3:1b"
   },
   "ollama_reachable": true,
@@ -298,7 +298,7 @@ Generated from real calls on the synthetic database (long lists cut to two items
     "final_choice": "routine",
     "override_reason": null,
     "model_version": "synthetic-history",
-    "config_version": "2026-10-04a"
+    "config_version": "2026-10-04b"
   },
   "actions": [
     "routine",
@@ -364,7 +364,7 @@ Generated from real calls on the synthetic database (long lists cut to two items
     "Médicaments pris ; pas de symptômes signalés.",
     "... 1 more"
   ],
-  "source": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
+  "source": "gemma3:4b",
   "facts": {
     "contacts": [
       {
@@ -487,7 +487,7 @@ Body:
     "llm": {
       "valid": true,
       "reason": "all four checks passed",
-      "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M"
+      "model": "gemma3:4b"
     },
     "fields": {
       "sbp": 150,
@@ -537,7 +537,7 @@ Body:
         "llm": {
           "valid": true,
           "reason": "all four checks passed",
-          "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M"
+          "model": "gemma3:4b"
         },
         "fields": {
           "sbp": 150,
@@ -583,7 +583,7 @@ Body:
   "llm": {
     "valid": true,
     "reason": "all four checks passed",
-    "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M"
+    "model": "gemma3:4b"
   },
   "fields": {
     "sbp": 150,
@@ -653,7 +653,7 @@ Body:
     "direction": null,
     "moved_by": null,
     "guardrail": null,
-    "config_version": "2026-10-04a",
+    "config_version": "2026-10-04b",
     "approved": false,
     "suggestion": "visit_this_week",
     "probs": {
@@ -719,7 +719,7 @@ Body:
   "direction": null,
   "moved_by": null,
   "guardrail": null,
-  "config_version": "2026-10-04a",
+  "config_version": "2026-10-04b",
   "approved": false,
   "suggestion": "visit_this_week",
   "probs": {
@@ -759,7 +759,7 @@ Body:
     "due_date": "2026-10-10"
   },
   "model_version": "rules-v1",
-  "config_version": "2026-10-04a"
+  "config_version": "2026-10-04b"
 }
 ```
 
@@ -1024,7 +1024,7 @@ Body:
         }
       },
       "emergency": false,
-      "config_version": "2026-10-04a"
+      "config_version": "2026-10-04b"
     },
     {
       "patient_id": 27,
@@ -1516,7 +1516,7 @@ Body:
 ```json
 {
   "month": "2026-09",
-  "config_version": "2026-10-04a",
+  "config_version": "2026-10-04b",
   "suggestions": {
     "made": 83,
     "confirmed": 83,
@@ -1721,8 +1721,8 @@ Body:
       "source": "field_corrected",
       "linked_id": 504,
       "rule_id": "extraction:dbp",
-      "model_version": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
-      "config_version": "2026-10-04a",
+      "model_version": "gemma3:4b",
+      "config_version": "2026-10-04b",
       "detected_on": "2026-10-03T23:57:10",
       "supervisor_label": "pending",
       "cause_code": "extraction",
@@ -1747,8 +1747,8 @@ Body:
       "source": "field_corrected",
       "linked_id": 339,
       "rule_id": "extraction:dbp",
-      "model_version": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
-      "config_version": "2026-10-04a",
+      "model_version": "gemma3:4b",
+      "config_version": "2026-10-04b",
       "detected_on": "2026-10-03T23:57:10",
       "supervisor_label": "pending",
       "cause_code": "extraction",
@@ -1784,8 +1784,8 @@ Body:
   "source": "field_corrected",
   "linked_id": 504,
   "rule_id": "extraction:dbp",
-  "model_version": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
-  "config_version": "2026-10-04a",
+  "model_version": "gemma3:4b",
+  "config_version": "2026-10-04b",
   "detected_on": "2026-10-03T23:57:10",
   "evidence_json": "{\"message_id\": 504, \"text\": \"Habari daktari, presha yangu ni 129 kwa 78. Nimekunywa dawa zangu.\", \"changed\": {\"dbp\": {\"extracted\": 88, \"conf...",
   "supervisor_label": "confirmed_error",

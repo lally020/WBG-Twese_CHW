@@ -8,7 +8,7 @@ Where our data, models and patient-facing content come from, and what they do no
 - Julia-1 model card, Supersonic Labs: https://huggingface.co/SupersonicLabs/Julia-1
 - MASSIVE dataset, Amazon: listed in the brief, page 9.
 - NLLB-200 and FLORES-200, Meta: listed in the brief, page 8.
-- MedGemma 1.5 4B, Google, January 2026: https://huggingface.co/google (search medgemma-1.5-4b-it)
+- Gemma 3, Google, 2025: https://ollama.com/library/gemma3 (gemma3:4b primary, gemma3:1b fallback)
 - Ollama: https://ollama.com
 - Claude Code: https://docs.claude.com/en/docs/claude-code/overview
 

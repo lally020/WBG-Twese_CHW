@@ -69,7 +69,7 @@ Do these steps in order. Mac steps first. Windows notes in brackets.
    - `python3 -m venv .venv`
    - Mac: `source .venv/bin/activate` [Windows: `.venv\Scripts\activate`]
    - `pip install -r requirements.txt` (this file appears after build step 1)
-8. Install Ollama (runs the local LLM): https://ollama.com/download. Open it once so it runs in the background. Then in the terminal pull the model. Primary: a 4-bit GGUF build of MedGemma 1.5 4B instruct from Hugging Face, run as `ollama pull hf.co/<repo-name>:Q4_K_M` (person 2 finds the repo name on huggingface.co, search "medgemma-1.5-4b-it GGUF", and writes it into config.llm.model). Fallbacks, official tags: `ollama pull gemma3:4b` (about 3.3 GB) and `ollama pull gemma3:1b` (about 0.8 GB, used when RAM is short). One person downloads; the others copy the files by USB if the internet is slow, which is also the side-load story for the video.
+8. Install Ollama (runs the local LLM): https://ollama.com/download. Open it once so it runs in the background. Then in the terminal pull the models, official tags: primary `ollama pull gemma3:4b` (about 3.3 GB, the name in config.llm.model) and fallback `ollama pull gemma3:1b` (about 0.8 GB, used when RAM is short). The team moved from MedGemma 1.5 4B to Gemma 3 4B on 2026-10-04. One person downloads; the others copy the files by USB if the internet is slow, which is also the side-load story for the video.
 9. Start Claude Code: in the same terminal, type `claude` and press Enter. First message to type: "Read CLAUDE.md and PLAN.md. Then do build step 1."
 
 ## 3. Folder layout
@@ -412,6 +412,6 @@ Later, after the hackathon: the emergency keyword net for raw text; the one-clic
 - Unger T, et al. 2020 International Society of Hypertension global hypertension practice guidelines. J Hypertens 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC8762770
 - Dzudie A, et al. Roadmap to achieve 25% hypertension control in Africa by 2025. Cardiovasc J Afr 2017. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5642030/
 - WHO CVD Risk Chart Working Group. World Health Organization cardiovascular disease risk charts: revised models to estimate risk in 21 global regions. Lancet Glob Health 2019. https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(19)30318-3/fulltext
-- MedGemma 1.5 4B, Google, January 2026: https://huggingface.co/google (search medgemma-1.5-4b-it)
+- Gemma 3, Google, 2025: https://ollama.com/library/gemma3 (gemma3:4b primary, gemma3:1b fallback)
 - Ollama: https://ollama.com
 - Claude Code install: https://docs.claude.com/en/docs/claude-code/overview

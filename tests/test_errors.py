@@ -45,13 +45,13 @@ def test_override_down_is_false_positive(con, cfg):
 def test_corrected_field_is_extraction_error(con, cfg):
     parsed = {"fields": {"sbp": 150, "dbp": 95, "meds_taken": "yes", "symptoms": []},
               "confirmed_fields": {"sbp": 150, "dbp": 85, "meds_taken": "yes", "symptoms": []},
-              "llm": {"model": "medgemma"}, "confirmed": True}
+              "llm": {"model": "gemma3:4b"}, "confirmed": True}
     mid = con.execute("INSERT INTO messages (patient_id, direction, kind, lang, text, received_at, parsed_json) "
                       "VALUES (2, 'in', 'report', 'sw', 'presha 150/85', '2026-10-02T08:00:00', ?)",
                       (dumps(parsed),)).lastrowid
     errors.detect(con, cfg, END)
     row = con.execute("SELECT * FROM error_reviews WHERE source = 'field_corrected' AND linked_id = ?", (mid,)).fetchone()
-    assert row["kind"] == "extraction_error" and row["rule_id"] == "extraction:dbp" and row["model_version"] == "medgemma"
+    assert row["kind"] == "extraction_error" and row["rule_id"] == "extraction:dbp" and row["model_version"] == "gemma3:4b"
 
 
 def test_referral_sent_home_and_both_trajectory_misses(con, cfg):

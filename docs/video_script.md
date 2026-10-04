@@ -24,7 +24,7 @@ Turn WiFi off on screen. "Everything runs on this laptop: the database, the smal
 
 ## 4. How it works and why it is safe (40 s)
 
-Small models only: Julia-1 (144M) picks from a fixed list, and MedGemma 4B only copies fields into JSON and passes four checks. Rules come first for emergencies. "Not sure, ask a nurse" is always an option. People confirm every field, action and plan.
+Small models only: Julia-1 (144M) picks from a fixed list, and Gemma 3 4B only copies fields into JSON and passes four checks. Rules come first for emergencies. "Not sure, ask a nurse" is always an option. People confirm every field, action and plan.
 
 ## 5. Evidence and limits (30 s)
 

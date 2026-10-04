@@ -1,5 +1,5 @@
 {
-  "config_version": "2026-10-04a",
+  "config_version": "2026-10-04b",
   "approved": false,
   "approved_by": "",
   "approved_on": "",
@@ -81,7 +81,7 @@
     "emergency_now": [{"kind": "chw_visit", "days": 1}]
   },
   "llm": {
-    "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
+    "model": "gemma3:4b",
     "fallback_model": "gemma3:1b",
     "min_free_ram_gb": 3.5,
     "temperature": 0,
