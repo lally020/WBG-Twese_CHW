@@ -1,0 +1,1698 @@
+id,patient_id,date,source,complaint_text,tests_performed,positive_results,referral,doctor_recommendation_text,doctor_notes_text,chw_notes_text,bp_text,sbp,dbp,blood_sugar,blood_sugar_unit,meds_taken,symptom_codes,lang
+1,1,2026-04-12,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,134/86,134,86,5.6,mmol/L,yes,[],en
+2,1,2026-04-28,sms,presha leo 135/85,,,,,,,135/85,135,85,,,,[],sw
+3,1,2026-05-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/84,133,84,,,yes,[],sw
+4,1,2026-06-06,sms,"Mimi ni mzima. Presha ni 136/86, nakunywa dawa kila siku.",,,,,,,136/86,136,86,,,yes,[],sw
+5,1,2026-06-27,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,138/87,138,87,5.6,mmol/L,yes,[],en
+6,1,2026-07-19,sms,"Habari daktari, presha yangu ni 139 kwa 88. Nimekunywa dawa zangu.",,,,,,,139/88,139,88,,,yes,[],sw
+7,1,2026-08-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",141/89,141,89,,,yes,[],sw
+8,1,2026-09-03,sms,"Mimi ni mzima. Presha ni 143/90, nakunywa dawa kila siku.",,,,,,,143/90,143,90,,,yes,[],sw
+9,1,2026-09-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/92,146,92,,,yes,[],sw
+10,2,2026-04-06,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,131/81,131,81,8.2,mmol/L,yes,[],fr
+11,2,2026-07-03,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,133/78,133,78,5.1,mmol/L,yes,[],fr
+12,2,2026-09-09,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,138/84,138,84,8.1,mmol/L,yes,[],fr
+13,2,2026-04-11,chw,,,,,,,"Home visit, no complaints.",140/81,140,81,,,yes,[],en
+14,2,2026-04-27,chw,,,,,,,"Home visit, no complaints.",129/72,129,72,,,yes,[],en
+15,2,2026-05-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/83,133,83,,,yes,[],en
+16,2,2026-06-08,chw,,,,,,,"Home visit, no complaints.",142/82,142,82,,,yes,[],en
+17,2,2026-06-28,chw,,,,,,,"Patient well, taking medicine.",131/73,131,73,,,yes,[],en
+18,2,2026-07-12,chw,,,,,,,"Patient well, taking medicine.",138/77,138,77,,,yes,[],en
+19,2,2026-08-02,chw,,,,,,,"Patient well, taking medicine.",124/81,124,81,,,yes,[],en
+20,2,2026-08-18,chw,,,,,,,"Home visit, no complaints.",133/73,133,73,,,yes,[],en
+21,2,2026-09-05,chw,,,,,,,"Home visit, no complaints.",134/80,134,80,,,yes,[],en
+22,2,2026-09-21,chw,,,,,,,"Patient bien, prend ses médicaments.",135/75,135,75,,,yes,[],en
+23,2,2026-04-16,sms,135/73 leo. Asante,,,,,,,135/73,135,73,,,,[],sw
+24,2,2026-04-27,sms,"Habari daktari, presha yangu ni 129 kwa 80. Nimekunywa dawa zangu.",,,,,,,129/80,129,80,,,yes,[],sw
+25,2,2026-05-13,sms,presha leo 130/83,,,,,,,130/83,130,83,,,,[],sw
+26,2,2026-05-25,sms,"Shikamoo. Nimepima leo 129/82, dawa nimekunywa asubuhi.",,,,,,,129/82,129,82,,,yes,[],sw
+27,2,2026-06-03,sms,"Shikamoo. Nimepima leo 134/76, dawa nimekunywa asubuhi.",,,,,,,134/76,134,76,,,yes,[],sw
+28,2,2026-06-24,sms,"Mimi ni mzima. Presha ni 137/75, nakunywa dawa kila siku.",,,,,,,137/75,137,75,,,yes,[],sw
+29,2,2026-07-03,sms,124/75 leo. Asante,,,,,,,124/75,124,75,,,,[],sw
+30,2,2026-07-19,sms,"Shikamoo. Nimepima leo 141/83, dawa nimekunywa asubuhi.",,,,,,,141/83,141,83,,,yes,[],sw
+31,2,2026-08-04,sms,131/78 leo. Asante,,,,,,,131/78,131,78,,,,[],sw
+32,2,2026-08-13,sms,"Habari daktari, presha yangu ni 134 kwa 73. Nimekunywa dawa zangu.",,,,,,,134/73,134,73,,,yes,[],sw
+33,2,2026-08-28,sms,presha leo 133/80,,,,,,,133/80,133,80,,,,[],sw
+34,2,2026-09-17,sms,"Habari daktari, presha yangu ni 131 kwa 77. Nimekunywa dawa zangu.",,,,,,,131/77,131,77,,,yes,[],sw
+35,2,2026-09-28,sms,"Habari daktari, presha yangu ni 125 kwa 72. Nimekunywa dawa zangu.",,,,,,,125/72,125,72,,,yes,[],sw
+36,3,2026-04-21,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,129/82,129,82,7.7,mmol/L,yes,[],fr
+37,3,2026-07-01,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,148/89,148,89,7.3,mmol/L,yes,[],fr
+38,3,2026-09-25,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,123/75,123,75,5.8,mmol/L,yes,[],fr
+39,3,2026-04-17,chw,,,,,,,"Home visit, no complaints.",132/78,132,78,,,yes,[],en
+40,3,2026-05-03,chw,,,,,,,"Patient bien, prend ses médicaments.",139/76,139,76,,,yes,[],en
+41,3,2026-05-27,chw,,,,,,,Patient ran out of tablets last week.,145/88,145,88,,,partial,[],en
+42,3,2026-06-16,chw,,,,,,,"Patient bien, prend ses médicaments.",129/80,129,80,,,yes,[],en
+43,3,2026-07-05,chw,,,,,,,"Patient bien, prend ses médicaments.",135/82,135,82,,,yes,[],en
+44,3,2026-07-21,chw,,,,,,,"Patient bien, prend ses médicaments.",135/83,135,83,,,yes,[],en
+45,3,2026-08-15,chw,,,,,,,"Home visit, no complaints.",135/79,135,79,,,yes,[],en
+46,3,2026-09-04,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/85,139,85,,,yes,[],en
+47,3,2026-09-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/81,137,81,,,yes,[],en
+48,3,2026-04-14,sms,J'ai mesuré au centre de santé : 131/86. Médicaments pris.,,,,,,,131/86,131,86,,,yes,[],fr
+49,3,2026-05-01,sms,"Bonjour, ma tension aujourd'hui est 144/86. J'ai pris mes médicaments.",,,,,,,144/86,144,86,,,yes,[],fr
+50,3,2026-05-19,sms,tension 136/81,,,,,,,136/81,136,81,,,,[],fr
+51,3,2026-05-30,sms,J'ai mesuré au centre de santé : 139/83. Médicaments pris.,,,,,,,139/83,139,83,,,yes,[],fr
+52,3,2026-06-10,sms,"Ma tension est 136 sur 86, je prends bien mes médicaments chaque jour.",,,,,,,136/86,136,86,,,yes,[],fr
+53,3,2026-06-20,sms,"Bonsoir. Tension 141/84, j'ai pris seulement la moitié du comprimé.",,,,,,,141/84,141,84,,,partial,[],fr
+54,3,2026-07-11,sms,"Bonjour, ma tension aujourd'hui est 132/79. J'ai pris mes médicaments.",,,,,,,132/79,132,79,,,yes,[],fr
+55,3,2026-07-21,sms,"Bjr, tension 137 sur 85 ce matin",,,,,,,137/85,137,85,,,,[],fr
+56,3,2026-08-03,sms,"Ma tension est 138 sur 83, je prends bien mes médicaments chaque jour.",,,,,,,138/83,138,83,,,yes,[],fr
+57,3,2026-08-16,sms,"Bjr, tension 133 sur 81 ce matin",,,,,,,133/81,133,81,,,,[],fr
+58,3,2026-09-01,sms,tension 134/85,,,,,,,134/85,134,85,,,,[],fr
+59,3,2026-09-19,sms,"Ma tension est 140 sur 87, je prends bien mes médicaments chaque jour.",,,,,,,140/87,140,87,,,yes,[],fr
+60,4,2026-04-24,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,131/81,131,81,6.2,mmol/L,yes,[],fr
+61,4,2026-07-19,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]","[""clinic_review""]",Atenolol 50 mg once daily. Reduce salt.,Discussed salt reduction.,,167/97,167,97,7.0,mmol/L,yes,[],en
+62,4,2026-04-20,chw,,,,,,,"Patient bien, prend ses médicaments.",135/84,135,84,,,yes,[],en
+63,4,2026-05-06,chw,,,,,,,"Patient well, taking medicine.",142/87,142,87,,,partial,[],en
+64,4,2026-05-20,chw,,,,,,,"Home visit, no complaints.",140/86,140,86,,,yes,[],en
+65,4,2026-06-06,chw,,,,,,,"Patient bien, prend ses médicaments.",136/81,136,81,,,yes,[],en
+66,4,2026-06-30,chw,,,,,,,"Home visit, no complaints.",143/83,143,83,,,yes,[],en
+67,4,2026-07-22,chw,,,,,,,"Home visit, no complaints.",163/96,163,96,,,yes,[],en
+68,4,2026-08-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/86,138,86,,,yes,[],en
+69,4,2026-09-04,chw,,,,,,,"Patient bien, prend ses médicaments.",133/84,133,84,,,yes,[],en
+70,4,2026-09-29,chw,,,,,,,"Patient bien, prend ses médicaments.",144/91,144,91,,,yes,[],en
+71,4,2026-04-20,sms,135/87 leo. Asante,,,,,,,135/87,135,87,,,,[],sw
+72,4,2026-04-29,sms,"Mimi ni mzima. Presha ni 142/82, nakunywa dawa kila siku.",,,,,,,142/82,142,82,,,yes,[],sw
+73,4,2026-05-08,sms,"Mimi ni mzima. Presha ni 139/82, nakunywa dawa kila siku.",,,,,,,139/82,139,82,,,yes,[],sw
+74,4,2026-05-25,sms,presha leo 140/85,,,,,,,140/85,140,85,,,,[],sw
+75,4,2026-06-07,sms,"Pressure yangu ni 139/88, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,139/88,139,88,,,partial,[],sw
+76,4,2026-06-15,sms,presha leo 135/79,,,,,,,135/79,135,79,,,,[],sw
+77,4,2026-07-01,sms,147/89 leo. Asante,,,,,,,147/89,147,89,,,,[],sw
+78,4,2026-07-22,sms,"Mimi ni mzima. Presha ni 169/98, nakunywa dawa kila siku.",,,,,,,169/98,169,98,,,yes,[],sw
+79,4,2026-08-06,sms,"Habari daktari, presha yangu ni 134 kwa 83. Nimekunywa dawa zangu.",,,,,,,134/83,134,83,,,yes,[],sw
+80,4,2026-08-24,sms,"Shikamoo. Nimepima leo 125/70, dawa nimekunywa asubuhi.",,,,,,,125/70,125,70,,,yes,[],sw
+81,4,2026-09-04,sms,"Mimi ni mzima. Presha ni 134/80, nakunywa dawa kila siku.",,,,,,,134/80,134,80,,,yes,[],sw
+82,4,2026-09-13,sms,"Mimi ni mzima. Presha ni 139/82, nakunywa dawa kila siku.",,,,,,,139/82,139,82,,,yes,[],sw
+83,4,2026-09-22,sms,"Habari daktari, presha yangu ni 136 kwa 85. Nimekunywa dawa zangu.",,,,,,,136/85,136,85,,,yes,[],sw
+84,4,2026-07-23,chw,,,,,,,Patient complains of headache.,165/99,165,99,,,yes,"[""headache""]",en
+85,5,2026-04-18,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Discussed salt reduction.,,141/89,141,89,5.1,mmol/L,yes,[],en
+86,5,2026-06-17,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,143/95,143,95,6.7,mmol/L,yes,[],en
+87,5,2026-09-02,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]","[""clinic_review""]",Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,167/104,167,104,5.5,mmol/L,yes,[],en
+88,5,2026-04-18,chw,,,,,,,"Patient well, taking medicine.",136/88,136,88,,,yes,[],en
+89,5,2026-05-13,chw,,,,,,,Takes medicine only when feeling unwell.,143/89,143,89,,,partial,[],en
+90,5,2026-05-28,chw,,,,,,,"Patient well, taking medicine.",152/100,152,100,,,yes,[],en
+91,5,2026-06-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/93,142,93,,,yes,[],en
+92,5,2026-07-21,chw,,,,,,,"Home visit, no complaints.",153/93,153,93,,,yes,[],en
+93,5,2026-08-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",151/96,151,96,,,yes,[],en
+94,5,2026-09-05,chw,,,,,,,"Patient bien, prend ses médicaments.",164/104,164,104,,,partial,[],en
+95,5,2026-09-28,chw,,,,,,,"Patient bien, prend ses médicaments.",172/107,172,107,,,yes,[],en
+96,5,2026-04-14,sms,"Mimi ni mzima. Presha ni 139/88, nakunywa dawa kila siku.",,,,,,,139/88,139,88,,,yes,[],sw
+97,5,2026-05-02,sms,presha leo 141/90,,,,,,,141/90,141,90,,,,[],sw
+98,5,2026-05-11,sms,Nimepima dispensari 143/89. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,143/89,143,89,,,partial,[],sw
+99,5,2026-05-20,sms,"Habari daktari, presha yangu ni 137 kwa 82. Nimekunywa dawa zangu.",,,,,,,137/82,137,82,,,yes,[],sw
+100,5,2026-05-30,sms,"Habari daktari, presha yangu ni 142 kwa 95. Nimekunywa dawa zangu.",,,,,,,142/95,142,95,,,yes,[],sw
+101,5,2026-06-09,sms,presha leo 145/99,,,,,,,145/99,145,99,,,,[],sw
+102,5,2026-06-28,sms,"Shikamoo. Nimepima leo 148/94, dawa nimekunywa asubuhi.",,,,,,,148/94,148,94,,,yes,[],sw
+103,5,2026-07-07,sms,presha leo 154/94,,,,,,,154/94,154,94,,,,[],sw
+104,5,2026-07-22,sms,presha leo 163/98,,,,,,,163/98,163,98,,,,[],sw
+105,5,2026-08-08,sms,"Habari daktari, presha yangu ni 157 kwa 96. Nimekunywa dawa zangu.",,,,,,,157/96,157,96,,,yes,[],sw
+106,5,2026-08-27,sms,153/100 leo. Asante,,,,,,,153/100,153,100,,,,[],sw
+107,5,2026-09-13,sms,150/96 leo. Asante,,,,,,,150/96,150,96,,,,[],sw
+108,5,2026-09-26,sms,"Mimi ni mzima. Presha ni 167/107, nakunywa dawa kila siku.",,,,,,,167/107,167,107,,,yes,[],sw
+109,6,2026-04-13,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,145/90,145,90,7.8,mmol/L,yes,[],fr
+110,6,2026-07-01,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,142/90,142,90,5.3,mmol/L,yes,[],fr
+111,6,2026-09-09,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Adherence counselling given.,,126/80,126,80,8.1,mmol/L,yes,[],en
+112,6,2026-04-18,chw,,,,,,,"Home visit, no complaints.",147/91,147,91,,,yes,[],en
+113,6,2026-05-15,chw,,,,,,,"Home visit, no complaints.",138/82,138,82,,,partial,[],en
+114,6,2026-06-05,chw,,,,,,,"Patient bien, prend ses médicaments.",133/84,133,84,,,yes,[],en
+115,6,2026-07-02,chw,,,,,,,"Patient bien, prend ses médicaments.",147/90,147,90,,,yes,[],en
+116,6,2026-07-16,chw,,,,,,,Patient ran out of tablets last week.,153/91,153,91,,,partial,[],en
+117,6,2026-08-07,chw,,,,,,,"Home visit, no complaints.",162/93,162,93,,,yes,[],en
+118,6,2026-08-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/83,139,83,,,yes,[],en
+119,6,2026-09-18,chw,,,,,,,"Home visit, no complaints.",130/79,130,79,,,yes,[],en
+120,6,2026-04-16,sms,presha leo 139/83,,,,,,,139/83,139,83,,,,[],sw
+121,6,2026-04-29,sms,"Shikamoo. Nimepima leo 133/80, dawa nimekunywa asubuhi.",,,,,,,133/80,133,80,,,yes,[],sw
+122,6,2026-05-20,sms,"Mimi ni mzima. Presha ni 141/87, nakunywa dawa kila siku.",,,,,,,141/87,141,87,,,yes,[],sw
+123,6,2026-05-30,sms,"Shikamoo. Nimepima leo 138/83, dawa nimekunywa asubuhi.",,,,,,,138/83,138,83,,,yes,[],sw
+124,6,2026-06-18,sms,142/88 leo. Asante,,,,,,,142/88,142,88,,,,[],sw
+125,6,2026-06-27,sms,"Mimi ni mzima. Presha ni 141/81, nakunywa dawa kila siku.",,,,,,,141/81,141,81,,,yes,[],sw
+126,6,2026-07-10,sms,152/92 leo. Asante,,,,,,,152/92,152,92,,,,[],sw
+127,6,2026-07-23,sms,"Habari daktari, presha yangu ni 156 kwa 97. Nimekunywa dawa zangu.",,,,,,,156/97,156,97,,,yes,[],sw
+128,6,2026-07-30,sms,"Mimi ni mzima. Presha ni 155/100, nakunywa dawa kila siku.",,,,,,,155/100,155,100,,,yes,[],sw
+129,6,2026-08-20,sms,presha leo 135/83,,,,,,,135/83,135,83,,,,[],sw
+130,6,2026-08-27,sms,presha leo 131/81,,,,,,,131/81,131,81,,,,[],sw
+131,6,2026-09-07,sms,"Mimi ni mzima. Presha ni 130/80, nakunywa dawa kila siku.",,,,,,,130/80,130,80,,,yes,[],sw
+132,6,2026-09-16,sms,131/88 leo. Asante,,,,,,,131/88,131,88,,,,[],sw
+133,6,2026-09-23,sms,presha leo 140/83,,,,,,,140/83,140,83,,,,[],sw
+134,6,2026-08-07,chw,,,,,,,Patient complains of headache.,168/103,168,103,,,yes,"[""headache""]",en
+135,7,2026-04-24,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,136/86,136,86,4.6,mmol/L,yes,[],fr
+136,7,2026-07-07,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,140/93,140,93,8.2,mmol/L,yes,[],fr
+137,7,2026-10-02,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,141/90,141,90,5.5,mmol/L,yes,[],en
+138,7,2026-04-09,chw,,,,,,,"Patient well, taking medicine.",136/91,136,91,,,yes,[],en
+139,7,2026-05-03,chw,,,,,,,"Home visit, no complaints.",144/95,144,95,,,yes,[],en
+140,7,2026-05-27,chw,,,,,,,"Patient bien, prend ses médicaments.",139/84,139,84,,,yes,[],en
+141,7,2026-06-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/85,142,85,,,yes,[],en
+142,7,2026-07-11,chw,,,,,,,"Home visit, no complaints.",137/86,137,86,,,yes,[],en
+143,7,2026-07-29,chw,,,,,,,"Patient bien, prend ses médicaments.",146/92,146,92,,,yes,[],en
+144,7,2026-08-12,chw,,,,,,,"Home visit, no complaints.",135/88,135,88,,,yes,[],en
+145,7,2026-09-05,chw,,,,,,,"Home visit, no complaints.",141/86,141,86,,,yes,[],en
+146,7,2026-09-29,chw,,,,,,,"Patient bien, prend ses médicaments.",141/91,141,91,,,yes,[],en
+147,7,2026-04-19,sms,141/92 leo. Asante,,,,,,,141/92,141,92,,,,[],sw
+148,7,2026-05-07,sms,presha leo 140/90,,,,,,,140/90,140,90,,,,[],sw
+149,7,2026-05-23,sms,140/91 leo. Asante,,,,,,,140/91,140,91,,,,[],sw
+150,7,2026-06-03,sms,"Habari daktari, presha yangu ni 141 kwa 96. Nimekunywa dawa zangu.",,,,,,,141/96,141,96,,,yes,[],sw
+151,7,2026-06-10,sms,"Shikamoo. Nimepima leo 138/89, dawa nimekunywa asubuhi.",,,,,,,138/89,138,89,,,yes,[],sw
+152,7,2026-06-29,sms,"Habari daktari, presha yangu ni 140 kwa 92. Nimekunywa dawa zangu.",,,,,,,140/92,140,92,,,yes,[],sw
+153,7,2026-07-13,sms,"Habari daktari, presha yangu ni 143 kwa 92. Nimekunywa dawa zangu.",,,,,,,143/92,143,92,,,yes,[],sw
+154,7,2026-07-27,sms,"Habari daktari, presha yangu ni 138 kwa 87. Nimekunywa dawa zangu.",,,,,,,138/87,138,87,,,yes,[],sw
+155,7,2026-08-04,sms,"Habari daktari, presha yangu ni 146 kwa 91. Nimekunywa dawa zangu.",,,,,,,146/91,146,91,,,yes,[],sw
+156,7,2026-08-22,sms,"Shikamoo. Nimepima leo 139/86, dawa nimekunywa asubuhi.",,,,,,,139/86,139,86,,,yes,[],sw
+157,7,2026-09-12,sms,"Pressure yangu ni 145/90, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,145/90,145,90,,,partial,[],sw
+158,7,2026-10-02,sms,"Shikamoo. Nimepima leo 144/89, dawa nimekunywa asubuhi.",,,,,,,144/89,144,89,,,yes,[],sw
+159,8,2026-04-17,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Stable. Continue.,,142/94,142,94,6.0,mmol/L,yes,[],en
+160,8,2026-06-25,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Stable. Continue.,,153/95,153,95,5.2,mmol/L,partial,[],en
+161,8,2026-08-29,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,147/88,147,88,7.1,mmol/L,yes,[],fr
+162,8,2026-04-16,chw,,,,,,,"Patient bien, prend ses médicaments.",148/91,148,91,,,yes,[],en
+163,8,2026-06-11,chw,,,,,,,"Patient well, taking medicine.",149/92,149,92,,,yes,[],en
+164,8,2026-07-27,chw,,,,,,,"Patient bien, prend ses médicaments.",137/84,137,84,,,yes,[],en
+165,9,2026-04-13,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,139/89,139,89,7.6,mmol/L,yes,[],fr
+166,9,2026-07-04,clinic,Mild headache sometimes,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Stable. Continue.,,146/90,146,90,5.4,mmol/L,partial,[],en
+167,9,2026-09-07,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,153/95,153,95,8.0,mmol/L,yes,[],fr
+168,9,2026-04-17,chw,,,,,,,"Patient bien, prend ses médicaments.",143/93,143,93,,,yes,[],en
+169,9,2026-05-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/90,146,90,,,yes,[],en
+170,9,2026-05-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/92,146,92,,,yes,[],en
+171,9,2026-06-26,chw,,,,,,,"Patient well, taking medicine.",143/94,143,94,,,yes,[],en
+172,9,2026-07-15,chw,,,,,,,"Patient bien, prend ses médicaments.",135/84,135,84,,,yes,[],en
+173,9,2026-07-30,chw,,,,,,,"Patient bien, prend ses médicaments.",136/89,136,89,,,yes,[],en
+174,9,2026-08-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",150/91,150,91,,,yes,[],en
+175,9,2026-09-14,chw,,,,,,,"Patient well, taking medicine.",158/95,158,95,,,yes,[],en
+176,9,2026-09-29,chw,,,,,,,"Patient bien, prend ses médicaments.",160/98,160,98,,,yes,[],en
+177,9,2026-04-15,sms,"Good evening. BP 142/85, I only took half of my tablets.",,,,,,,142/85,142,85,,,partial,[],en
+178,9,2026-04-30,sms,My pressure is 140 over 88 this morning,,,,,,,140/88,140,88,,,,[],en
+179,9,2026-05-10,sms,bp 142/88,,,,,,,142/88,142,88,,,,[],en
+180,9,2026-05-24,sms,"My BP is 142 over 84, taking my medicine every day.",,,,,,,142/84,142,84,,,yes,[],en
+181,9,2026-06-05,sms,My pressure is 143 over 85 this morning,,,,,,,143/85,143,85,,,,[],en
+182,9,2026-06-16,sms,Checked at the health centre: 141/84. Meds taken.,,,,,,,141/84,141,84,,,yes,[],en
+183,9,2026-07-06,sms,My pressure is 130 over 78 this morning,,,,,,,130/78,130,78,,,,[],en
+184,9,2026-07-13,sms,My pressure is 148 over 88 this morning,,,,,,,148/88,148,88,,,,[],en
+185,9,2026-07-23,sms,Checked at the health centre: 143/90. Meds taken.,,,,,,,143/90,143,90,,,yes,[],en
+186,9,2026-08-05,sms,Checked at the health centre: 137/85. Meds taken.,,,,,,,137/85,137,85,,,yes,[],en
+187,9,2026-08-16,sms,My pressure is 143 over 90 this morning,,,,,,,143/90,143,90,,,,[],en
+188,9,2026-08-24,sms,Checked at the health centre: 139/82. Meds taken.,,,,,,,139/82,139,82,,,yes,[],en
+189,9,2026-09-07,sms,Checked at the health centre: 146/91. Meds taken.,,,,,,,146/91,146,91,,,yes,[],en
+190,9,2026-09-16,sms,Checked at the health centre: 149/90. Meds taken.,,,,,,,149/90,149,90,,,yes,[],en
+191,9,2026-10-02,sms,Checked at the health centre: 161/101. Meds taken.,,,,,,,161/101,161,101,,,yes,[],en
+192,9,2026-10-02,chw,,,,,,,"Feeling unwell, headache.",174/105,174,105,,,yes,"[""headache""]",en
+193,10,2026-04-09,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,136/86,136,86,8.0,mmol/L,partial,[],fr
+194,10,2026-06-18,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,141/86,141,86,5.3,mmol/L,partial,[],fr
+195,10,2026-09-06,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,152/91,152,91,4.7,mmol/L,partial,[],fr
+196,10,2026-04-14,chw,,,,,,,"Patient bien, prend ses médicaments.",139/86,139,86,,,partial,[],en
+197,10,2026-05-04,chw,,,,,,,Amesahau dawa siku kadhaa.,145/85,145,85,,,partial,[],en
+198,10,2026-05-19,chw,,,,,,,"Patient bien, prend ses médicaments.",139/89,139,89,,,partial,[],en
+199,10,2026-06-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/87,137,87,,,yes,[],en
+200,10,2026-07-07,chw,,,,,,,"Patient well, taking medicine.",147/89,147,89,,,partial,[],en
+201,10,2026-07-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",135/78,135,78,,,partial,[],en
+202,10,2026-08-23,chw,,,,,,,Amesahau dawa siku kadhaa.,137/92,137,92,,,partial,[],en
+203,10,2026-09-11,chw,,,,,,,Amesahau dawa siku kadhaa.,156/98,156,98,,,partial,[],en
+204,10,2026-09-25,chw,,,,,,,Amesahau dawa siku kadhaa.,172/102,172,102,,,partial,[],en
+205,10,2026-04-21,sms,"Bjr, tension 144 sur 88 ce matin",,,,,,,144/88,144,88,,,,[],fr
+206,10,2026-04-30,sms,"144/86 aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",,,,,,,144/86,144,86,,,no,[],fr
+207,10,2026-05-19,sms,"Bjr, tension 151 sur 91 ce matin",,,,,,,151/91,151,91,,,,[],fr
+208,10,2026-06-04,sms,"Bonjour, ma tension aujourd'hui est 142/85. J'ai pris mes médicaments.",,,,,,,142/85,142,85,,,yes,[],fr
+209,10,2026-06-13,sms,"Bonsoir. Tension 142/83, j'ai pris seulement la moitié du comprimé.",,,,,,,142/83,142,83,,,partial,[],fr
+210,10,2026-06-26,sms,"Bonjour, ma tension aujourd'hui est 131/79. J'ai pris mes médicaments.",,,,,,,131/79,131,79,,,yes,[],fr
+211,10,2026-07-17,sms,"Ma tension est à 154 sur 93, je n'ai pas pris le médicament depuis hier",,,,,,,154/93,154,93,,,no,[],fr
+212,10,2026-08-06,sms,"143/89 aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",,,,,,,143/89,143,89,,,no,[],fr
+213,10,2026-08-23,sms,"Bjr, tension 143 sur 88 ce matin",,,,,,,143/88,143,88,,,,[],fr
+214,10,2026-09-05,sms,"Bjr, tension 156 sur 91 ce matin",,,,,,,156/91,156,91,,,,[],fr
+215,10,2026-09-18,sms,"Ma tension est 157 sur 94, je prends bien mes médicaments chaque jour.",,,,,,,157/94,157,94,,,yes,[],fr
+216,10,2026-10-01,chw,,,,,,,"Feeling unwell, headache.",167/101,167,101,,,partial,"[""headache""]",en
+217,11,2026-04-10,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Adherence counselling given.,,144/99,144,99,6.4,mmol/L,no,[],en
+218,11,2026-06-11,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Adherence counselling given.,,150/103,150,103,5.0,mmol/L,yes,[],en
+219,11,2026-08-17,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,145/99,145,99,5.0,mmol/L,yes,[],fr
+220,11,2026-04-10,chw,,,,,,,Patient ran out of tablets last week.,150/105,150,105,,,partial,[],en
+221,11,2026-04-27,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,145/102,145,102,,,no,[],en
+222,11,2026-05-11,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,150/99,150,99,,,partial,[],en
+223,11,2026-06-02,chw,,,,,,,"Home visit, no complaints.",150/103,150,103,,,no,[],en
+224,11,2026-06-24,chw,,,,,,,"Home visit, no complaints.",147/95,147,95,,,yes,[],en
+225,11,2026-07-20,chw,,,,,,,Patient ran out of tablets last week.,152/103,152,103,,,partial,[],en
+226,11,2026-08-07,chw,,,,,,,Takes medicine only when feeling unwell.,158/108,158,108,,,partial,[],en
+227,11,2026-08-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",154/102,154,102,,,partial,[],en
+228,11,2026-09-25,chw,,,,,,,"Patient well, taking medicine.",155/108,155,108,,,yes,[],en
+229,11,2026-04-20,sms,presha leo 136/91,,,,,,,136/91,136,91,,,,[],sw
+230,11,2026-04-30,sms,presha leo 139/92,,,,,,,139/92,139,92,,,,[],sw
+231,11,2026-05-19,sms,Nimepima dispensari 143/97. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,143/97,143,97,,,partial,[],sw
+232,11,2026-06-09,sms,"Shikamoo. Nimepima leo 143/96, dawa nimekunywa asubuhi.",,,,,,,143/96,143,96,,,yes,[],sw
+233,11,2026-06-22,sms,"Pressure yangu ni 142/100, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,142/100,142,100,,,partial,[],sw
+234,11,2026-07-09,sms,Asubuhi presha ilikuwa 159 kwa 104. Nimesahau kunywa dawa leo.,,,,,,,159/104,159,104,,,no,[],sw
+235,11,2026-07-18,sms,Nimepima dispensari 153/101. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,153/101,153,101,,,partial,[],sw
+236,11,2026-08-07,sms,Nimepima dispensari 154/107. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,154/107,154,107,,,partial,[],sw
+237,11,2026-08-21,sms,Asubuhi presha ilikuwa 156 kwa 109. Nimesahau kunywa dawa leo.,,,,,,,156/109,156,109,,,no,[],sw
+238,11,2026-09-11,sms,Nimepima dispensari 156/101. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,156/101,156,101,,,partial,[],sw
+239,11,2026-09-25,sms,presha 163 kwa 111 sijakunywa dawa tangu juzi,,,,,,,163/111,163,111,,,no,[],sw
+240,12,2026-04-26,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Adherence counselling given.,,139/89,139,89,4.7,mmol/L,yes,[],en
+241,12,2026-07-15,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,147/96,147,96,5.6,mmol/L,yes,[],fr
+242,12,2026-04-11,chw,,,,,,,"Patient well, taking medicine.",133/82,133,82,,,yes,[],en
+243,12,2026-05-27,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/92,140,92,,,yes,[],en
+244,12,2026-07-13,chw,,,,,,,"Home visit, no complaints.",139/90,139,90,,,yes,[],en
+245,13,2026-04-07,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,146/88,146,88,5.9,mmol/L,yes,[],fr
+246,13,2026-06-08,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,158/91,158,91,4.9,mmol/L,yes,[],fr
+247,13,2026-09-03,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,138/81,138,81,7.0,mmol/L,yes,[],fr
+248,13,2026-04-12,chw,,,,,,,"Patient bien, prend ses médicaments.",136/77,136,77,,,yes,[],en
+249,13,2026-04-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",148/87,148,87,,,partial,[],en
+250,13,2026-05-15,chw,,,,,,,"Patient well, taking medicine.",139/83,139,83,,,yes,[],en
+251,13,2026-05-31,chw,,,,,,,"Patient well, taking medicine.",150/89,150,89,,,yes,[],en
+252,13,2026-06-25,chw,,,,,,,"Home visit, no complaints.",168/97,168,97,,,yes,[],en
+253,13,2026-07-12,chw,,,,,,,"Home visit, no complaints.",129/77,129,77,,,yes,[],en
+254,13,2026-08-01,chw,,,,,,,"Patient bien, prend ses médicaments.",137/82,137,82,,,yes,[],en
+255,13,2026-08-19,chw,,,,,,,"Patient well, taking medicine.",139/81,139,81,,,yes,[],en
+256,13,2026-09-15,chw,,,,,,,"Home visit, no complaints.",138/82,138,82,,,yes,[],en
+257,13,2026-04-14,sms,tension 139/81,,,,,,,139/81,139,81,,,,[],fr
+258,13,2026-04-21,sms,"Bonjour, ma tension aujourd'hui est 132/77. J'ai pris mes médicaments.",,,,,,,132/77,132,77,,,yes,[],fr
+259,13,2026-05-12,sms,tension 141/84,,,,,,,141/84,141,84,,,,[],fr
+260,13,2026-05-20,sms,"Ma tension est 145 sur 88, je prends bien mes médicaments chaque jour.",,,,,,,145/88,145,88,,,yes,[],fr
+261,13,2026-06-04,sms,J'ai mesuré au centre de santé : 152/88. Médicaments pris.,,,,,,,152/88,152,88,,,yes,[],fr
+262,13,2026-06-18,sms,Tension 177/105. J'ai pris un seul médicament sur les deux.,,,,,,,177/105,177,105,,,partial,[],fr
+263,13,2026-07-08,sms,tension 137/84,,,,,,,137/84,137,84,,,,[],fr
+264,13,2026-07-24,sms,"Ma tension est 137 sur 81, je prends bien mes médicaments chaque jour.",,,,,,,137/81,137,81,,,yes,[],fr
+265,13,2026-08-09,sms,tension 139/87,,,,,,,139/87,139,87,,,,[],fr
+266,13,2026-08-30,sms,"Bonsoir. Tension 141/87, j'ai pris seulement la moitié du comprimé.",,,,,,,141/87,141,87,,,partial,[],fr
+267,13,2026-09-07,sms,J'ai mesuré au centre de santé : 140/87. Médicaments pris.,,,,,,,140/87,140,87,,,yes,[],fr
+268,13,2026-09-16,sms,"Bonjour, ma tension aujourd'hui est 135/77. J'ai pris mes médicaments.",,,,,,,135/77,135,77,,,yes,[],fr
+269,13,2026-09-30,sms,J'ai mesuré au centre de santé : 137/81. Médicaments pris.,,,,,,,137/81,137,81,,,yes,[],fr
+270,13,2026-06-23,chw,,,,,,,Patient complains of headache.,177/109,177,109,,,partial,"[""headache""]",en
+271,14,2026-04-06,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Éducation sur l'observance.,,134/83,134,83,8.1,mmol/L,yes,[],fr
+272,14,2026-06-16,clinic,Mild headache sometimes,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Reduce salt.,Stable. Continue.,,136/88,136,88,5.6,mmol/L,yes,[],en
+273,14,2026-09-02,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Éducation sur l'observance.,,123/81,123,81,7.4,mmol/L,yes,[],fr
+274,14,2026-04-17,chw,,,,,,,"Patient well, taking medicine.",133/86,133,86,,,yes,[],en
+275,14,2026-05-04,chw,,,,,,,"Patient bien, prend ses médicaments.",130/81,130,81,,,yes,[],en
+276,14,2026-05-25,chw,,,,,,,"Patient well, taking medicine.",126/76,126,76,,,yes,[],en
+277,14,2026-06-18,chw,,,,,,,"Patient bien, prend ses médicaments.",138/88,138,88,,,yes,[],en
+278,14,2026-07-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",166/102,166,102,,,yes,[],en
+279,14,2026-08-09,chw,,,,,,,"Home visit, no complaints.",132/85,132,85,,,yes,[],en
+280,14,2026-08-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",126/81,126,81,,,yes,[],en
+281,14,2026-09-26,chw,,,,,,,"Home visit, no complaints.",121/72,121,72,,,yes,[],en
+282,14,2026-04-17,sms,"My BP is 126 over 83, taking my medicine every day.",,,,,,,126/83,126,83,,,yes,[],en
+283,14,2026-04-30,sms,"My BP is 125 over 80, taking my medicine every day.",,,,,,,125/80,125,80,,,yes,[],en
+284,14,2026-05-13,sms,My pressure is 140 over 86 this morning,,,,,,,140/86,140,86,,,,[],en
+285,14,2026-05-26,sms,bp 127/85,,,,,,,127/85,127,85,,,,[],en
+286,14,2026-06-05,sms,"Hi, my BP today is 131/83. I took my medicine.",,,,,,,131/83,131,83,,,yes,[],en
+287,14,2026-06-16,sms,"Good evening. BP 133/85, I only took half of my tablets.",,,,,,,133/85,133,85,,,partial,[],en
+288,14,2026-06-24,sms,"Hi, my BP today is 141/90. I took my medicine.",,,,,,,141/90,141,90,,,yes,[],en
+289,14,2026-07-13,sms,"Hi, my BP today is 156/100. I took my medicine.",,,,,,,156/100,156,100,,,yes,[],en
+290,14,2026-07-25,sms,BP 178/111. Took one of my two medicines.,,,,,,,178/111,178,111,,,partial,[],en
+291,14,2026-08-07,sms,"Hi, my BP today is 127/86. I took my medicine.",,,,,,,127/86,127,86,,,yes,[],en
+292,14,2026-08-20,sms,"My BP is 126 over 83, taking my medicine every day.",,,,,,,126/83,126,83,,,yes,[],en
+293,14,2026-09-02,sms,"My BP is 127 over 79, taking my medicine every day.",,,,,,,127/79,127,79,,,yes,[],en
+294,14,2026-09-20,sms,My pressure is 119 over 73 this morning,,,,,,,119/73,119,73,,,,[],en
+295,14,2026-10-01,sms,bp 123/77,,,,,,,123/77,123,77,,,,[],en
+296,14,2026-07-23,chw,,,,,,,Patient complains of headache.,167/105,167,105,,,yes,"[""headache""]",en
+297,15,2026-04-25,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Stable. Continuer.,,127/75,127,75,6.7,mmol/L,yes,[],fr
+298,15,2026-06-26,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Éducation sur l'observance.,,128/83,128,83,5.3,mmol/L,yes,[],fr
+299,15,2026-09-16,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Éducation sur l'observance.,,119/77,119,77,7.9,mmol/L,yes,[],fr
+300,15,2026-04-10,chw,,,,,,,"Patient bien, prend ses médicaments.",124/81,124,81,,,yes,[],en
+301,15,2026-05-05,chw,,,,,,,"Patient well, taking medicine.",123/78,123,78,,,yes,[],en
+302,15,2026-05-19,chw,,,,,,,"Home visit, no complaints.",122/85,122,85,,,yes,[],en
+303,15,2026-06-11,chw,,,,,,,"Patient well, taking medicine.",130/80,130,80,,,yes,[],en
+304,15,2026-07-04,chw,,,,,,,"Home visit, no complaints.",136/87,136,87,,,yes,[],en
+305,15,2026-07-29,chw,,,,,,,"Patient bien, prend ses médicaments.",132/90,132,90,,,yes,[],en
+306,15,2026-08-22,chw,,,,,,,"Patient bien, prend ses médicaments.",127/79,127,79,,,yes,[],en
+307,15,2026-09-16,chw,,,,,,,"Home visit, no complaints.",127/79,127,79,,,yes,[],en
+308,15,2026-04-19,sms,"Ma tension est 127 sur 81, je prends bien mes médicaments chaque jour.",,,,,,,127/81,127,81,,,yes,[],fr
+309,15,2026-05-02,sms,"Bonjour, ma tension aujourd'hui est 128/78. J'ai pris mes médicaments.",,,,,,,128/78,128,78,,,yes,[],fr
+310,15,2026-05-13,sms,"Bjr, tension 134 sur 91 ce matin",,,,,,,134/91,134,91,,,,[],fr
+311,15,2026-06-01,sms,J'ai mesuré au centre de santé : 131/83. Médicaments pris.,,,,,,,131/83,131,83,,,yes,[],fr
+312,15,2026-06-09,sms,"Ma tension est 125 sur 80, je prends bien mes médicaments chaque jour.",,,,,,,125/80,125,80,,,yes,[],fr
+313,15,2026-06-17,sms,J'ai mesuré au centre de santé : 132/84. Médicaments pris.,,,,,,,132/84,132,84,,,yes,[],fr
+314,15,2026-07-03,sms,tension 122/83,,,,,,,122/83,122,83,,,,[],fr
+315,15,2026-07-19,sms,"Bjr, tension 124 sur 80 ce matin",,,,,,,124/80,124,80,,,,[],fr
+316,15,2026-07-26,sms,"Bonsoir. Tension 130/84, j'ai pris seulement la moitié du comprimé.",,,,,,,130/84,130,84,,,partial,[],fr
+317,15,2026-08-11,sms,J'ai mesuré au centre de santé : 120/82. Médicaments pris.,,,,,,,120/82,120,82,,,yes,[],fr
+318,15,2026-08-28,sms,"Ma tension est 118 sur 77, je prends bien mes médicaments chaque jour.",,,,,,,118/77,118,77,,,yes,[],fr
+319,15,2026-09-11,sms,J'ai mesuré au centre de santé : 127/80. Médicaments pris.,,,,,,,127/80,127,80,,,yes,[],fr
+320,15,2026-10-01,sms,"Bjr, tension 128 sur 82 ce matin",,,,,,,128/82,128,82,,,,[],fr
+321,16,2026-04-07,clinic,Came for blood pressure review,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Adherence counselling given.,,131/83,131,83,5.4,mmol/L,partial,[],en
+322,16,2026-06-17,clinic,Needs refill of medicine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,143/84,143,84,6.2,mmol/L,partial,[],en
+323,16,2026-09-01,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,134/88,134,88,5.1,mmol/L,partial,[],fr
+324,16,2026-04-12,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,127/87,127,87,,,partial,[],en
+325,16,2026-04-30,chw,,,,,,,"Patient well, taking medicine.",134/85,134,85,,,yes,[],en
+326,16,2026-05-26,chw,,,,,,,"Patient well, taking medicine.",131/84,131,84,,,partial,[],en
+327,16,2026-06-14,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,132/87,132,87,,,partial,[],en
+328,16,2026-07-07,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,139/88,139,88,,,partial,[],en
+329,16,2026-08-03,chw,,,,,,,"Patient bien, prend ses médicaments.",130/89,130,89,,,yes,[],en
+330,16,2026-08-26,chw,,,,,,,"Home visit, no complaints.",139/94,139,94,,,no,[],en
+331,16,2026-09-09,chw,,,,,,,Takes medicine only when feeling unwell.,129/88,129,88,,,no,[],en
+332,16,2026-09-29,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,137/86,137,86,,,partial,[],en
+333,16,2026-04-13,sms,"Good evening. BP 127/84, I only took half of my tablets.",,,,,,,127/84,127,84,,,partial,[],en
+334,16,2026-04-20,sms,"Good evening. BP 128/84, I only took half of my tablets.",,,,,,,128/84,128,84,,,partial,[],en
+335,16,2026-05-02,sms,"Good evening. BP 127/87, I only took half of my tablets.",,,,,,,127/87,127,87,,,partial,[],en
+336,16,2026-05-20,sms,BP 138/90. Took one of my two medicines.,,,,,,,138/90,138,90,,,partial,[],en
+337,16,2026-05-28,sms,My pressure is 136 over 87 this morning,,,,,,,136/87,136,87,,,,[],en
+338,16,2026-06-15,sms,bp 133/87,,,,,,,133/87,133,87,,,,[],en
+339,16,2026-07-04,sms,My pressure is 135 over 85 this morning,,,,,,,135/85,135,85,,,,[],en
+340,16,2026-07-21,sms,BP 132/95. My tablets are finished so I took nothing.,,,,,,,132/95,132,95,,,no,[],en
+341,16,2026-08-06,sms,"My BP is 131 over 89, taking my medicine every day.",,,,,,,131/89,131,89,,,yes,[],en
+342,16,2026-08-19,sms,My pressure is 124 over 82 this morning,,,,,,,124/82,124,82,,,,[],en
+343,16,2026-09-07,sms,"143 over 93, did not take meds yesterday or today",,,,,,,143/93,143,93,,,no,[],en
+344,16,2026-09-21,sms,My pressure is 135 over 91 this morning,,,,,,,135/91,135,91,,,,[],en
+345,17,2026-04-09,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,143/92,143,92,6.6,mmol/L,partial,[],fr
+346,17,2026-09-05,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Adherence counselling given.,,148/98,148,98,4.7,mmol/L,yes,[],en
+347,17,2026-04-10,chw,,,,,,,"Patient bien, prend ses médicaments.",139/92,139,92,,,partial,[],en
+348,17,2026-04-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/88,140,88,,,yes,[],en
+349,17,2026-05-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/93,142,93,,,yes,[],en
+350,17,2026-06-12,chw,,,,,,,"Patient well, taking medicine.",146/92,146,92,,,yes,[],en
+351,17,2026-06-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/97,143,97,,,yes,[],en
+352,17,2026-07-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/96,143,96,,,yes,[],en
+353,17,2026-08-13,chw,,,,,,,"Patient bien, prend ses médicaments.",146/91,146,91,,,yes,[],en
+354,17,2026-08-28,chw,,,,,,,"Patient well, taking medicine.",156/105,156,105,,,yes,[],en
+355,17,2026-09-22,chw,,,,,,,"Home visit, no complaints.",154/99,154,99,,,partial,[],en
+356,17,2026-04-14,sms,"Mimi ni mzima. Presha ni 141/93, nakunywa dawa kila siku.",,,,,,,141/93,141,93,,,yes,[],sw
+357,17,2026-05-05,sms,139/92 leo. Asante,,,,,,,139/92,139,92,,,,[],sw
+358,17,2026-05-18,sms,Nimepima dispensari 150/98. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,150/98,150,98,,,partial,[],sw
+359,17,2026-06-04,sms,"Habari daktari, presha yangu ni 141 kwa 89. Nimekunywa dawa zangu.",,,,,,,141/89,141,89,,,yes,[],sw
+360,17,2026-06-23,sms,"Mimi ni mzima. Presha ni 144/91, nakunywa dawa kila siku.",,,,,,,144/91,144,91,,,yes,[],sw
+361,17,2026-07-10,sms,"Habari daktari, presha yangu ni 158 kwa 106. Nimekunywa dawa zangu.",,,,,,,158/106,158,106,,,yes,[],sw
+362,17,2026-07-21,sms,"Habari daktari, presha yangu ni 152 kwa 98. Nimekunywa dawa zangu.",,,,,,,152/98,152,98,,,yes,[],sw
+363,17,2026-07-30,sms,"Habari daktari, presha yangu ni 153 kwa 97. Nimekunywa dawa zangu.",,,,,,,153/97,153,97,,,yes,[],sw
+364,17,2026-08-14,sms,"Habari daktari, presha yangu ni 145 kwa 91. Nimekunywa dawa zangu.",,,,,,,145/91,145,91,,,yes,[],sw
+365,17,2026-08-30,sms,Nimepima dispensari 145/92. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,145/92,145,92,,,partial,[],sw
+366,17,2026-09-20,sms,presha leo 153/100,,,,,,,153/100,153,100,,,,[],sw
+367,17,2026-10-01,chw,,,,,,,"Speech slurred since yesterday evening, family worried.",162/100,162,100,,,yes,"[""speech_difficulty""]",en
+368,18,2026-04-20,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Stable. Continue.,,138/86,138,86,6.7,mmol/L,partial,[],en
+369,18,2026-06-23,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Stable. Continue.,,148/91,148,91,7.1,mmol/L,partial,[],en
+370,18,2026-09-12,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Discussed salt reduction.,,152/92,152,92,7.0,mmol/L,yes,[],en
+371,18,2026-04-13,chw,,,,,,,"Patient bien, prend ses médicaments.",139/86,139,86,,,partial,[],en
+372,18,2026-05-05,chw,,,,,,,"Patient well, taking medicine.",138/78,138,78,,,yes,[],en
+373,18,2026-05-27,chw,,,,,,,"Home visit, no complaints.",148/91,148,91,,,yes,[],en
+374,18,2026-06-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",135/78,135,78,,,yes,[],en
+375,18,2026-07-07,chw,,,,,,,"Home visit, no complaints.",139/87,139,87,,,yes,[],en
+376,18,2026-07-27,chw,,,,,,,"Home visit, no complaints.",146/89,146,89,,,yes,[],en
+377,18,2026-08-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",151/95,151,95,,,yes,[],en
+378,18,2026-09-11,chw,,,,,,,"Home visit, no complaints.",151/90,151,90,,,yes,[],en
+379,18,2026-04-19,sms,"Habari daktari, presha yangu ni 135 kwa 91. Nimekunywa dawa zangu.",,,,,,,135/91,135,91,,,yes,[],sw
+380,18,2026-05-05,sms,presha leo 141/82,,,,,,,141/82,141,82,,,,[],sw
+381,18,2026-05-23,sms,"Shikamoo. Nimepima leo 150/88, dawa nimekunywa asubuhi.",,,,,,,150/88,150,88,,,yes,[],sw
+382,18,2026-06-02,sms,"Mimi ni mzima. Presha ni 143/86, nakunywa dawa kila siku.",,,,,,,143/86,143,86,,,yes,[],sw
+383,18,2026-06-22,sms,presha leo 136/86,,,,,,,136/86,136,86,,,,[],sw
+384,18,2026-07-03,sms,"Shikamoo. Nimepima leo 148/89, dawa nimekunywa asubuhi.",,,,,,,148/89,148,89,,,yes,[],sw
+385,18,2026-07-21,sms,136/86 leo. Asante,,,,,,,136/86,136,86,,,,[],sw
+386,18,2026-08-05,sms,presha leo 148/88,,,,,,,148/88,148,88,,,,[],sw
+387,18,2026-08-26,sms,presha leo 148/92,,,,,,,148/92,148,92,,,,[],sw
+388,18,2026-09-10,sms,"Pressure yangu ni 155/93, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,155/93,155,93,,,partial,[],sw
+389,18,2026-09-24,sms,"Shikamoo. Nimepima leo 160/98, dawa nimekunywa asubuhi.",,,,,,,160/98,160,98,,,yes,[],sw
+390,19,2026-04-16,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.,Discussed salt reduction.,,140/93,140,93,5.0,mmol/L,yes,[],en
+391,19,2026-06-23,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.,Adherence counselling given.,,146/93,146,93,4.8,mmol/L,yes,[],en
+392,19,2026-09-13,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,152/97,152,97,7.5,mmol/L,yes,[],fr
+393,19,2026-04-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",136/88,136,88,,,yes,[],en
+394,19,2026-05-12,chw,,,,,,,"Patient well, taking medicine.",151/99,151,99,,,yes,[],en
+395,19,2026-06-01,chw,,,,,,,"Patient bien, prend ses médicaments.",147/92,147,92,,,partial,[],en
+396,19,2026-06-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/92,146,92,,,yes,[],en
+397,19,2026-07-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/92,143,92,,,yes,[],en
+398,19,2026-08-05,chw,,,,,,,"Home visit, no complaints.",136/80,136,80,,,yes,[],en
+399,19,2026-08-23,chw,,,,,,,"Patient bien, prend ses médicaments.",147/95,147,95,,,yes,[],en
+400,19,2026-09-07,chw,,,,,,,"Home visit, no complaints.",156/96,156,96,,,yes,[],en
+401,19,2026-09-21,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",159/98,159,98,,,yes,[],en
+402,19,2026-04-20,sms,presha leo 138/89,,,,,,,138/89,138,89,,,,[],sw
+403,19,2026-05-11,sms,"Mimi ni mzima. Presha ni 136/88, nakunywa dawa kila siku.",,,,,,,136/88,136,88,,,yes,[],sw
+404,19,2026-05-29,sms,presha leo 138/88,,,,,,,138/88,138,88,,,,[],sw
+405,19,2026-06-12,sms,141/84 leo. Asante,,,,,,,141/84,141,84,,,,[],sw
+406,19,2026-06-30,sms,"Habari daktari, presha yangu ni 148 kwa 94. Nimekunywa dawa zangu.",,,,,,,148/94,148,94,,,yes,[],sw
+407,19,2026-07-13,sms,"Mimi ni mzima. Presha ni 148/95, nakunywa dawa kila siku.",,,,,,,148/95,148,95,,,yes,[],sw
+408,19,2026-07-20,sms,148/94 leo. Asante,,,,,,,148/94,148,94,,,,[],sw
+409,19,2026-08-01,sms,presha leo 148/102,,,,,,,148/102,148,102,,,,[],sw
+410,19,2026-08-16,sms,"Mimi ni mzima. Presha ni 156/99, nakunywa dawa kila siku.",,,,,,,156/99,156,99,,,yes,[],sw
+411,19,2026-09-03,sms,"Shikamoo. Nimepima leo 154/93, dawa nimekunywa asubuhi.",,,,,,,154/93,154,93,,,yes,[],sw
+412,19,2026-09-20,sms,presha leo 151/96,,,,,,,151/96,151,96,,,,[],sw
+413,20,2026-04-20,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,151/92,151,92,8.4,mmol/L,yes,[],fr
+414,20,2026-07-12,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,155/91,155,91,5.2,mmol/L,partial,[],fr
+415,20,2026-04-20,chw,,,,,,,"Patient well, taking medicine.",152/99,152,99,,,yes,[],en
+416,20,2026-05-17,chw,,,,,,,"Patient well, taking medicine.",153/89,153,89,,,partial,[],en
+417,20,2026-06-06,chw,,,,,,,"Home visit, no complaints.",164/96,164,96,,,no,[],en
+418,20,2026-06-21,chw,,,,,,,"Home visit, no complaints.",160/98,160,98,,,partial,[],en
+419,20,2026-07-07,chw,,,,,,,"Patient bien, prend ses médicaments.",155/91,155,91,,,no,[],en
+420,20,2026-08-02,chw,,,,,,,"Patient bien, prend ses médicaments.",154/96,154,96,,,partial,[],en
+421,20,2026-08-29,chw,,,,,,,"Home visit, no complaints.",160/99,160,99,,,yes,[],en
+422,20,2026-09-25,chw,,,,,,,Amesahau dawa siku kadhaa.,143/87,143,87,,,partial,[],en
+423,20,2026-04-11,sms,J'ai mesuré au centre de santé : 150/92. Médicaments pris.,,,,,,,150/92,150,92,,,yes,[],fr
+424,20,2026-04-24,sms,"Bonsoir. Tension 150/90, j'ai pris seulement la moitié du comprimé.",,,,,,,150/90,150,90,,,partial,[],fr
+425,20,2026-05-05,sms,"Ma tension est 157 sur 96, je prends bien mes médicaments chaque jour.",,,,,,,157/96,157,96,,,yes,[],fr
+426,20,2026-05-14,sms,J'ai mesuré au centre de santé : 151/92. Médicaments pris.,,,,,,,151/92,151,92,,,yes,[],fr
+427,20,2026-05-25,sms,"Bonjour, ma tension aujourd'hui est 147/93. J'ai pris mes médicaments.",,,,,,,147/93,147,93,,,yes,[],fr
+428,20,2026-06-05,sms,"Bonsoir. Tension 157/94, j'ai pris seulement la moitié du comprimé.",,,,,,,157/94,157,94,,,partial,[],fr
+429,20,2026-06-12,sms,"Bjr, tension 150 sur 93 ce matin",,,,,,,150/93,150,93,,,,[],fr
+430,20,2026-06-19,sms,tension 147/89,,,,,,,147/89,147,89,,,,[],fr
+431,20,2026-07-03,sms,"Bonjour agent, 147 sur 89, j'ai oublié mes comprimés aujourd'hui.",,,,,,,147/89,147,89,,,no,[],fr
+432,20,2026-07-19,sms,"164/101 aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",,,,,,,164/101,164,101,,,no,[],fr
+433,20,2026-07-31,sms,tension 157/97,,,,,,,157/97,157,97,,,,[],fr
+434,20,2026-08-13,sms,"Ma tension est 142 sur 87, je prends bien mes médicaments chaque jour.",,,,,,,142/87,142,87,,,yes,[],fr
+435,20,2026-08-22,sms,"Bjr, tension 157 sur 96 ce matin",,,,,,,157/96,157,96,,,,[],fr
+436,20,2026-09-08,sms,"Bjr, tension 154 sur 92 ce matin",,,,,,,154/92,154,92,,,,[],fr
+437,20,2026-09-18,sms,tension 148/90,,,,,,,148/90,148,90,,,,[],fr
+438,21,2026-04-10,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Stable. Continue.,,142/91,142,91,5.3,mmol/L,yes,[],en
+439,21,2026-07-08,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,141/88,141,88,6.5,mmol/L,yes,[],fr
+440,21,2026-09-25,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,156/96,156,96,6.4,mmol/L,yes,[],fr
+441,21,2026-04-19,chw,,,,,,,"Patient bien, prend ses médicaments.",133/90,133,90,,,yes,[],en
+442,21,2026-05-05,chw,,,,,,,"Patient well, taking medicine.",125/85,125,85,,,yes,[],en
+443,21,2026-05-23,chw,,,,,,,"Patient bien, prend ses médicaments.",145/87,145,87,,,partial,[],en
+444,21,2026-06-17,chw,,,,,,,"Patient well, taking medicine.",138/84,138,84,,,yes,[],en
+445,21,2026-07-02,chw,,,,,,,"Patient bien, prend ses médicaments.",143/89,143,89,,,yes,[],en
+446,21,2026-07-21,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/86,139,86,,,yes,[],en
+447,21,2026-08-11,chw,,,,,,,"Patient well, taking medicine.",139/88,139,88,,,yes,[],en
+448,21,2026-09-08,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",151/92,151,92,,,partial,[],en
+449,21,2026-09-27,chw,,,,,,,Patient ran out of tablets last week.,166/104,166,104,,,partial,[],en
+450,21,2026-04-16,sms,"Habari daktari, presha yangu ni 141 kwa 91. Nimekunywa dawa zangu.",,,,,,,141/91,141,91,,,yes,[],sw
+451,21,2026-05-06,sms,"Pressure yangu ni 134/86, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,134/86,134,86,,,partial,[],sw
+452,21,2026-05-23,sms,"Habari daktari, presha yangu ni 141 kwa 87. Nimekunywa dawa zangu.",,,,,,,141/87,141,87,,,yes,[],sw
+453,21,2026-05-31,sms,"Habari daktari, presha yangu ni 135 kwa 84. Nimekunywa dawa zangu.",,,,,,,135/84,135,84,,,yes,[],sw
+454,21,2026-06-08,sms,"Habari daktari, presha yangu ni 135 kwa 90. Nimekunywa dawa zangu.",,,,,,,135/90,135,90,,,yes,[],sw
+455,21,2026-06-17,sms,145/91 leo. Asante,,,,,,,145/91,145,91,,,,[],sw
+456,21,2026-07-01,sms,presha leo 149/94,,,,,,,149/94,149,94,,,,[],sw
+457,21,2026-07-10,sms,"Mimi ni mzima. Presha ni 147/92, nakunywa dawa kila siku.",,,,,,,147/92,147,92,,,yes,[],sw
+458,21,2026-07-29,sms,"Habari daktari, presha yangu ni 145 kwa 95. Nimekunywa dawa zangu.",,,,,,,145/95,145,95,,,yes,[],sw
+459,21,2026-08-12,sms,presha leo 141/91,,,,,,,141/91,141,91,,,,[],sw
+460,21,2026-08-22,sms,"Shikamoo. Nimepima leo 141/86, dawa nimekunywa asubuhi.",,,,,,,141/86,141,86,,,yes,[],sw
+461,21,2026-09-07,sms,"Pressure yangu ni 149/95, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,149/95,149,95,,,partial,[],sw
+462,21,2026-09-27,sms,presha leo 166/96,,,,,,,166/96,166,96,,,,[],sw
+463,21,2026-09-30,chw,,,,,,,"Feeling unwell, headache.",171/113,171,113,,,yes,"[""headache""]",en
+464,22,2026-04-13,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Stable. Continue.,,141/90,141,90,8.0,mmol/L,yes,[],en
+465,22,2026-07-04,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,141/83,141,83,8.4,mmol/L,yes,[],en
+466,22,2026-04-20,chw,,,,,,,"Patient well, taking medicine.",135/84,135,84,,,yes,[],en
+467,22,2026-05-16,chw,,,,,,,"Patient bien, prend ses médicaments.",137/87,137,87,,,partial,[],en
+468,22,2026-06-12,chw,,,,,,,"Patient well, taking medicine.",130/85,130,85,,,yes,[],en
+469,22,2026-06-30,chw,,,,,,,"Home visit, no complaints.",130/80,130,80,,,yes,[],en
+470,22,2026-07-27,chw,,,,,,,"Home visit, no complaints.",139/88,139,88,,,yes,[],en
+471,22,2026-08-11,chw,,,,,,,Amesahau dawa siku kadhaa.,143/89,143,89,,,partial,[],en
+472,22,2026-08-29,chw,,,,,,,Amesahau dawa siku kadhaa.,145/85,145,85,,,partial,[],en
+473,22,2026-09-12,chw,,,,,,,"Patient well, taking medicine.",131/80,131,80,,,yes,[],en
+474,22,2026-09-30,chw,,,,,,,"Home visit, no complaints.",132/82,132,82,,,yes,[],en
+475,22,2026-04-11,sms,"Shikamoo. Nimepima leo 136/86, dawa nimekunywa asubuhi.",,,,,,,136/86,136,86,,,yes,[],sw
+476,22,2026-04-29,sms,139/83 leo. Asante,,,,,,,139/83,139,83,,,,[],sw
+477,22,2026-05-14,sms,"Mimi ni mzima. Presha ni 134/85, nakunywa dawa kila siku.",,,,,,,134/85,134,85,,,yes,[],sw
+478,22,2026-05-30,sms,"Shikamoo. Nimepima leo 132/81, dawa nimekunywa asubuhi.",,,,,,,132/81,132,81,,,yes,[],sw
+479,22,2026-06-19,sms,"Mimi ni mzima. Presha ni 130/79, nakunywa dawa kila siku.",,,,,,,130/79,130,79,,,yes,[],sw
+480,22,2026-07-02,sms,presha leo 134/86,,,,,,,134/86,134,86,,,,[],sw
+481,22,2026-07-20,sms,"Shikamoo. Nimepima leo 142/85, dawa nimekunywa asubuhi.",,,,,,,142/85,142,85,,,yes,[],sw
+482,22,2026-08-10,sms,"Pressure yangu ni 142/87, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,142/87,142,87,,,partial,[],sw
+483,22,2026-08-28,sms,"Mimi ni mzima. Presha ni 143/86, nakunywa dawa kila siku.",,,,,,,143/86,143,86,,,yes,[],sw
+484,22,2026-09-11,sms,"Mimi ni mzima. Presha ni 140/86, nakunywa dawa kila siku.",,,,,,,140/86,140,86,,,yes,[],sw
+485,22,2026-10-01,sms,"Habari daktari, presha yangu ni 137 kwa 84. Nimekunywa dawa zangu.",,,,,,,137/84,137,84,,,yes,[],sw
+486,23,2026-04-16,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,148/94,148,94,7.6,mmol/L,partial,[],en
+487,23,2026-06-30,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,156/92,156,92,7.9,mmol/L,yes,[],fr
+488,23,2026-09-20,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,157/100,157,100,5.7,mmol/L,yes,[],fr
+489,23,2026-04-09,chw,,,,,,,Takes medicine only when feeling unwell.,143/90,143,90,,,partial,[],en
+490,23,2026-05-06,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/95,152,95,,,partial,[],en
+491,23,2026-05-31,chw,,,,,,,Takes medicine only when feeling unwell.,163/99,163,99,,,partial,[],en
+492,23,2026-06-16,chw,,,,,,,"Home visit, no complaints.",155/96,155,96,,,yes,[],en
+493,23,2026-07-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/92,152,92,,,yes,[],en
+494,23,2026-08-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",160/102,160,102,,,partial,[],en
+495,23,2026-08-27,chw,,,,,,,Takes medicine only when feeling unwell.,159/94,159,94,,,partial,[],en
+496,23,2026-09-15,chw,,,,,,,Takes medicine only when feeling unwell.,163/103,163,103,,,no,[],en
+497,23,2026-04-18,sms,"Mimi ni mzima. Presha ni 142/91, nakunywa dawa kila siku.",,,,,,,142/91,142,91,,,yes,[],sw
+498,23,2026-05-03,sms,153/92 leo. Asante,,,,,,,153/92,153,92,,,,[],sw
+499,23,2026-05-24,sms,presha leo 142/90,,,,,,,142/90,142,90,,,,[],sw
+500,23,2026-06-05,sms,151/92 leo. Asante,,,,,,,151/92,151,92,,,,[],sw
+501,23,2026-06-18,sms,"Mimi ni mzima. Presha ni 146/87, nakunywa dawa kila siku.",,,,,,,146/87,146,87,,,yes,[],sw
+502,23,2026-07-08,sms,Leo 157/101. Dawa zimeisha sijanywa.,,,,,,,157/101,157,101,,,no,[],sw
+503,23,2026-07-20,sms,presha leo 160/100,,,,,,,160/100,160,100,,,,[],sw
+504,23,2026-08-02,sms,Asubuhi presha ilikuwa 164 kwa 100. Nimesahau kunywa dawa leo.,,,,,,,164/100,164,100,,,no,[],sw
+505,23,2026-08-15,sms,Nimepima dispensari 159/98. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,159/98,159,98,,,partial,[],sw
+506,23,2026-09-02,sms,presha leo 163/97,,,,,,,163/97,163,97,,,,[],sw
+507,23,2026-09-16,sms,165/100 leo. Asante,,,,,,,165/100,165,100,,,,[],sw
+508,24,2026-04-14,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,137/81,137,81,8.0,mmol/L,yes,[],fr
+509,24,2026-07-11,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,139/81,139,81,7.5,mmol/L,yes,[],fr
+510,24,2026-09-21,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,127/84,127,84,6.5,mmol/L,yes,[],fr
+511,24,2026-04-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/79,138,79,,,yes,[],en
+512,24,2026-04-25,chw,,,,,,,"Patient well, taking medicine.",135/84,135,84,,,yes,[],en
+513,24,2026-05-23,chw,,,,,,,"Home visit, no complaints.",134/83,134,83,,,yes,[],en
+514,24,2026-06-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/85,139,85,,,yes,[],en
+515,24,2026-06-26,chw,,,,,,,"Patient bien, prend ses médicaments.",127/74,127,74,,,yes,[],en
+516,24,2026-07-24,chw,,,,,,,"Patient bien, prend ses médicaments.",129/74,129,74,,,yes,[],en
+517,24,2026-08-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/79,131,79,,,yes,[],en
+518,24,2026-09-08,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/82,133,82,,,yes,[],en
+519,24,2026-09-22,chw,,,,,,,"Home visit, no complaints.",139/83,139,83,,,yes,[],en
+520,24,2026-04-12,sms,"Bjr, tension 143 sur 81 ce matin",,,,,,,143/81,143,81,,,,[],fr
+521,24,2026-04-21,sms,"Bjr, tension 139 sur 86 ce matin",,,,,,,139/86,139,86,,,,[],fr
+522,24,2026-04-30,sms,"Ma tension est 130 sur 80, je prends bien mes médicaments chaque jour.",,,,,,,130/80,130,80,,,yes,[],fr
+523,24,2026-05-15,sms,"Bonjour, ma tension aujourd'hui est 128/73. J'ai pris mes médicaments.",,,,,,,128/73,128,73,,,yes,[],fr
+524,24,2026-05-26,sms,"Bonjour, ma tension aujourd'hui est 143/85. J'ai pris mes médicaments.",,,,,,,143/85,143,85,,,yes,[],fr
+525,24,2026-06-06,sms,"Bonjour, ma tension aujourd'hui est 133/78. J'ai pris mes médicaments.",,,,,,,133/78,133,78,,,yes,[],fr
+526,24,2026-06-20,sms,"Ma tension est 136 sur 84, je prends bien mes médicaments chaque jour.",,,,,,,136/84,136,84,,,yes,[],fr
+527,24,2026-07-11,sms,J'ai mesuré au centre de santé : 128/80. Médicaments pris.,,,,,,,128/80,128,80,,,yes,[],fr
+528,24,2026-07-19,sms,"Bonjour, ma tension aujourd'hui est 133/78. J'ai pris mes médicaments.",,,,,,,133/78,133,78,,,yes,[],fr
+529,24,2026-08-04,sms,tension 126/76,,,,,,,126/76,126,76,,,,[],fr
+530,24,2026-08-25,sms,tension 133/80,,,,,,,133/80,133,80,,,,[],fr
+531,24,2026-09-02,sms,"Bonjour, ma tension aujourd'hui est 129/82. J'ai pris mes médicaments.",,,,,,,129/82,129,82,,,yes,[],fr
+532,24,2026-09-17,sms,Tension 138/83. J'ai pris un seul médicament sur les deux.,,,,,,,138/83,138,83,,,partial,[],fr
+533,24,2026-10-01,sms,tension 123/72,,,,,,,123/72,123,72,,,,[],fr
+534,25,2026-04-21,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,136/91,136,91,5.0,mmol/L,yes,[],fr
+535,25,2026-07-15,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.,Discussed salt reduction.,,147/99,147,99,8.4,mmol/L,yes,[],en
+536,25,2026-09-23,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,156/96,156,96,6.2,mmol/L,yes,[],en
+537,25,2026-04-15,chw,,,,,,,"Home visit, no complaints.",133/92,133,92,,,yes,[],en
+538,25,2026-05-11,chw,,,,,,,"Home visit, no complaints.",141/102,141,102,,,yes,[],en
+539,25,2026-05-29,chw,,,,,,,"Patient bien, prend ses médicaments.",142/95,142,95,,,yes,[],en
+540,25,2026-06-18,chw,,,,,,,"Home visit, no complaints.",146/99,146,99,,,yes,[],en
+541,25,2026-07-02,chw,,,,,,,"Patient well, taking medicine.",155/105,155,105,,,yes,[],en
+542,25,2026-07-25,chw,,,,,,,"Patient bien, prend ses médicaments.",152/96,152,96,,,yes,[],en
+543,25,2026-08-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/93,145,93,,,yes,[],en
+544,25,2026-08-27,chw,,,,,,,"Home visit, no complaints.",160/103,160,103,,,yes,[],en
+545,25,2026-09-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",150/102,150,102,,,yes,[],en
+546,25,2026-04-18,sms,"Shikamoo. Nimepima leo 134/89, dawa nimekunywa asubuhi.",,,,,,,134/89,134,89,,,yes,[],sw
+547,25,2026-05-01,sms,"Shikamoo. Nimepima leo 143/97, dawa nimekunywa asubuhi.",,,,,,,143/97,143,97,,,yes,[],sw
+548,25,2026-05-19,sms,134/96 leo. Asante,,,,,,,134/96,134,96,,,,[],sw
+549,25,2026-06-07,sms,"Mimi ni mzima. Presha ni 142/95, nakunywa dawa kila siku.",,,,,,,142/95,142,95,,,yes,[],sw
+550,25,2026-06-26,sms,"Habari daktari, presha yangu ni 144 kwa 98. Nimekunywa dawa zangu.",,,,,,,144/98,144,98,,,yes,[],sw
+551,25,2026-07-08,sms,presha leo 145/94,,,,,,,145/94,145,94,,,,[],sw
+552,25,2026-07-28,sms,144/98 leo. Asante,,,,,,,144/98,144,98,,,,[],sw
+553,25,2026-08-07,sms,142/92 leo. Asante,,,,,,,142/92,142,92,,,,[],sw
+554,25,2026-08-21,sms,"Mimi ni mzima. Presha ni 152/102, nakunywa dawa kila siku.",,,,,,,152/102,152,102,,,yes,[],sw
+555,25,2026-09-10,sms,presha leo 160/104,,,,,,,160/104,160,104,,,,[],sw
+556,25,2026-09-27,sms,presha leo 156/101,,,,,,,156/101,156,101,,,,[],sw
+557,26,2026-04-25,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,148/97,148,97,7.9,mmol/L,partial,[],en
+558,26,2026-06-28,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Discussed salt reduction.,,135/86,135,86,6.9,mmol/L,partial,[],en
+559,26,2026-09-06,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,148/95,148,95,6.0,mmol/L,partial,[],en
+560,26,2026-04-19,chw,,,,,,,Takes medicine only when feeling unwell.,138/96,138,96,,,no,[],en
+561,26,2026-05-12,chw,,,,,,,"Home visit, no complaints.",141/91,141,91,,,no,[],en
+562,26,2026-05-26,chw,,,,,,,Patient ran out of tablets last week.,131/87,131,87,,,partial,[],en
+563,26,2026-06-16,chw,,,,,,,"Home visit, no complaints.",137/92,137,92,,,yes,[],en
+564,26,2026-07-09,chw,,,,,,,"Patient well, taking medicine.",136/87,136,87,,,partial,[],en
+565,26,2026-08-01,chw,,,,,,,"Patient well, taking medicine.",143/93,143,93,,,partial,[],en
+566,26,2026-08-20,chw,,,,,,,Patient ran out of tablets last week.,137/88,137,88,,,partial,[],en
+567,26,2026-09-07,chw,,,,,,,Amesahau dawa siku kadhaa.,140/90,140,90,,,partial,[],en
+568,26,2026-09-23,chw,,,,,,,Amesahau dawa siku kadhaa.,135/91,135,91,,,partial,[],en
+569,26,2026-04-21,sms,"Pressure yangu ni 136/89, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,136/89,136,89,,,partial,[],sw
+570,26,2026-04-30,sms,128/91 leo. Asante,,,,,,,128/91,128,91,,,,[],sw
+571,26,2026-05-21,sms,"Pressure yangu ni 139/90, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,139/90,139,90,,,partial,[],sw
+572,26,2026-06-09,sms,135/91 leo. Asante,,,,,,,135/91,135,91,,,,[],sw
+573,26,2026-06-19,sms,138/96 leo. Asante,,,,,,,138/96,138,96,,,,[],sw
+574,26,2026-07-10,sms,Nimepima dispensari 132/92. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,132/92,132,92,,,partial,[],sw
+575,26,2026-07-20,sms,131/82 leo. Asante,,,,,,,131/82,131,82,,,,[],sw
+576,26,2026-07-29,sms,presha leo 127/84,,,,,,,127/84,127,84,,,,[],sw
+577,26,2026-08-14,sms,presha leo 135/88,,,,,,,135/88,135,88,,,,[],sw
+578,26,2026-08-27,sms,"Shikamoo. Nimepima leo 133/87, dawa nimekunywa asubuhi.",,,,,,,133/87,133,87,,,yes,[],sw
+579,26,2026-09-11,sms,143/88 leo. Asante,,,,,,,143/88,143,88,,,,[],sw
+580,26,2026-09-21,sms,presha leo 139/90,,,,,,,139/90,139,90,,,,[],sw
+581,27,2026-04-20,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Discussed salt reduction.,,132/88,132,88,5.1,mmol/L,yes,[],en
+582,27,2026-07-08,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,138/87,138,87,6.0,mmol/L,partial,[],fr
+583,27,2026-09-13,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,137/91,137,91,6.8,mmol/L,yes,[],en
+584,27,2026-04-19,chw,,,,,,,"Home visit, no complaints.",131/91,131,91,,,yes,[],en
+585,27,2026-05-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/84,133,84,,,yes,[],en
+586,27,2026-05-31,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",129/81,129,81,,,yes,[],en
+587,27,2026-06-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",127/85,127,85,,,yes,[],en
+588,27,2026-07-14,chw,,,,,,,"Home visit, no complaints.",140/85,140,85,,,yes,[],en
+589,27,2026-08-10,chw,,,,,,,"Home visit, no complaints.",128/82,128,82,,,yes,[],en
+590,27,2026-09-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/86,132,86,,,yes,[],en
+591,27,2026-09-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/88,142,88,,,yes,[],en
+592,27,2026-04-14,sms,"Mimi ni mzima. Presha ni 127/80, nakunywa dawa kila siku.",,,,,,,127/80,127,80,,,yes,[],sw
+593,27,2026-04-27,sms,"Shikamoo. Nimepima leo 127/79, dawa nimekunywa asubuhi.",,,,,,,127/79,127,79,,,yes,[],sw
+594,27,2026-05-08,sms,presha leo 129/81,,,,,,,129/81,129,81,,,,[],sw
+595,27,2026-05-23,sms,"Habari daktari, presha yangu ni 131 kwa 83. Nimekunywa dawa zangu.",,,,,,,131/83,131,83,,,yes,[],sw
+596,27,2026-06-02,sms,"Shikamoo. Nimepima leo 126/82, dawa nimekunywa asubuhi.",,,,,,,126/82,126,82,,,yes,[],sw
+597,27,2026-06-09,sms,"Mimi ni mzima. Presha ni 132/85, nakunywa dawa kila siku.",,,,,,,132/85,132,85,,,yes,[],sw
+598,27,2026-06-27,sms,"Habari daktari, presha yangu ni 136 kwa 84. Nimekunywa dawa zangu.",,,,,,,136/84,136,84,,,yes,[],sw
+599,27,2026-07-07,sms,"Shikamoo. Nimepima leo 128/85, dawa nimekunywa asubuhi.",,,,,,,128/85,128,85,,,yes,[],sw
+600,27,2026-07-19,sms,"Habari daktari, presha yangu ni 136 kwa 89. Nimekunywa dawa zangu.",,,,,,,136/89,136,89,,,yes,[],sw
+601,27,2026-08-05,sms,presha leo 143/92,,,,,,,143/92,143,92,,,,[],sw
+602,27,2026-08-24,sms,"Habari daktari, presha yangu ni 129 kwa 85. Nimekunywa dawa zangu.",,,,,,,129/85,129,85,,,yes,[],sw
+603,27,2026-09-01,sms,"Mimi ni mzima. Presha ni 136/86, nakunywa dawa kila siku.",,,,,,,136/86,136,86,,,yes,[],sw
+604,27,2026-09-12,sms,"Mimi ni mzima. Presha ni 144/93, nakunywa dawa kila siku.",,,,,,,144/93,144,93,,,yes,[],sw
+605,27,2026-09-24,sms,"Shikamoo. Nimepima leo 153/99, dawa nimekunywa asubuhi.",,,,,,,153/99,153,99,,,yes,[],sw
+606,27,2026-10-02,chw,,,,,,,"Patient cannot lift left arm, started today.",160/99,160,99,,,yes,"[""arm_weakness""]",en
+607,28,2026-04-11,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Adherence counselling given.,,137/82,137,82,7.8,mmol/L,no,[],en
+608,28,2026-06-27,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Adherence counselling given.,,145/91,145,91,7.0,mmol/L,yes,[],en
+609,28,2026-09-10,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,138/81,138,81,6.8,mmol/L,partial,[],fr
+610,28,2026-04-17,chw,,,,,,,"Home visit, no complaints.",132/82,132,82,,,partial,[],en
+611,28,2026-06-07,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,135/80,135,80,,,partial,[],en
+612,28,2026-07-19,chw,,,,,,,Patient ran out of tablets last week.,135/77,135,77,,,no,[],en
+613,29,2026-04-07,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Reduce salt.,Stable. Continue.,,138/92,138,92,6.9,mmol/L,partial,[],en
+614,29,2026-06-27,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,135/84,135,84,7.2,mmol/L,partial,[],fr
+615,29,2026-04-14,chw,,,,,,,"Patient well, taking medicine.",140/95,140,95,,,yes,[],en
+616,29,2026-05-12,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/92,140,92,,,yes,[],en
+617,29,2026-06-06,chw,,,,,,,Takes medicine only when feeling unwell.,139/89,139,89,,,partial,[],en
+618,29,2026-06-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/91,142,91,,,yes,[],en
+619,29,2026-07-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/91,139,91,,,no,[],en
+620,29,2026-08-02,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,140/89,140,89,,,partial,[],en
+621,29,2026-08-18,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,144/91,144,91,,,no,[],en
+622,29,2026-09-06,chw,,,,,,,Amesahau dawa siku kadhaa.,140/86,140,86,,,partial,[],en
+623,29,2026-09-20,chw,,,,,,,Amesahau dawa siku kadhaa.,139/85,139,85,,,partial,[],en
+624,29,2026-04-12,sms,"Shikamoo. Nimepima leo 135/84, dawa nimekunywa asubuhi.",,,,,,,135/84,135,84,,,yes,[],sw
+625,29,2026-05-03,sms,138/94 leo. Asante,,,,,,,138/94,138,94,,,,[],sw
+626,29,2026-05-22,sms,"Mimi ni mzima. Presha ni 131/81, nakunywa dawa kila siku.",,,,,,,131/81,131,81,,,yes,[],sw
+627,29,2026-06-05,sms,presha leo 137/90,,,,,,,137/90,137,90,,,,[],sw
+628,29,2026-06-22,sms,presha leo 137/95,,,,,,,137/95,137,95,,,,[],sw
+629,29,2026-06-30,sms,presha leo 143/91,,,,,,,143/91,143,91,,,,[],sw
+630,29,2026-07-20,sms,presha leo 139/91,,,,,,,139/91,139,91,,,,[],sw
+631,29,2026-07-29,sms,141/90 leo. Asante,,,,,,,141/90,141,90,,,,[],sw
+632,29,2026-08-12,sms,139/86 leo. Asante,,,,,,,139/86,139,86,,,,[],sw
+633,29,2026-08-29,sms,Leo 142/92. Dawa zimeisha sijanywa.,,,,,,,142/92,142,92,,,no,[],sw
+634,29,2026-09-14,sms,138/91 leo. Asante,,,,,,,138/91,138,91,,,,[],sw
+635,29,2026-09-26,sms,144/95 leo. Asante,,,,,,,144/95,144,95,,,,[],sw
+636,30,2026-04-24,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,146/101,146,101,4.6,mmol/L,partial,[],fr
+637,30,2026-07-08,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,138/85,138,85,6.2,mmol/L,yes,[],fr
+638,30,2026-09-23,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,142/92,142,92,7.6,mmol/L,yes,[],fr
+639,30,2026-04-10,chw,,,,,,,"Home visit, no complaints.",144/98,144,98,,,yes,[],en
+640,30,2026-05-01,chw,,,,,,,"Patient bien, prend ses médicaments.",140/94,140,94,,,yes,[],en
+641,30,2026-05-28,chw,,,,,,,"Patient well, taking medicine.",145/95,145,95,,,yes,[],en
+642,30,2026-06-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",147/96,147,96,,,yes,[],en
+643,30,2026-07-12,chw,,,,,,,"Home visit, no complaints.",147/95,147,95,,,yes,[],en
+644,30,2026-07-27,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/94,145,94,,,partial,[],en
+645,30,2026-08-18,chw,,,,,,,"Patient bien, prend ses médicaments.",153/104,153,104,,,yes,[],en
+646,30,2026-09-04,chw,,,,,,,"Patient well, taking medicine.",148/99,148,99,,,yes,[],en
+647,30,2026-09-22,chw,,,,,,,Takes medicine only when feeling unwell.,143/94,143,94,,,partial,[],en
+648,30,2026-04-18,sms,Checked at the health centre: 143/89. Meds taken.,,,,,,,143/89,143,89,,,yes,[],en
+649,30,2026-05-08,sms,Checked at the health centre: 145/94. Meds taken.,,,,,,,145/94,145,94,,,yes,[],en
+650,30,2026-05-25,sms,Checked at the health centre: 144/90. Meds taken.,,,,,,,144/90,144,90,,,yes,[],en
+651,30,2026-06-05,sms,Checked at the health centre: 143/95. Meds taken.,,,,,,,143/95,143,95,,,yes,[],en
+652,30,2026-06-13,sms,Checked at the health centre: 146/101. Meds taken.,,,,,,,146/101,146,101,,,yes,[],en
+653,30,2026-07-01,sms,bp 140/94,,,,,,,140/94,140,94,,,,[],en
+654,30,2026-07-20,sms,Checked at the health centre: 144/93. Meds taken.,,,,,,,144/93,144,93,,,yes,[],en
+655,30,2026-08-04,sms,My pressure is 152 over 93 this morning,,,,,,,152/93,152,93,,,,[],en
+656,30,2026-08-11,sms,"My BP is 142 over 98, taking my medicine every day.",,,,,,,142/98,142,98,,,yes,[],en
+657,30,2026-08-30,sms,BP 152/97. Took one of my two medicines.,,,,,,,152/97,152,97,,,partial,[],en
+658,30,2026-09-06,sms,"Hi, my BP today is 141/99. I took my medicine.",,,,,,,141/99,141,99,,,yes,[],en
+659,30,2026-09-16,sms,"Hi, my BP today is 145/94. I took my medicine.",,,,,,,145/94,145,94,,,yes,[],en
+660,30,2026-10-02,sms,BP 153/100. Took one of my two medicines.,,,,,,,153/100,153,100,,,partial,[],en
+661,31,2026-04-19,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,149/89,149,89,5.0,mmol/L,yes,[],en
+662,31,2026-07-06,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,141/86,141,86,6.4,mmol/L,yes,[],fr
+663,31,2026-09-24,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,141/93,141,93,5.5,mmol/L,yes,[],fr
+664,31,2026-04-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/92,146,92,,,yes,[],en
+665,31,2026-05-02,chw,,,,,,,"Home visit, no complaints.",144/94,144,94,,,yes,[],en
+666,31,2026-05-18,chw,,,,,,,"Patient bien, prend ses médicaments.",139/84,139,84,,,yes,[],en
+667,31,2026-06-14,chw,,,,,,,"Patient well, taking medicine.",148/91,148,91,,,yes,[],en
+668,31,2026-07-08,chw,,,,,,,"Patient well, taking medicine.",138/83,138,83,,,yes,[],en
+669,31,2026-07-22,chw,,,,,,,"Patient well, taking medicine.",136/80,136,80,,,yes,[],en
+670,31,2026-08-10,chw,,,,,,,"Home visit, no complaints.",137/86,137,86,,,yes,[],en
+671,31,2026-08-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/87,143,87,,,yes,[],en
+672,31,2026-09-25,chw,,,,,,,"Patient bien, prend ses médicaments.",144/92,144,92,,,yes,[],en
+673,31,2026-04-20,sms,presha leo 139/87,,,,,,,139/87,139,87,,,,[],sw
+674,31,2026-05-08,sms,140/89 leo. Asante,,,,,,,140/89,140,89,,,,[],sw
+675,31,2026-05-16,sms,Nimepima dispensari 142/92. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,142/92,142,92,,,partial,[],sw
+676,31,2026-05-31,sms,"Mimi ni mzima. Presha ni 143/95, nakunywa dawa kila siku.",,,,,,,143/95,143,95,,,yes,[],sw
+677,31,2026-06-18,sms,"Habari daktari, presha yangu ni 144 kwa 86. Nimekunywa dawa zangu.",,,,,,,144/86,144,86,,,yes,[],sw
+678,31,2026-06-25,sms,Nimepima dispensari 136/88. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,136/88,136,88,,,partial,[],sw
+679,31,2026-07-07,sms,139/85 leo. Asante,,,,,,,139/85,139,85,,,,[],sw
+680,31,2026-07-26,sms,Nimepima dispensari 144/92. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,144/92,144,92,,,partial,[],sw
+681,31,2026-08-10,sms,"Habari daktari, presha yangu ni 137 kwa 89. Nimekunywa dawa zangu.",,,,,,,137/89,137,89,,,yes,[],sw
+682,31,2026-08-29,sms,"Habari daktari, presha yangu ni 147 kwa 92. Nimekunywa dawa zangu.",,,,,,,147/92,147,92,,,yes,[],sw
+683,31,2026-09-13,sms,"Mimi ni mzima. Presha ni 147/94, nakunywa dawa kila siku.",,,,,,,147/94,147,94,,,yes,[],sw
+684,31,2026-09-22,sms,141/86 leo. Asante,,,,,,,141/86,141,86,,,,[],sw
+685,32,2026-04-18,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,144/91,144,91,5.4,mmol/L,yes,[],fr
+686,32,2026-07-04,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Adherence counselling given.,,131/85,131,85,5.0,mmol/L,yes,[],en
+687,32,2026-09-25,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,143/86,143,86,6.9,mmol/L,yes,[],fr
+688,32,2026-04-20,chw,,,,,,,"Home visit, no complaints.",139/90,139,90,,,yes,[],en
+689,32,2026-05-11,chw,,,,,,,Takes medicine only when feeling unwell.,156/96,156,96,,,partial,[],en
+690,32,2026-06-01,chw,,,,,,,"Home visit, no complaints.",168/99,168,99,,,partial,[],en
+691,32,2026-06-15,chw,,,,,,,"Patient bien, prend ses médicaments.",135/87,135,87,,,yes,[],en
+692,32,2026-07-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/92,140,92,,,yes,[],en
+693,32,2026-07-26,chw,,,,,,,"Patient well, taking medicine.",142/86,142,86,,,yes,[],en
+694,32,2026-08-18,chw,,,,,,,"Patient well, taking medicine.",134/84,134,84,,,yes,[],en
+695,32,2026-09-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/84,138,84,,,yes,[],en
+696,32,2026-04-17,sms,"Shikamoo. Nimepima leo 134/83, dawa nimekunywa asubuhi.",,,,,,,134/83,134,83,,,yes,[],sw
+697,32,2026-04-30,sms,"Shikamoo. Nimepima leo 142/92, dawa nimekunywa asubuhi.",,,,,,,142/92,142,92,,,yes,[],sw
+698,32,2026-05-21,sms,"Habari daktari, presha yangu ni 158 kwa 99. Nimekunywa dawa zangu.",,,,,,,158/99,158,99,,,yes,[],sw
+699,32,2026-06-03,sms,"Shikamoo. Nimepima leo 172/109, dawa nimekunywa asubuhi.",,,,,,,172/109,172,109,,,yes,[],sw
+700,32,2026-06-19,sms,140/88 leo. Asante,,,,,,,140/88,140,88,,,,[],sw
+701,32,2026-07-08,sms,144/89 leo. Asante,,,,,,,144/89,144,89,,,,[],sw
+702,32,2026-07-27,sms,presha leo 142/89,,,,,,,142/89,142,89,,,,[],sw
+703,32,2026-08-16,sms,presha leo 136/86,,,,,,,136/86,136,86,,,,[],sw
+704,32,2026-08-24,sms,"Habari daktari, presha yangu ni 142 kwa 96. Nimekunywa dawa zangu.",,,,,,,142/96,142,96,,,yes,[],sw
+705,32,2026-09-08,sms,presha leo 140/86,,,,,,,140/86,140,86,,,,[],sw
+706,32,2026-09-18,sms,"Habari daktari, presha yangu ni 135 kwa 82. Nimekunywa dawa zangu.",,,,,,,135/82,135,82,,,yes,[],sw
+707,32,2026-06-08,chw,,,,,,,Patient complains of headache.,167/103,167,103,,,yes,"[""headache""]",en
+708,33,2026-04-11,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,143/86,143,86,4.7,mmol/L,partial,[],en
+709,33,2026-07-10,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Discussed salt reduction.,,147/92,147,92,7.3,mmol/L,yes,[],en
+710,33,2026-04-09,chw,,,,,,,"Patient bien, prend ses médicaments.",151/95,151,95,,,partial,[],en
+711,33,2026-05-07,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/89,138,89,,,yes,[],en
+712,33,2026-05-30,chw,,,,,,,"Patient well, taking medicine.",141/85,141,85,,,yes,[],en
+713,33,2026-06-20,chw,,,,,,,"Patient bien, prend ses médicaments.",147/92,147,92,,,yes,[],en
+714,33,2026-07-17,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/88,146,88,,,yes,[],en
+715,33,2026-08-13,chw,,,,,,,"Patient well, taking medicine.",140/95,140,95,,,yes,[],en
+716,33,2026-09-04,chw,,,,,,,"Patient well, taking medicine.",138/93,138,93,,,yes,[],en
+717,33,2026-09-23,chw,,,,,,,"Patient well, taking medicine.",147/94,147,94,,,yes,[],en
+718,33,2026-04-12,sms,"Mimi ni mzima. Presha ni 135/89, nakunywa dawa kila siku.",,,,,,,135/89,135,89,,,yes,[],sw
+719,33,2026-04-28,sms,137/87 leo. Asante,,,,,,,137/87,137,87,,,,[],sw
+720,33,2026-05-19,sms,"Shikamoo. Nimepima leo 144/87, dawa nimekunywa asubuhi.",,,,,,,144/87,144,87,,,yes,[],sw
+721,33,2026-05-29,sms,presha leo 151/93,,,,,,,151/93,151,93,,,,[],sw
+722,33,2026-06-15,sms,"Habari daktari, presha yangu ni 143 kwa 94. Nimekunywa dawa zangu.",,,,,,,143/94,143,94,,,yes,[],sw
+723,33,2026-06-24,sms,presha leo 143/89,,,,,,,143/89,143,89,,,,[],sw
+724,33,2026-07-07,sms,"Shikamoo. Nimepima leo 145/89, dawa nimekunywa asubuhi.",,,,,,,145/89,145,89,,,yes,[],sw
+725,33,2026-07-19,sms,"Habari daktari, presha yangu ni 146 kwa 94. Nimekunywa dawa zangu.",,,,,,,146/94,146,94,,,yes,[],sw
+726,33,2026-07-26,sms,145/91 leo. Asante,,,,,,,145/91,145,91,,,,[],sw
+727,33,2026-08-14,sms,"Mimi ni mzima. Presha ni 144/88, nakunywa dawa kila siku.",,,,,,,144/88,144,88,,,yes,[],sw
+728,33,2026-08-27,sms,137/87 leo. Asante,,,,,,,137/87,137,87,,,,[],sw
+729,33,2026-09-04,sms,"Shikamoo. Nimepima leo 151/95, dawa nimekunywa asubuhi.",,,,,,,151/95,151,95,,,yes,[],sw
+730,33,2026-09-12,sms,"Shikamoo. Nimepima leo 148/95, dawa nimekunywa asubuhi.",,,,,,,148/95,148,95,,,yes,[],sw
+731,33,2026-10-01,sms,"Mimi ni mzima. Presha ni 144/96, nakunywa dawa kila siku.",,,,,,,144/96,144,96,,,yes,[],sw
+732,34,2026-04-26,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,133/82,133,82,5.3,mmol/L,yes,[],en
+733,34,2026-07-15,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Reduce salt.,Discussed salt reduction.,,137/88,137,88,5.5,mmol/L,yes,[],en
+734,34,2026-09-22,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,149/92,149,92,5.6,mmol/L,yes,[],fr
+735,34,2026-04-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/88,133,88,,,yes,[],en
+736,34,2026-06-05,chw,,,,,,,Amesahau dawa siku kadhaa.,140/89,140,89,,,partial,[],en
+737,34,2026-07-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/94,143,94,,,yes,[],en
+738,35,2026-04-25,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,139/86,139,86,5.3,mmol/L,yes,[],fr
+739,35,2026-07-12,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,144/92,144,92,6.1,mmol/L,partial,[],fr
+740,35,2026-09-19,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,136/84,136,84,5.4,mmol/L,yes,[],fr
+741,35,2026-04-13,chw,,,,,,,"Patient bien, prend ses médicaments.",145/90,145,90,,,yes,[],en
+742,35,2026-05-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/86,142,86,,,yes,[],en
+743,35,2026-05-25,chw,,,,,,,"Patient well, taking medicine.",139/89,139,89,,,yes,[],en
+744,35,2026-06-19,chw,,,,,,,"Patient bien, prend ses médicaments.",131/86,131,86,,,yes,[],en
+745,35,2026-07-16,chw,,,,,,,"Patient well, taking medicine.",144/88,144,88,,,yes,[],en
+746,35,2026-07-31,chw,,,,,,,"Patient well, taking medicine.",138/86,138,86,,,yes,[],en
+747,35,2026-08-24,chw,,,,,,,"Patient well, taking medicine.",145/95,145,95,,,yes,[],en
+748,35,2026-09-20,chw,,,,,,,"Patient well, taking medicine.",136/85,136,85,,,yes,[],en
+749,35,2026-04-17,sms,"Ma tension est 140 sur 87, je prends bien mes médicaments chaque jour.",,,,,,,140/87,140,87,,,yes,[],fr
+750,35,2026-04-27,sms,"Bjr, tension 143 sur 91 ce matin",,,,,,,143/91,143,91,,,,[],fr
+751,35,2026-05-17,sms,"Bjr, tension 150 sur 94 ce matin",,,,,,,150/94,150,94,,,,[],fr
+752,35,2026-05-24,sms,tension 135/88,,,,,,,135/88,135,88,,,,[],fr
+753,35,2026-06-11,sms,"Ma tension est 144 sur 92, je prends bien mes médicaments chaque jour.",,,,,,,144/92,144,92,,,yes,[],fr
+754,35,2026-06-25,sms,"Bjr, tension 142 sur 88 ce matin",,,,,,,142/88,142,88,,,,[],fr
+755,35,2026-07-05,sms,"Ma tension est 136 sur 87, je prends bien mes médicaments chaque jour.",,,,,,,136/87,136,87,,,yes,[],fr
+756,35,2026-07-21,sms,"Bjr, tension 132 sur 81 ce matin",,,,,,,132/81,132,81,,,,[],fr
+757,35,2026-08-09,sms,"Ma tension est 137 sur 93, je prends bien mes médicaments chaque jour.",,,,,,,137/93,137,93,,,yes,[],fr
+758,35,2026-08-24,sms,"Bjr, tension 135 sur 84 ce matin",,,,,,,135/84,135,84,,,,[],fr
+759,35,2026-09-08,sms,J'ai mesuré au centre de santé : 148/88. Médicaments pris.,,,,,,,148/88,148,88,,,yes,[],fr
+760,35,2026-09-18,sms,tension 148/93,,,,,,,148/93,148,93,,,,[],fr
+761,36,2026-04-07,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,129/78,129,78,7.1,mmol/L,yes,[],fr
+762,36,2026-04-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/86,134,86,,,yes,[],en
+763,36,2026-04-27,chw,,,,,,,Patient ran out of tablets last week.,130/83,130,83,,,partial,[],en
+764,36,2026-05-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",136/86,136,86,,,yes,[],en
+765,36,2026-05-28,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,137/92,137,92,,,no,[],en
+766,36,2026-06-17,chw,,,,,,,"Patient well, taking medicine.",125/87,125,87,,,partial,[],en
+767,36,2026-07-01,chw,,,,,,,Takes medicine only when feeling unwell.,136/88,136,88,,,partial,[],en
+768,36,2026-07-26,chw,,,,,,,Amesahau dawa siku kadhaa.,138/86,138,86,,,no,[],en
+769,36,2026-08-20,chw,,,,,,,Amesahau dawa siku kadhaa.,133/87,133,87,,,partial,[],en
+770,36,2026-09-15,chw,,,,,,,Patient ran out of tablets last week.,136/89,136,89,,,partial,[],en
+771,36,2026-10-02,chw,,,,,,,Takes medicine only when feeling unwell.,134/87,134,87,,,partial,[],en
+772,36,2026-04-16,sms,Nimepima dispensari 138/87. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,138/87,138,87,,,partial,[],sw
+773,36,2026-05-04,sms,"Shikamoo. Nimepima leo 136/87, dawa nimekunywa asubuhi.",,,,,,,136/87,136,87,,,yes,[],sw
+774,36,2026-05-20,sms,Nimepima dispensari 124/81. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,124/81,124,81,,,partial,[],sw
+775,36,2026-06-08,sms,"Pressure yangu ni 134/90, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,134/90,134,90,,,partial,[],sw
+776,36,2026-06-26,sms,presha leo 133/81,,,,,,,133/81,133,81,,,,[],sw
+777,36,2026-07-16,sms,Nimepima dispensari 134/92. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,134/92,134,92,,,partial,[],sw
+778,36,2026-07-24,sms,presha leo 133/85,,,,,,,133/85,133,85,,,,[],sw
+779,36,2026-08-06,sms,presha leo 130/85,,,,,,,130/85,130,85,,,,[],sw
+780,36,2026-08-15,sms,Nimepima dispensari 138/89. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,138/89,138,89,,,partial,[],sw
+781,36,2026-08-27,sms,Nimepima dispensari 129/88. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,129/88,129,88,,,partial,[],sw
+782,36,2026-09-03,sms,Asubuhi presha ilikuwa 131 kwa 80. Nimesahau kunywa dawa leo.,,,,,,,131/80,131,80,,,no,[],sw
+783,36,2026-09-18,sms,133/89 leo. Asante,,,,,,,133/89,133,89,,,,[],sw
+784,36,2026-09-28,sms,142/91 leo. Asante,,,,,,,142/91,142,91,,,,[],sw
+785,37,2026-04-20,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,122/72,122,72,7.3,mmol/L,yes,[],fr
+786,37,2026-07-11,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,136/85,136,85,7.9,mmol/L,yes,[],en
+787,37,2026-09-26,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,121/75,121,75,8.4,mmol/L,yes,[],en
+788,37,2026-04-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/84,131,84,,,yes,[],en
+789,37,2026-04-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/84,134,84,,,yes,[],en
+790,37,2026-05-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/80,131,80,,,yes,[],en
+791,37,2026-06-14,chw,,,,,,,"Patient well, taking medicine.",120/73,120,73,,,yes,[],en
+792,37,2026-07-07,chw,,,,,,,"Patient well, taking medicine.",130/78,130,78,,,yes,[],en
+793,37,2026-07-29,chw,,,,,,,"Patient bien, prend ses médicaments.",131/75,131,75,,,partial,[],en
+794,37,2026-08-24,chw,,,,,,,"Home visit, no complaints.",124/77,124,77,,,yes,[],en
+795,37,2026-09-08,chw,,,,,,,"Home visit, no complaints.",124/74,124,74,,,yes,[],en
+796,37,2026-09-24,chw,,,,,,,"Home visit, no complaints.",135/82,135,82,,,yes,[],en
+797,37,2026-04-16,sms,"Habari daktari, presha yangu ni 138 kwa 85. Nimekunywa dawa zangu.",,,,,,,138/85,138,85,,,yes,[],sw
+798,37,2026-04-28,sms,presha leo 132/85,,,,,,,132/85,132,85,,,,[],sw
+799,37,2026-05-18,sms,"Mimi ni mzima. Presha ni 127/79, nakunywa dawa kila siku.",,,,,,,127/79,127,79,,,yes,[],sw
+800,37,2026-05-30,sms,"Habari daktari, presha yangu ni 129 kwa 78. Nimekunywa dawa zangu.",,,,,,,129/78,129,78,,,yes,[],sw
+801,37,2026-06-14,sms,Nimepima dispensari 132/79. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,132/79,132,79,,,partial,[],sw
+802,37,2026-07-05,sms,"Habari daktari, presha yangu ni 128 kwa 77. Nimekunywa dawa zangu.",,,,,,,128/77,128,77,,,yes,[],sw
+803,37,2026-07-18,sms,"Habari daktari, presha yangu ni 130 kwa 82. Nimekunywa dawa zangu.",,,,,,,130/82,130,82,,,yes,[],sw
+804,37,2026-07-28,sms,"Habari daktari, presha yangu ni 120 kwa 70. Nimekunywa dawa zangu.",,,,,,,120/70,120,70,,,yes,[],sw
+805,37,2026-08-09,sms,"Shikamoo. Nimepima leo 133/79, dawa nimekunywa asubuhi.",,,,,,,133/79,133,79,,,yes,[],sw
+806,37,2026-08-19,sms,"Shikamoo. Nimepima leo 130/80, dawa nimekunywa asubuhi.",,,,,,,130/80,130,80,,,yes,[],sw
+807,37,2026-09-09,sms,126/79 leo. Asante,,,,,,,126/79,126,79,,,,[],sw
+808,37,2026-09-21,sms,127/80 leo. Asante,,,,,,,127/80,127,80,,,,[],sw
+809,37,2026-09-28,sms,"Mimi ni mzima. Presha ni 126/77, nakunywa dawa kila siku.",,,,,,,126/77,126,77,,,yes,[],sw
+810,38,2026-04-23,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Adherence counselling given.,,138/87,138,87,5.8,mmol/L,yes,[],en
+811,38,2026-06-22,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,138/91,138,91,6.8,mmol/L,yes,[],fr
+812,38,2026-09-03,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,134/88,134,88,7.8,mmol/L,yes,[],fr
+813,38,2026-04-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/90,133,90,,,yes,[],en
+814,38,2026-04-30,chw,,,,,,,"Patient well, taking medicine.",141/93,141,93,,,yes,[],en
+815,38,2026-05-15,chw,,,,,,,"Patient well, taking medicine.",136/87,136,87,,,yes,[],en
+816,38,2026-06-11,chw,,,,,,,"Home visit, no complaints.",140/98,140,98,,,yes,[],en
+817,38,2026-06-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/86,134,86,,,yes,[],en
+818,38,2026-07-23,chw,,,,,,,"Patient bien, prend ses médicaments.",153/96,153,96,,,yes,[],en
+819,38,2026-08-07,chw,,,,,,,"Home visit, no complaints.",164/105,164,105,,,yes,[],en
+820,38,2026-08-23,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/94,139,94,,,yes,[],en
+821,38,2026-09-08,chw,,,,,,,"Patient bien, prend ses médicaments.",135/87,135,87,,,yes,[],en
+822,38,2026-09-30,chw,,,,,,,"Home visit, no complaints.",136/91,136,91,,,yes,[],en
+823,38,2026-04-15,sms,"Habari daktari, presha yangu ni 139 kwa 89. Nimekunywa dawa zangu.",,,,,,,139/89,139,89,,,yes,[],sw
+824,38,2026-04-30,sms,"Mimi ni mzima. Presha ni 137/90, nakunywa dawa kila siku.",,,,,,,137/90,137,90,,,yes,[],sw
+825,38,2026-05-14,sms,"Mimi ni mzima. Presha ni 135/90, nakunywa dawa kila siku.",,,,,,,135/90,135,90,,,yes,[],sw
+826,38,2026-05-31,sms,presha leo 144/100,,,,,,,144/100,144,100,,,,[],sw
+827,38,2026-06-19,sms,136/87 leo. Asante,,,,,,,136/87,136,87,,,,[],sw
+828,38,2026-07-03,sms,"Mimi ni mzima. Presha ni 145/97, nakunywa dawa kila siku.",,,,,,,145/97,145,97,,,yes,[],sw
+829,38,2026-07-17,sms,"Mimi ni mzima. Presha ni 144/93, nakunywa dawa kila siku.",,,,,,,144/93,144,93,,,yes,[],sw
+830,38,2026-08-01,sms,"Habari daktari, presha yangu ni 158 kwa 97. Nimekunywa dawa zangu.",,,,,,,158/97,158,97,,,yes,[],sw
+831,38,2026-08-15,sms,"Shikamoo. Nimepima leo 168/102, dawa nimekunywa asubuhi.",,,,,,,168/102,168,102,,,yes,[],sw
+832,38,2026-09-01,sms,presha leo 136/90,,,,,,,136/90,136,90,,,,[],sw
+833,38,2026-09-12,sms,"Shikamoo. Nimepima leo 134/91, dawa nimekunywa asubuhi.",,,,,,,134/91,134,91,,,yes,[],sw
+834,38,2026-09-28,sms,presha leo 132/87,,,,,,,132/87,132,87,,,,[],sw
+835,38,2026-08-20,chw,,,,,,,Patient complains of headache.,179/110,179,110,,,yes,[],en
+836,39,2026-04-11,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,139/84,139,84,8.1,mmol/L,yes,[],en
+837,39,2026-06-20,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Losartan 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,132/84,132,84,5.4,mmol/L,yes,[],fr
+838,39,2026-04-09,chw,,,,,,,"Patient well, taking medicine.",135/84,135,84,,,yes,[],en
+839,39,2026-04-23,chw,,,,,,,"Home visit, no complaints.",135/88,135,88,,,yes,[],en
+840,39,2026-05-21,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/83,142,83,,,yes,[],en
+841,39,2026-06-17,chw,,,,,,,"Patient bien, prend ses médicaments.",138/93,138,93,,,yes,[],en
+842,39,2026-07-06,chw,,,,,,,"Patient well, taking medicine.",143/89,143,89,,,yes,[],en
+843,39,2026-07-24,chw,,,,,,,"Patient bien, prend ses médicaments.",136/85,136,85,,,yes,[],en
+844,39,2026-08-12,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,137/85,137,85,,,partial,[],en
+845,39,2026-09-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/85,137,85,,,yes,[],en
+846,39,2026-09-20,chw,,,,,,,"Patient well, taking medicine.",142/89,142,89,,,yes,[],en
+847,39,2026-04-14,sms,"Habari daktari, presha yangu ni 137 kwa 88. Nimekunywa dawa zangu.",,,,,,,137/88,137,88,,,yes,[],sw
+848,39,2026-04-24,sms,"Shikamoo. Nimepima leo 132/85, dawa nimekunywa asubuhi.",,,,,,,132/85,132,85,,,yes,[],sw
+849,39,2026-05-11,sms,"Mimi ni mzima. Presha ni 139/86, nakunywa dawa kila siku.",,,,,,,139/86,139,86,,,yes,[],sw
+850,39,2026-05-25,sms,"Mimi ni mzima. Presha ni 134/77, nakunywa dawa kila siku.",,,,,,,134/77,134,77,,,yes,[],sw
+851,39,2026-06-11,sms,"Shikamoo. Nimepima leo 139/88, dawa nimekunywa asubuhi.",,,,,,,139/88,139,88,,,yes,[],sw
+852,39,2026-06-25,sms,"Shikamoo. Nimepima leo 140/89, dawa nimekunywa asubuhi.",,,,,,,140/89,140,89,,,yes,[],sw
+853,39,2026-07-12,sms,"Mimi ni mzima. Presha ni 136/87, nakunywa dawa kila siku.",,,,,,,136/87,136,87,,,yes,[],sw
+854,39,2026-07-19,sms,135/85 leo. Asante,,,,,,,135/85,135,85,,,,[],sw
+855,39,2026-07-30,sms,"Shikamoo. Nimepima leo 144/93, dawa nimekunywa asubuhi.",,,,,,,144/93,144,93,,,yes,[],sw
+856,39,2026-08-17,sms,"Habari daktari, presha yangu ni 132 kwa 77. Nimekunywa dawa zangu.",,,,,,,132/77,132,77,,,yes,[],sw
+857,39,2026-08-28,sms,128/81 leo. Asante,,,,,,,128/81,128,81,,,,[],sw
+858,39,2026-09-10,sms,136/89 leo. Asante,,,,,,,136/89,136,89,,,,[],sw
+859,39,2026-09-23,sms,presha leo 132/78,,,,,,,132/78,132,78,,,,[],sw
+860,40,2026-04-24,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,137/91,137,91,7.9,mmol/L,yes,[],en
+861,40,2026-07-16,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,140/90,140,90,8.3,mmol/L,yes,[],fr
+862,40,2026-10-02,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Adherence counselling given.,,156/87,156,87,5.4,mmol/L,yes,[],en
+863,40,2026-04-10,chw,,,,,,,"Patient well, taking medicine.",135/86,135,86,,,yes,[],en
+864,40,2026-05-03,chw,,,,,,,"Patient well, taking medicine.",136/82,136,82,,,yes,[],en
+865,40,2026-05-28,chw,,,,,,,"Patient well, taking medicine.",142/90,142,90,,,yes,[],en
+866,40,2026-06-23,chw,,,,,,,"Home visit, no complaints.",140/85,140,85,,,yes,[],en
+867,40,2026-07-18,chw,,,,,,,"Home visit, no complaints.",141/88,141,88,,,yes,[],en
+868,40,2026-08-12,chw,,,,,,,"Home visit, no complaints.",147/90,147,90,,,yes,[],en
+869,40,2026-08-31,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/90,152,90,,,yes,[],en
+870,40,2026-09-21,chw,,,,,,,"Patient well, taking medicine.",145/90,145,90,,,yes,[],en
+871,40,2026-04-18,sms,"Mimi ni mzima. Presha ni 135/81, nakunywa dawa kila siku.",,,,,,,135/81,135,81,,,yes,[],sw
+872,40,2026-05-04,sms,139/82 leo. Asante,,,,,,,139/82,139,82,,,,[],sw
+873,40,2026-05-17,sms,presha leo 140/78,,,,,,,140/78,140,78,,,,[],sw
+874,40,2026-05-24,sms,"Mimi ni mzima. Presha ni 134/81, nakunywa dawa kila siku.",,,,,,,134/81,134,81,,,yes,[],sw
+875,40,2026-06-08,sms,"Habari daktari, presha yangu ni 141 kwa 83. Nimekunywa dawa zangu.",,,,,,,141/83,141,83,,,yes,[],sw
+876,40,2026-06-22,sms,"Mimi ni mzima. Presha ni 142/82, nakunywa dawa kila siku.",,,,,,,142/82,142,82,,,yes,[],sw
+877,40,2026-07-04,sms,146/80 leo. Asante,,,,,,,146/80,146,80,,,,[],sw
+878,40,2026-07-20,sms,"Habari daktari, presha yangu ni 145 kwa 95. Nimekunywa dawa zangu.",,,,,,,145/95,145,95,,,yes,[],sw
+879,40,2026-08-10,sms,"Habari daktari, presha yangu ni 153 kwa 93. Nimekunywa dawa zangu.",,,,,,,153/93,153,93,,,yes,[],sw
+880,40,2026-08-30,sms,"Habari daktari, presha yangu ni 154 kwa 88. Nimekunywa dawa zangu.",,,,,,,154/88,154,88,,,yes,[],sw
+881,40,2026-09-18,sms,149/86 leo. Asante,,,,,,,149/86,149,86,,,,[],sw
+882,40,2026-09-28,sms,"Shikamoo. Nimepima leo 148/90, dawa nimekunywa asubuhi.",,,,,,,148/90,148,90,,,yes,[],sw
+883,41,2026-04-18,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,141/94,141,94,8.4,mmol/L,yes,[],fr
+884,41,2026-06-18,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,138/87,138,87,7.5,mmol/L,yes,[],en
+885,41,2026-09-03,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,140/85,140,85,6.7,mmol/L,partial,[],fr
+886,41,2026-04-14,chw,,,,,,,"Patient bien, prend ses médicaments.",139/92,139,92,,,yes,[],en
+887,41,2026-06-08,chw,,,,,,,"Patient bien, prend ses médicaments.",137/88,137,88,,,yes,[],en
+888,41,2026-07-26,chw,,,,,,,"Home visit, no complaints.",142/90,142,90,,,yes,[],en
+889,42,2026-04-24,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,144/93,144,93,7.2,mmol/L,yes,[],fr
+890,42,2026-07-19,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,159/98,159,98,7.0,mmol/L,yes,[],fr
+891,42,2026-09-28,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,150/95,150,95,7.8,mmol/L,yes,[],fr
+892,42,2026-04-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/94,146,94,,,yes,[],en
+893,42,2026-06-08,chw,,,,,,,"Patient bien, prend ses médicaments.",147/93,147,93,,,yes,[],en
+894,42,2026-07-18,chw,,,,,,,"Home visit, no complaints.",155/95,155,95,,,yes,[],en
+895,43,2026-04-10,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.,Discussed salt reduction.,,135/88,135,88,7.3,mmol/L,yes,[],en
+896,43,2026-07-03,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,139/93,139,93,5.0,mmol/L,yes,[],en
+897,43,2026-09-15,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.,Discussed salt reduction.,,139/90,139,90,6.4,mmol/L,yes,[],en
+898,43,2026-04-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",129/84,129,84,,,yes,[],en
+899,43,2026-05-01,chw,,,,,,,"Patient well, taking medicine.",139/94,139,94,,,yes,[],en
+900,43,2026-05-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/91,133,91,,,yes,[],en
+901,43,2026-06-19,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",130/74,130,74,,,yes,[],en
+902,43,2026-07-14,chw,,,,,,,"Patient bien, prend ses médicaments.",137/91,137,91,,,yes,[],en
+903,43,2026-08-01,chw,,,,,,,"Patient bien, prend ses médicaments.",137/91,137,91,,,yes,[],en
+904,43,2026-08-27,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,131/92,131,92,,,partial,[],en
+905,43,2026-09-23,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",135/90,135,90,,,yes,[],en
+906,43,2026-04-11,sms,"Mimi ni mzima. Presha ni 133/90, nakunywa dawa kila siku.",,,,,,,133/90,133,90,,,yes,[],sw
+907,43,2026-04-27,sms,presha leo 134/85,,,,,,,134/85,134,85,,,,[],sw
+908,43,2026-05-04,sms,"Mimi ni mzima. Presha ni 143/91, nakunywa dawa kila siku.",,,,,,,143/91,143,91,,,yes,[],sw
+909,43,2026-05-14,sms,presha leo 139/91,,,,,,,139/91,139,91,,,,[],sw
+910,43,2026-05-27,sms,132/85 leo. Asante,,,,,,,132/85,132,85,,,,[],sw
+911,43,2026-06-05,sms,140/87 leo. Asante,,,,,,,140/87,140,87,,,,[],sw
+912,43,2026-06-12,sms,presha leo 136/89,,,,,,,136/89,136,89,,,,[],sw
+913,43,2026-06-22,sms,"Mimi ni mzima. Presha ni 149/91, nakunywa dawa kila siku.",,,,,,,149/91,149,91,,,yes,[],sw
+914,43,2026-07-02,sms,"Mimi ni mzima. Presha ni 126/82, nakunywa dawa kila siku.",,,,,,,126/82,126,82,,,yes,[],sw
+915,43,2026-07-14,sms,"Habari daktari, presha yangu ni 136 kwa 91. Nimekunywa dawa zangu.",,,,,,,136/91,136,91,,,yes,[],sw
+916,43,2026-07-26,sms,"Mimi ni mzima. Presha ni 135/92, nakunywa dawa kila siku.",,,,,,,135/92,135,92,,,yes,[],sw
+917,43,2026-08-05,sms,presha leo 140/89,,,,,,,140/89,140,89,,,,[],sw
+918,43,2026-08-26,sms,134/86 leo. Asante,,,,,,,134/86,134,86,,,,[],sw
+919,43,2026-09-07,sms,145/90 leo. Asante,,,,,,,145/90,145,90,,,,[],sw
+920,43,2026-09-21,sms,Nimepima dispensari 140/95. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,140/95,140,95,,,partial,[],sw
+921,43,2026-10-02,sms,138/93 leo. Asante,,,,,,,138/93,138,93,,,,[],sw
+922,44,2026-04-06,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,139/91,139,91,7.1,mmol/L,yes,[],fr
+923,44,2026-06-11,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,146/92,146,92,6.0,mmol/L,yes,[],fr
+924,44,2026-08-15,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.,Stable. Continuer.,,157/100,157,100,7.6,mmol/L,yes,[],fr
+925,44,2026-04-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/89,139,89,,,yes,[],en
+926,44,2026-05-05,chw,,,,,,,"Home visit, no complaints.",143/92,143,92,,,yes,[],en
+927,44,2026-05-24,chw,,,,,,,"Patient well, taking medicine.",149/95,149,95,,,yes,[],en
+928,44,2026-06-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",147/92,147,92,,,yes,[],en
+929,44,2026-07-08,chw,,,,,,,"Patient bien, prend ses médicaments.",152/98,152,98,,,yes,[],en
+930,44,2026-08-05,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",155/103,155,103,,,yes,[],en
+931,44,2026-09-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",153/99,153,99,,,yes,[],en
+932,44,2026-09-28,chw,,,,,,,"Home visit, no complaints.",157/99,157,99,,,yes,[],en
+933,44,2026-04-16,sms,"Mimi ni mzima. Presha ni 130/88, nakunywa dawa kila siku.",,,,,,,130/88,130,88,,,yes,[],sw
+934,44,2026-05-05,sms,"Habari daktari, presha yangu ni 149 kwa 100. Nimekunywa dawa zangu.",,,,,,,149/100,149,100,,,yes,[],sw
+935,44,2026-05-26,sms,"Mimi ni mzima. Presha ni 148/95, nakunywa dawa kila siku.",,,,,,,148/95,148,95,,,yes,[],sw
+936,44,2026-06-14,sms,Nimepima dispensari 152/96. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,152/96,152,96,,,partial,[],sw
+937,44,2026-06-30,sms,"Shikamoo. Nimepima leo 152/101, dawa nimekunywa asubuhi.",,,,,,,152/101,152,101,,,yes,[],sw
+938,44,2026-07-15,sms,"Habari daktari, presha yangu ni 153 kwa 98. Nimekunywa dawa zangu.",,,,,,,153/98,153,98,,,yes,[],sw
+939,44,2026-08-04,sms,presha leo 162/104,,,,,,,162/104,162,104,,,,[],sw
+940,44,2026-08-11,sms,"Mimi ni mzima. Presha ni 149/94, nakunywa dawa kila siku.",,,,,,,149/94,149,94,,,yes,[],sw
+941,44,2026-08-24,sms,"Shikamoo. Nimepima leo 156/101, dawa nimekunywa asubuhi.",,,,,,,156/101,156,101,,,yes,[],sw
+942,44,2026-09-10,sms,presha leo 163/105,,,,,,,163/105,163,105,,,,[],sw
+943,44,2026-09-20,sms,"Shikamoo. Nimepima leo 157/102, dawa nimekunywa asubuhi.",,,,,,,157/102,157,102,,,yes,[],sw
+944,45,2026-04-25,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Éducation sur l'observance.,,126/76,126,76,5.2,mmol/L,yes,[],fr
+945,45,2026-07-11,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,131/81,131,81,5.4,mmol/L,yes,[],fr
+946,45,2026-10-02,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,129/78,129,78,5.8,mmol/L,yes,[],fr
+947,45,2026-04-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",130/78,130,78,,,yes,[],en
+948,45,2026-05-04,chw,,,,,,,"Home visit, no complaints.",138/85,138,85,,,partial,[],en
+949,45,2026-05-19,chw,,,,,,,"Patient bien, prend ses médicaments.",136/82,136,82,,,yes,[],en
+950,45,2026-06-11,chw,,,,,,,"Patient bien, prend ses médicaments.",139/88,139,88,,,yes,[],en
+951,45,2026-06-28,chw,,,,,,,"Patient bien, prend ses médicaments.",126/82,126,82,,,yes,[],en
+952,45,2026-07-20,chw,,,,,,,"Patient bien, prend ses médicaments.",133/88,133,88,,,yes,[],en
+953,45,2026-08-17,chw,,,,,,,"Home visit, no complaints.",135/86,135,86,,,yes,[],en
+954,45,2026-09-07,chw,,,,,,,"Patient well, taking medicine.",134/83,134,83,,,yes,[],en
+955,45,2026-09-22,chw,,,,,,,"Patient bien, prend ses médicaments.",132/84,132,84,,,yes,[],en
+956,45,2026-04-21,sms,tension 127/79,,,,,,,127/79,127,79,,,,[],fr
+957,45,2026-04-28,sms,"Bonjour, ma tension aujourd'hui est 129/85. J'ai pris mes médicaments.",,,,,,,129/85,129,85,,,yes,[],fr
+958,45,2026-05-07,sms,"Ma tension est 126 sur 76, je prends bien mes médicaments chaque jour.",,,,,,,126/76,126,76,,,yes,[],fr
+959,45,2026-05-28,sms,"Bjr, tension 138 sur 86 ce matin",,,,,,,138/86,138,86,,,,[],fr
+960,45,2026-06-18,sms,tension 129/81,,,,,,,129/81,129,81,,,,[],fr
+961,45,2026-07-02,sms,tension 128/80,,,,,,,128/80,128,80,,,,[],fr
+962,45,2026-07-14,sms,"Bonsoir. Tension 129/78, j'ai pris seulement la moitié du comprimé.",,,,,,,129/78,129,78,,,partial,[],fr
+963,45,2026-08-04,sms,J'ai mesuré au centre de santé : 131/81. Médicaments pris.,,,,,,,131/81,131,81,,,yes,[],fr
+964,45,2026-08-24,sms,"Bjr, tension 130 sur 79 ce matin",,,,,,,130/79,130,79,,,,[],fr
+965,45,2026-09-08,sms,"Bonsoir. Tension 138/80, j'ai pris seulement la moitié du comprimé.",,,,,,,138/80,138,80,,,partial,[],fr
+966,45,2026-09-23,sms,"Bjr, tension 119 sur 74 ce matin",,,,,,,119/74,119,74,,,,[],fr
+967,46,2026-04-13,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,131/80,131,80,8.3,mmol/L,partial,[],en
+968,46,2026-06-29,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Réduire le sel.,Stable. Continuer.,,141/89,141,89,5.8,mmol/L,partial,[],fr
+969,46,2026-09-18,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,126/83,126,83,8.1,mmol/L,yes,[],en
+970,46,2026-04-12,chw,,,,,,,"Home visit, no complaints.",128/80,128,80,,,yes,[],en
+971,46,2026-05-06,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/85,132,85,,,yes,[],en
+972,46,2026-05-21,chw,,,,,,,"Home visit, no complaints.",134/83,134,83,,,yes,[],en
+973,46,2026-06-06,chw,,,,,,,"Patient bien, prend ses médicaments.",141/87,141,87,,,yes,[],en
+974,46,2026-06-27,chw,,,,,,,"Home visit, no complaints.",135/81,135,81,,,yes,[],en
+975,46,2026-07-16,chw,,,,,,,"Home visit, no complaints.",139/88,139,88,,,yes,[],en
+976,46,2026-08-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/85,137,85,,,yes,[],en
+977,46,2026-08-29,chw,,,,,,,"Patient bien, prend ses médicaments.",151/95,151,95,,,yes,[],en
+978,46,2026-09-13,chw,,,,,,,Takes medicine only when feeling unwell.,130/84,130,84,,,partial,[],en
+979,46,2026-04-13,sms,Nimepima dispensari 137/89. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,137/89,137,89,,,partial,[],sw
+980,46,2026-04-24,sms,"Habari daktari, presha yangu ni 133 kwa 84. Nimekunywa dawa zangu.",,,,,,,133/84,133,84,,,yes,[],sw
+981,46,2026-05-02,sms,"Mimi ni mzima. Presha ni 138/89, nakunywa dawa kila siku.",,,,,,,138/89,138,89,,,yes,[],sw
+982,46,2026-05-12,sms,"Shikamoo. Nimepima leo 131/83, dawa nimekunywa asubuhi.",,,,,,,131/83,131,83,,,yes,[],sw
+983,46,2026-05-24,sms,presha leo 134/80,,,,,,,134/80,134,80,,,,[],sw
+984,46,2026-06-08,sms,"Shikamoo. Nimepima leo 136/88, dawa nimekunywa asubuhi.",,,,,,,136/88,136,88,,,yes,[],sw
+985,46,2026-06-17,sms,presha leo 134/87,,,,,,,134/87,134,87,,,,[],sw
+986,46,2026-06-27,sms,"Habari daktari, presha yangu ni 138 kwa 81. Nimekunywa dawa zangu.",,,,,,,138/81,138,81,,,yes,[],sw
+987,46,2026-07-07,sms,132/87 leo. Asante,,,,,,,132/87,132,87,,,,[],sw
+988,46,2026-07-23,sms,"Mimi ni mzima. Presha ni 128/79, nakunywa dawa kila siku.",,,,,,,128/79,128,79,,,yes,[],sw
+989,46,2026-08-01,sms,132/82 leo. Asante,,,,,,,132/82,132,82,,,,[],sw
+990,46,2026-08-11,sms,presha leo 154/93,,,,,,,154/93,154,93,,,,[],sw
+991,46,2026-08-26,sms,"Mimi ni mzima. Presha ni 156/94, nakunywa dawa kila siku.",,,,,,,156/94,156,94,,,yes,[],sw
+992,46,2026-09-06,sms,"Pressure yangu ni 165/100, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,165/100,165,100,,,partial,[],sw
+993,46,2026-09-16,sms,presha leo 140/87,,,,,,,140/87,140,87,,,,[],sw
+994,46,2026-09-26,sms,129/83 leo. Asante,,,,,,,129/83,129,83,,,,[],sw
+995,46,2026-09-04,chw,,,,,,,Patient complains of headache.,161/91,161,91,,,yes,[],en
+996,47,2026-04-06,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Adherence counselling given.,,129/83,129,83,8.4,mmol/L,yes,[],en
+997,47,2026-06-24,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,133/87,133,87,6.9,mmol/L,yes,[],fr
+998,47,2026-08-28,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,135/85,135,85,7.1,mmol/L,yes,[],fr
+999,47,2026-04-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",136/88,136,88,,,yes,[],en
+1000,47,2026-05-09,chw,,,,,,,"Home visit, no complaints.",126/81,126,81,,,yes,[],en
+1001,47,2026-05-23,chw,,,,,,,"Patient well, taking medicine.",130/87,130,87,,,yes,[],en
+1002,47,2026-06-08,chw,,,,,,,"Home visit, no complaints.",133/86,133,86,,,yes,[],en
+1003,47,2026-07-06,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/83,134,83,,,yes,[],en
+1004,47,2026-08-02,chw,,,,,,,"Home visit, no complaints.",125/84,125,84,,,yes,[],en
+1005,47,2026-08-26,chw,,,,,,,"Patient well, taking medicine.",133/86,133,86,,,yes,[],en
+1006,47,2026-09-18,chw,,,,,,,"Patient well, taking medicine.",132/84,132,84,,,yes,[],en
+1007,47,2026-04-21,sms,"Mimi ni mzima. Presha ni 134/89, nakunywa dawa kila siku.",,,,,,,134/89,134,89,,,yes,[],sw
+1008,47,2026-05-01,sms,"Habari daktari, presha yangu ni 125 kwa 80. Nimekunywa dawa zangu.",,,,,,,125/80,125,80,,,yes,[],sw
+1009,47,2026-05-13,sms,125/80 leo. Asante,,,,,,,125/80,125,80,,,,[],sw
+1010,47,2026-05-31,sms,"Habari daktari, presha yangu ni 126 kwa 82. Nimekunywa dawa zangu.",,,,,,,126/82,126,82,,,yes,[],sw
+1011,47,2026-06-09,sms,"Shikamoo. Nimepima leo 130/83, dawa nimekunywa asubuhi.",,,,,,,130/83,130,83,,,yes,[],sw
+1012,47,2026-06-24,sms,125/79 leo. Asante,,,,,,,125/79,125,79,,,,[],sw
+1013,47,2026-07-01,sms,"Habari daktari, presha yangu ni 123 kwa 84. Nimekunywa dawa zangu.",,,,,,,123/84,123,84,,,yes,[],sw
+1014,47,2026-07-08,sms,"Habari daktari, presha yangu ni 127 kwa 82. Nimekunywa dawa zangu.",,,,,,,127/82,127,82,,,yes,[],sw
+1015,47,2026-07-17,sms,Nimepima dispensari 131/87. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,131/87,131,87,,,partial,[],sw
+1016,47,2026-07-25,sms,"Habari daktari, presha yangu ni 135 kwa 89. Nimekunywa dawa zangu.",,,,,,,135/89,135,89,,,yes,[],sw
+1017,47,2026-08-05,sms,137/87 leo. Asante,,,,,,,137/87,137,87,,,,[],sw
+1018,47,2026-08-12,sms,"Shikamoo. Nimepima leo 119/79, dawa nimekunywa asubuhi.",,,,,,,119/79,119,79,,,yes,[],sw
+1019,47,2026-08-26,sms,presha leo 137/84,,,,,,,137/84,137,84,,,,[],sw
+1020,47,2026-09-05,sms,129/83 leo. Asante,,,,,,,129/83,129,83,,,,[],sw
+1021,47,2026-09-19,sms,"Mimi ni mzima. Presha ni 134/79, nakunywa dawa kila siku.",,,,,,,134/79,134,79,,,yes,[],sw
+1022,47,2026-09-27,sms,presha leo 134/83,,,,,,,134/83,134,83,,,,[],sw
+1023,48,2026-04-17,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,138/88,138,88,6.8,mmol/L,partial,[],fr
+1024,48,2026-07-16,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,137/88,137,88,5.4,mmol/L,yes,[],fr
+1025,48,2026-04-19,chw,,,,,,,"Home visit, no complaints.",133/83,133,83,,,yes,[],en
+1026,48,2026-06-02,chw,,,,,,,"Home visit, no complaints.",136/85,136,85,,,yes,[],en
+1027,48,2026-07-18,chw,,,,,,,"Patient well, taking medicine.",148/92,148,92,,,yes,[],en
+1028,49,2026-04-17,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,124/83,124,83,6.1,mmol/L,yes,[],fr
+1029,49,2026-07-10,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Discussed salt reduction.,,134/78,134,78,5.9,mmol/L,yes,[],en
+1030,49,2026-09-22,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,151/98,151,98,6.2,mmol/L,yes,[],fr
+1031,49,2026-04-14,chw,,,,,,,Patient ran out of tablets last week.,131/82,131,82,,,partial,[],en
+1032,49,2026-05-07,chw,,,,,,,"Patient bien, prend ses médicaments.",136/88,136,88,,,yes,[],en
+1033,49,2026-05-23,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,134/88,134,88,,,partial,[],en
+1034,49,2026-06-06,chw,,,,,,,"Patient bien, prend ses médicaments.",134/89,134,89,,,yes,[],en
+1035,49,2026-06-30,chw,,,,,,,"Patient bien, prend ses médicaments.",140/91,140,91,,,yes,[],en
+1036,49,2026-07-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/91,137,91,,,yes,[],en
+1037,49,2026-08-12,chw,,,,,,,"Patient bien, prend ses médicaments.",134/84,134,84,,,yes,[],en
+1038,49,2026-09-05,chw,,,,,,,"Patient bien, prend ses médicaments.",142/91,142,91,,,yes,[],en
+1039,49,2026-09-22,chw,,,,,,,"Home visit, no complaints.",138/89,138,89,,,yes,[],en
+1040,49,2026-04-15,sms,"Shikamoo. Nimepima leo 126/83, dawa nimekunywa asubuhi.",,,,,,,126/83,126,83,,,yes,[],sw
+1041,49,2026-05-02,sms,"Mimi ni mzima. Presha ni 131/80, nakunywa dawa kila siku.",,,,,,,131/80,131,80,,,yes,[],sw
+1042,49,2026-05-21,sms,135/92 leo. Asante,,,,,,,135/92,135,92,,,,[],sw
+1043,49,2026-05-31,sms,"Mimi ni mzima. Presha ni 139/96, nakunywa dawa kila siku.",,,,,,,139/96,139,96,,,yes,[],sw
+1044,49,2026-06-21,sms,135/88 leo. Asante,,,,,,,135/88,135,88,,,,[],sw
+1045,49,2026-07-05,sms,"Shikamoo. Nimepima leo 133/87, dawa nimekunywa asubuhi.",,,,,,,133/87,133,87,,,yes,[],sw
+1046,49,2026-07-25,sms,presha leo 146/89,,,,,,,146/89,146,89,,,,[],sw
+1047,49,2026-08-05,sms,"Shikamoo. Nimepima leo 142/92, dawa nimekunywa asubuhi.",,,,,,,142/92,142,92,,,yes,[],sw
+1048,49,2026-08-14,sms,145/89 leo. Asante,,,,,,,145/89,145,89,,,,[],sw
+1049,49,2026-09-02,sms,"Habari daktari, presha yangu ni 140 kwa 91. Nimekunywa dawa zangu.",,,,,,,140/91,140,91,,,yes,[],sw
+1050,49,2026-09-21,sms,148/92 leo. Asante,,,,,,,148/92,148,92,,,,[],sw
+1051,50,2026-04-26,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,135/78,135,78,4.6,mmol/L,yes,[],fr
+1052,50,2026-07-06,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.,Discussed salt reduction.,,129/82,129,82,7.4,mmol/L,yes,[],en
+1053,50,2026-09-29,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,130/70,130,70,4.7,mmol/L,yes,[],fr
+1054,50,2026-04-19,chw,,,,,,,"Patient well, taking medicine.",130/76,130,76,,,yes,[],en
+1055,50,2026-05-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/79,138,79,,,yes,[],en
+1056,50,2026-06-09,chw,,,,,,,"Home visit, no complaints.",131/81,131,81,,,yes,[],en
+1057,50,2026-07-01,chw,,,,,,,"Home visit, no complaints.",137/74,137,74,,,yes,[],en
+1058,50,2026-07-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/81,138,81,,,yes,[],en
+1059,50,2026-08-01,chw,,,,,,,"Patient well, taking medicine.",125/73,125,73,,,yes,[],en
+1060,50,2026-08-26,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,128/75,128,75,,,partial,[],en
+1061,50,2026-09-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",128/75,128,75,,,yes,[],en
+1062,50,2026-04-18,sms,"Shikamoo. Nimepima leo 129/78, dawa nimekunywa asubuhi.",,,,,,,129/78,129,78,,,yes,[],sw
+1063,50,2026-05-02,sms,presha leo 140/84,,,,,,,140/84,140,84,,,,[],sw
+1064,50,2026-05-22,sms,presha leo 133/80,,,,,,,133/80,133,80,,,,[],sw
+1065,50,2026-05-29,sms,"Shikamoo. Nimepima leo 133/74, dawa nimekunywa asubuhi.",,,,,,,133/74,133,74,,,yes,[],sw
+1066,50,2026-06-16,sms,140/80 leo. Asante,,,,,,,140/80,140,80,,,,[],sw
+1067,50,2026-07-02,sms,presha leo 135/79,,,,,,,135/79,135,79,,,,[],sw
+1068,50,2026-07-10,sms,presha leo 142/82,,,,,,,142/82,142,82,,,,[],sw
+1069,50,2026-07-31,sms,131/75 leo. Asante,,,,,,,131/75,131,75,,,,[],sw
+1070,50,2026-08-14,sms,133/79 leo. Asante,,,,,,,133/79,133,79,,,,[],sw
+1071,50,2026-08-24,sms,"Habari daktari, presha yangu ni 137 kwa 79. Nimekunywa dawa zangu.",,,,,,,137/79,137,79,,,yes,[],sw
+1072,50,2026-09-10,sms,presha leo 134/82,,,,,,,134/82,134,82,,,,[],sw
+1073,50,2026-09-19,sms,Nimepima dispensari 134/81. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,134/81,134,81,,,partial,[],sw
+1074,51,2026-04-13,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,129/83,129,83,6.4,mmol/L,yes,[],fr
+1075,51,2026-06-18,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,131/80,131,80,5.7,mmol/L,yes,[],fr
+1076,51,2026-09-09,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.,Stable. Continuer.,,130/85,130,85,5.3,mmol/L,yes,[],fr
+1077,51,2026-04-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/83,137,83,,,yes,[],en
+1078,51,2026-05-04,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/88,140,88,,,yes,[],en
+1079,51,2026-06-01,chw,,,,,,,"Patient well, taking medicine.",149/88,149,88,,,yes,[],en
+1080,51,2026-06-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",167/101,167,101,,,yes,[],en
+1081,51,2026-07-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/81,132,81,,,yes,[],en
+1082,51,2026-07-29,chw,,,,,,,"Home visit, no complaints.",130/76,130,76,,,yes,[],en
+1083,51,2026-08-15,chw,,,,,,,"Patient well, taking medicine.",134/87,134,87,,,partial,[],en
+1084,51,2026-09-03,chw,,,,,,,"Patient well, taking medicine.",128/80,128,80,,,yes,[],en
+1085,51,2026-09-21,chw,,,,,,,"Patient well, taking medicine.",133/80,133,80,,,yes,[],en
+1086,51,2026-04-11,sms,"Bonjour, ma tension aujourd'hui est 132/79. J'ai pris mes médicaments.",,,,,,,132/79,132,79,,,yes,[],fr
+1087,51,2026-04-24,sms,J'ai mesuré au centre de santé : 129/77. Médicaments pris.,,,,,,,129/77,129,77,,,yes,[],fr
+1088,51,2026-05-11,sms,J'ai mesuré au centre de santé : 136/85. Médicaments pris.,,,,,,,136/85,136,85,,,yes,[],fr
+1089,51,2026-05-24,sms,"Ma tension est 144 sur 85, je prends bien mes médicaments chaque jour.",,,,,,,144/85,144,85,,,yes,[],fr
+1090,51,2026-06-08,sms,J'ai mesuré au centre de santé : 163/97. Médicaments pris.,,,,,,,163/97,163,97,,,yes,[],fr
+1091,51,2026-06-18,sms,"Bonjour, ma tension aujourd'hui est 127/80. J'ai pris mes médicaments.",,,,,,,127/80,127,80,,,yes,[],fr
+1092,51,2026-07-02,sms,tension 133/78,,,,,,,133/78,133,78,,,,[],fr
+1093,51,2026-07-18,sms,tension 131/85,,,,,,,131/85,131,85,,,,[],fr
+1094,51,2026-07-28,sms,tension 138/80,,,,,,,138/80,138,80,,,,[],fr
+1095,51,2026-08-05,sms,"Ma tension est 132 sur 84, je prends bien mes médicaments chaque jour.",,,,,,,132/84,132,84,,,yes,[],fr
+1096,51,2026-08-15,sms,"Bonjour, ma tension aujourd'hui est 125/80. J'ai pris mes médicaments.",,,,,,,125/80,125,80,,,yes,[],fr
+1097,51,2026-08-31,sms,J'ai mesuré au centre de santé : 136/85. Médicaments pris.,,,,,,,136/85,136,85,,,yes,[],fr
+1098,51,2026-09-19,sms,J'ai mesuré au centre de santé : 126/74. Médicaments pris.,,,,,,,126/74,126,74,,,yes,[],fr
+1099,51,2026-06-14,chw,,,,,,,Patient complains of headache.,163/95,163,95,,,yes,"[""headache""]",en
+1100,52,2026-04-12,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,120/76,120,76,6.5,mmol/L,yes,[],en
+1101,52,2026-06-19,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,123/73,123,73,8.2,mmol/L,yes,[],fr
+1102,52,2026-09-12,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Discussed salt reduction.,,136/84,136,84,5.0,mmol/L,yes,[],en
+1103,52,2026-04-11,chw,,,,,,,"Home visit, no complaints.",121/72,121,72,,,yes,[],en
+1104,52,2026-05-04,chw,,,,,,,"Home visit, no complaints.",129/77,129,77,,,yes,[],en
+1105,52,2026-05-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",126/79,126,79,,,yes,[],en
+1106,52,2026-06-08,chw,,,,,,,"Patient bien, prend ses médicaments.",122/74,122,74,,,yes,[],en
+1107,52,2026-06-22,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",125/78,125,78,,,yes,[],en
+1108,52,2026-07-11,chw,,,,,,,"Patient bien, prend ses médicaments.",126/80,126,80,,,yes,[],en
+1109,52,2026-08-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",119/73,119,73,,,yes,[],en
+1110,52,2026-08-27,chw,,,,,,,"Patient well, taking medicine.",134/81,134,81,,,yes,[],en
+1111,52,2026-09-17,chw,,,,,,,"Patient bien, prend ses médicaments.",137/80,137,80,,,yes,[],en
+1112,52,2026-04-21,sms,"Mimi ni mzima. Presha ni 127/80, nakunywa dawa kila siku.",,,,,,,127/80,127,80,,,yes,[],sw
+1113,52,2026-05-06,sms,"Habari daktari, presha yangu ni 122 kwa 81. Nimekunywa dawa zangu.",,,,,,,122/81,122,81,,,yes,[],sw
+1114,52,2026-05-24,sms,120/77 leo. Asante,,,,,,,120/77,120,77,,,,[],sw
+1115,52,2026-06-14,sms,"Shikamoo. Nimepima leo 121/74, dawa nimekunywa asubuhi.",,,,,,,121/74,121,74,,,yes,[],sw
+1116,52,2026-07-03,sms,"Shikamoo. Nimepima leo 124/76, dawa nimekunywa asubuhi.",,,,,,,124/76,124,76,,,yes,[],sw
+1117,52,2026-07-15,sms,115/72 leo. Asante,,,,,,,115/72,115,72,,,,[],sw
+1118,52,2026-07-25,sms,132/82 leo. Asante,,,,,,,132/82,132,82,,,,[],sw
+1119,52,2026-08-03,sms,"Shikamoo. Nimepima leo 127/71, dawa nimekunywa asubuhi.",,,,,,,127/71,127,71,,,yes,[],sw
+1120,52,2026-08-18,sms,"Mimi ni mzima. Presha ni 125/76, nakunywa dawa kila siku.",,,,,,,125/76,125,76,,,yes,[],sw
+1121,52,2026-08-30,sms,"Habari daktari, presha yangu ni 126 kwa 69. Nimekunywa dawa zangu.",,,,,,,126/69,126,69,,,yes,[],sw
+1122,52,2026-09-09,sms,"Habari daktari, presha yangu ni 138 kwa 82. Nimekunywa dawa zangu.",,,,,,,138/82,138,82,,,yes,[],sw
+1123,52,2026-09-21,sms,presha leo 145/92,,,,,,,145/92,145,92,,,,[],sw
+1124,52,2026-10-02,chw,,,,,,,"Feeling unwell, headache.",152/91,152,91,,,yes,"[""headache""]",en
+1125,53,2026-04-17,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,139/83,139,83,7.8,mmol/L,yes,[],fr
+1126,53,2026-07-07,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,128/78,128,78,6.1,mmol/L,yes,[],fr
+1127,53,2026-10-01,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,168/101,168,101,5.7,mmol/L,yes,[],fr
+1128,53,2026-04-12,chw,,,,,,,"Patient well, taking medicine.",132/85,132,85,,,yes,[],en
+1129,53,2026-05-04,chw,,,,,,,"Home visit, no complaints.",121/84,121,84,,,yes,[],en
+1130,53,2026-05-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/84,131,84,,,yes,[],en
+1131,53,2026-06-24,chw,,,,,,,"Home visit, no complaints.",131/82,131,82,,,yes,[],en
+1132,53,2026-07-20,chw,,,,,,,"Patient well, taking medicine.",131/84,131,84,,,yes,[],en
+1133,53,2026-08-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",128/78,128,78,,,yes,[],en
+1134,53,2026-09-06,chw,,,,,,,"Home visit, no complaints.",142/92,142,92,,,yes,[],en
+1135,53,2026-09-26,chw,,,,,,,"Patient well, taking medicine.",164/97,164,97,,,yes,[],en
+1136,53,2026-04-19,sms,"Bjr, tension 130 sur 89 ce matin",,,,,,,130/89,130,89,,,,[],fr
+1137,53,2026-04-28,sms,"Bjr, tension 129 sur 84 ce matin",,,,,,,129/84,129,84,,,,[],fr
+1138,53,2026-05-05,sms,"Ma tension est 137 sur 89, je prends bien mes médicaments chaque jour.",,,,,,,137/89,137,89,,,yes,[],fr
+1139,53,2026-05-20,sms,J'ai mesuré au centre de santé : 128/86. Médicaments pris.,,,,,,,128/86,128,86,,,yes,[],fr
+1140,53,2026-05-28,sms,tension 135/82,,,,,,,135/82,135,82,,,,[],fr
+1141,53,2026-06-06,sms,"Bonjour, ma tension aujourd'hui est 125/83. J'ai pris mes médicaments.",,,,,,,125/83,125,83,,,yes,[],fr
+1142,53,2026-06-21,sms,"Ma tension est 133 sur 85, je prends bien mes médicaments chaque jour.",,,,,,,133/85,133,85,,,yes,[],fr
+1143,53,2026-06-28,sms,tension 130/83,,,,,,,130/83,130,83,,,,[],fr
+1144,53,2026-07-13,sms,"Bonjour, ma tension aujourd'hui est 135/85. J'ai pris mes médicaments.",,,,,,,135/85,135,85,,,yes,[],fr
+1145,53,2026-07-22,sms,"Bjr, tension 129 sur 88 ce matin",,,,,,,129/88,129,88,,,,[],fr
+1146,53,2026-08-05,sms,"Ma tension est 130 sur 90, je prends bien mes médicaments chaque jour.",,,,,,,130/90,130,90,,,yes,[],fr
+1147,53,2026-08-12,sms,"Bjr, tension 133 sur 84 ce matin",,,,,,,133/84,133,84,,,,[],fr
+1148,53,2026-08-27,sms,"Ma tension est 135 sur 78, je prends bien mes médicaments chaque jour.",,,,,,,135/78,135,78,,,yes,[],fr
+1149,53,2026-09-09,sms,"Ma tension est 141 sur 88, je prends bien mes médicaments chaque jour.",,,,,,,141/88,141,88,,,yes,[],fr
+1150,53,2026-09-24,sms,"Bjr, tension 155 sur 100 ce matin",,,,,,,155/100,155,100,,,,[],fr
+1151,53,2026-10-01,chw,,,,,,,"Feeling unwell, headache.",179/110,179,110,,,yes,[],en
+1152,54,2026-04-16,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,126/81,126,81,7.5,mmol/L,yes,[],fr
+1153,54,2026-07-06,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Stable. Continuer.,,143/90,143,90,7.1,mmol/L,yes,[],fr
+1154,54,2026-09-12,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,Stable. Continuer.,,156/97,156,97,8.1,mmol/L,yes,[],fr
+1155,54,2026-04-13,chw,,,,,,,Takes medicine only when feeling unwell.,126/87,126,87,,,partial,[],en
+1156,54,2026-04-29,chw,,,,,,,"Patient well, taking medicine.",136/91,136,91,,,yes,[],en
+1157,54,2026-05-27,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/90,143,90,,,yes,[],en
+1158,54,2026-06-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/90,137,90,,,yes,[],en
+1159,54,2026-07-05,chw,,,,,,,Amesahau dawa siku kadhaa.,151/96,151,96,,,partial,[],en
+1160,54,2026-07-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/92,143,92,,,yes,[],en
+1161,54,2026-08-04,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",144/87,144,87,,,yes,[],en
+1162,54,2026-08-25,chw,,,,,,,"Home visit, no complaints.",145/92,145,92,,,yes,[],en
+1163,54,2026-09-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",150/95,150,95,,,yes,[],en
+1164,54,2026-04-16,sms,tension 137/88,,,,,,,137/88,137,88,,,,[],fr
+1165,54,2026-05-06,sms,"Bjr, tension 138 sur 88 ce matin",,,,,,,138/88,138,88,,,,[],fr
+1166,54,2026-05-18,sms,J'ai mesuré au centre de santé : 141/90. Médicaments pris.,,,,,,,141/90,141,90,,,yes,[],fr
+1167,54,2026-06-04,sms,"Bonjour, ma tension aujourd'hui est 133/90. J'ai pris mes médicaments.",,,,,,,133/90,133,90,,,yes,[],fr
+1168,54,2026-06-21,sms,"Bonjour, ma tension aujourd'hui est 144/89. J'ai pris mes médicaments.",,,,,,,144/89,144,89,,,yes,[],fr
+1169,54,2026-07-08,sms,"Ma tension est 143 sur 93, je prends bien mes médicaments chaque jour.",,,,,,,143/93,143,93,,,yes,[],fr
+1170,54,2026-07-22,sms,"Bjr, tension 155 sur 101 ce matin",,,,,,,155/101,155,101,,,,[],fr
+1171,54,2026-07-31,sms,"Ma tension est 148 sur 98, je prends bien mes médicaments chaque jour.",,,,,,,148/98,148,98,,,yes,[],fr
+1172,54,2026-08-08,sms,"Bjr, tension 145 sur 95 ce matin",,,,,,,145/95,145,95,,,,[],fr
+1173,54,2026-08-23,sms,"Ma tension est 143 sur 92, je prends bien mes médicaments chaque jour.",,,,,,,143/92,143,92,,,yes,[],fr
+1174,54,2026-09-05,sms,"Ma tension est 153 sur 98, je prends bien mes médicaments chaque jour.",,,,,,,153/98,153,98,,,yes,[],fr
+1175,54,2026-09-26,sms,tension 147/88,,,,,,,147/88,147,88,,,,[],fr
+1176,55,2026-04-21,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Reduce salt.,Stable. Continue.,,138/89,138,89,6.0,mmol/L,yes,[],en
+1177,55,2026-07-08,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,143/88,143,88,6.0,mmol/L,yes,[],en
+1178,55,2026-09-14,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Lisinopril 10 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,146/95,146,95,8.4,mmol/L,yes,[],fr
+1179,55,2026-04-12,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/93,140,93,,,yes,[],en
+1180,55,2026-05-19,chw,,,,,,,"Home visit, no complaints.",136/89,136,89,,,yes,[],en
+1181,55,2026-07-01,chw,,,,,,,"Patient bien, prend ses médicaments.",144/89,144,89,,,yes,[],en
+1182,55,2026-08-15,chw,,,,,,,"Home visit, no complaints.",137/85,137,85,,,yes,[],en
+1183,56,2026-04-07,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Stable. Continue.,,135/73,135,73,5.8,mmol/L,yes,[],en
+1184,56,2026-06-15,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Réduire le sel.,Stable. Continuer.,,131/76,131,76,6.1,mmol/L,yes,[],fr
+1185,56,2026-08-20,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,136/74,136,74,5.7,mmol/L,yes,[],en
+1186,56,2026-04-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/76,134,76,,,yes,[],en
+1187,56,2026-05-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/75,137,75,,,yes,[],en
+1188,56,2026-07-11,chw,,,,,,,"Patient well, taking medicine.",137/77,137,77,,,partial,[],en
+1189,57,2026-04-24,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,141/87,141,87,8.2,mmol/L,yes,[],fr
+1190,57,2026-07-05,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.,Adherence counselling given.,,132/87,132,87,4.5,mmol/L,yes,[],en
+1191,57,2026-09-22,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.,Stable. Continue.,,130/77,130,77,7.5,mmol/L,yes,[],en
+1192,57,2026-04-09,chw,,,,,,,"Patient well, taking medicine.",129/79,129,79,,,yes,[],en
+1193,57,2026-04-23,chw,,,,,,,"Patient bien, prend ses médicaments.",134/87,134,87,,,yes,[],en
+1194,57,2026-05-20,chw,,,,,,,"Patient bien, prend ses médicaments.",120/70,120,70,,,yes,[],en
+1195,57,2026-06-06,chw,,,,,,,"Patient bien, prend ses médicaments.",135/83,135,83,,,yes,[],en
+1196,57,2026-06-22,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",121/76,121,76,,,yes,[],en
+1197,57,2026-07-20,chw,,,,,,,"Patient well, taking medicine.",124/74,124,74,,,yes,[],en
+1198,57,2026-08-17,chw,,,,,,,"Patient well, taking medicine.",121/75,121,75,,,yes,[],en
+1199,57,2026-09-10,chw,,,,,,,"Patient well, taking medicine.",130/81,130,81,,,yes,[],en
+1200,57,2026-04-16,sms,Nimepima dispensari 132/81. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,132/81,132,81,,,partial,[],sw
+1201,57,2026-05-03,sms,presha leo 130/82,,,,,,,130/82,130,82,,,,[],sw
+1202,57,2026-05-19,sms,Nimepima dispensari 130/80. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,130/80,130,80,,,partial,[],sw
+1203,57,2026-06-06,sms,"Mimi ni mzima. Presha ni 125/78, nakunywa dawa kila siku.",,,,,,,125/78,125,78,,,yes,[],sw
+1204,57,2026-06-25,sms,"Mimi ni mzima. Presha ni 129/83, nakunywa dawa kila siku.",,,,,,,129/83,129,83,,,yes,[],sw
+1205,57,2026-07-10,sms,presha leo 129/83,,,,,,,129/83,129,83,,,,[],sw
+1206,57,2026-07-19,sms,"Habari daktari, presha yangu ni 131 kwa 83. Nimekunywa dawa zangu.",,,,,,,131/83,131,83,,,yes,[],sw
+1207,57,2026-07-30,sms,120/77 leo. Asante,,,,,,,120/77,120,77,,,,[],sw
+1208,57,2026-08-17,sms,"Shikamoo. Nimepima leo 134/77, dawa nimekunywa asubuhi.",,,,,,,134/77,134,77,,,yes,[],sw
+1209,57,2026-09-05,sms,"Habari daktari, presha yangu ni 128 kwa 80. Nimekunywa dawa zangu.",,,,,,,128/80,128,80,,,yes,[],sw
+1210,57,2026-09-24,sms,"Pressure yangu ni 132/85, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,132/85,132,85,,,partial,[],sw
+1211,57,2026-10-02,sms,"Shikamoo. Nimepima leo 127/82, dawa nimekunywa asubuhi.",,,,,,,127/82,127,82,,,yes,[],sw
+1212,58,2026-04-13,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,132/80,132,80,8.4,mmol/L,yes,[],en
+1213,58,2026-06-17,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,142/95,142,95,7.4,mmol/L,partial,[],fr
+1214,58,2026-08-25,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,149/90,149,90,4.5,mmol/L,yes,[],en
+1215,58,2026-04-09,chw,,,,,,,"Patient well, taking medicine.",142/90,142,90,,,yes,[],en
+1216,58,2026-06-02,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",130/82,130,82,,,yes,[],en
+1217,58,2026-07-15,chw,,,,,,,"Home visit, no complaints.",135/84,135,84,,,yes,[],en
+1218,59,2026-04-07,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,147/93,147,93,8.3,mmol/L,no,[],en
+1219,59,2026-06-27,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,143/92,143,92,5.0,mmol/L,partial,[],fr
+1220,59,2026-09-09,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,142/83,142,83,5.3,mmol/L,partial,[],en
+1221,59,2026-04-15,chw,,,,,,,"Patient well, taking medicine.",148/85,148,85,,,yes,[],en
+1222,59,2026-04-30,chw,,,,,,,Amesahau dawa siku kadhaa.,150/90,150,90,,,partial,[],en
+1223,59,2026-05-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/88,137,88,,,partial,[],en
+1224,59,2026-06-13,chw,,,,,,,Takes medicine only when feeling unwell.,142/86,142,86,,,partial,[],en
+1225,59,2026-07-02,chw,,,,,,,Patient ran out of tablets last week.,140/93,140,93,,,no,[],en
+1226,59,2026-07-23,chw,,,,,,,"Patient bien, prend ses médicaments.",153/99,153,99,,,partial,[],en
+1227,59,2026-08-15,chw,,,,,,,Takes medicine only when feeling unwell.,147/95,147,95,,,partial,[],en
+1228,59,2026-09-07,chw,,,,,,,Patient ran out of tablets last week.,151/95,151,95,,,no,[],en
+1229,59,2026-04-16,sms,"Pressure yangu ni 147/87, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,147/87,147,87,,,partial,[],sw
+1230,59,2026-04-23,sms,"Habari daktari, presha yangu ni 140 kwa 85. Nimekunywa dawa zangu.",,,,,,,140/85,140,85,,,yes,[],sw
+1231,59,2026-05-08,sms,presha 142 kwa 91 sijakunywa dawa tangu juzi,,,,,,,142/91,142,91,,,no,[],sw
+1232,59,2026-05-21,sms,presha 145 kwa 83 sijakunywa dawa tangu juzi,,,,,,,145/83,145,83,,,no,[],sw
+1233,59,2026-06-11,sms,139/88 leo. Asante,,,,,,,139/88,139,88,,,,[],sw
+1234,59,2026-06-26,sms,presha leo 144/92,,,,,,,144/92,144,92,,,,[],sw
+1235,59,2026-07-11,sms,presha leo 143/86,,,,,,,143/86,143,86,,,,[],sw
+1236,59,2026-08-01,sms,"Pressure yangu ni 138/90, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",,,,,,,138/90,138,90,,,partial,[],sw
+1237,59,2026-08-11,sms,142/85 leo. Asante,,,,,,,142/85,142,85,,,,[],sw
+1238,59,2026-08-19,sms,presha leo 147/93,,,,,,,147/93,147,93,,,,[],sw
+1239,59,2026-08-27,sms,presha 137 kwa 81 sijakunywa dawa tangu juzi,,,,,,,137/81,137,81,,,no,[],sw
+1240,59,2026-09-06,sms,Nimepima dispensari 143/89. Nimekunywa dawa moja tu kati ya mbili.,,,,,,,143/89,143,89,,,partial,[],sw
+1241,59,2026-09-16,sms,151/97 leo. Asante,,,,,,,151/97,151,97,,,,[],sw
+1242,60,2026-04-22,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Adherence counselling given.,,126/80,126,80,4.6,mmol/L,yes,[],en
+1243,60,2026-07-15,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Losartan 50 mg once daily. Reduce salt.,Discussed salt reduction.,,129/82,129,82,6.9,mmol/L,yes,[],en
+1244,60,2026-04-17,chw,,,,,,,"Home visit, no complaints.",126/83,126,83,,,yes,[],en
+1245,60,2026-05-02,chw,,,,,,,"Patient well, taking medicine.",130/82,130,82,,,yes,[],en
+1246,60,2026-05-19,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",126/76,126,76,,,yes,[],en
+1247,60,2026-06-11,chw,,,,,,,"Home visit, no complaints.",121/77,121,77,,,yes,[],en
+1248,60,2026-06-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",123/82,123,82,,,yes,[],en
+1249,60,2026-07-21,chw,,,,,,,"Patient bien, prend ses médicaments.",125/77,125,77,,,yes,[],en
+1250,60,2026-08-13,chw,,,,,,,"Patient well, taking medicine.",129/81,129,81,,,yes,[],en
+1251,60,2026-09-07,chw,,,,,,,"Patient bien, prend ses médicaments.",130/81,130,81,,,yes,[],en
+1252,60,2026-04-13,sms,"Habari daktari, presha yangu ni 119 kwa 75. Nimekunywa dawa zangu.",,,,,,,119/75,119,75,,,yes,[],sw
+1253,60,2026-04-26,sms,"Habari daktari, presha yangu ni 139 kwa 88. Nimekunywa dawa zangu.",,,,,,,139/88,139,88,,,yes,[],sw
+1254,60,2026-05-15,sms,"Mimi ni mzima. Presha ni 130/80, nakunywa dawa kila siku.",,,,,,,130/80,130,80,,,yes,[],sw
+1255,60,2026-06-04,sms,presha leo 123/74,,,,,,,123/74,123,74,,,,[],sw
+1256,60,2026-06-13,sms,127/78 leo. Asante,,,,,,,127/78,127,78,,,,[],sw
+1257,60,2026-06-26,sms,125/77 leo. Asante,,,,,,,125/77,125,77,,,,[],sw
+1258,60,2026-07-15,sms,"Mimi ni mzima. Presha ni 131/85, nakunywa dawa kila siku.",,,,,,,131/85,131,85,,,yes,[],sw
+1259,60,2026-07-23,sms,125/78 leo. Asante,,,,,,,125/78,125,78,,,,[],sw
+1260,60,2026-07-31,sms,presha leo 129/82,,,,,,,129/82,129,82,,,,[],sw
+1261,60,2026-08-14,sms,"Shikamoo. Nimepima leo 138/83, dawa nimekunywa asubuhi.",,,,,,,138/83,138,83,,,yes,[],sw
+1262,60,2026-09-03,sms,"Mimi ni mzima. Presha ni 125/79, nakunywa dawa kila siku.",,,,,,,125/79,125,79,,,yes,[],sw
+1263,60,2026-09-23,sms,"Shikamoo. Nimepima leo 121/72, dawa nimekunywa asubuhi.",,,,,,,121/72,121,72,,,yes,[],sw
+1264,61,2025-11-10,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,142/90,142,90,6.5,mmol/L,yes,[],en
+1265,61,2026-02-07,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,135/89,135,89,6.4,mmol/L,yes,[],fr
+1266,61,2025-11-06,chw,,,,,,,"Patient well, taking medicine.",142/84,142,84,,,yes,[],en
+1267,61,2025-11-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/88,143,88,,,yes,[],en
+1268,61,2025-12-14,chw,,,,,,,"Home visit, no complaints.",152/95,152,95,,,partial,[],en
+1269,61,2025-12-30,chw,,,,,,,"Patient well, taking medicine.",145/88,145,88,,,yes,[],en
+1270,61,2026-01-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/97,145,97,,,yes,[],en
+1271,61,2026-02-06,chw,,,,,,,"Patient bien, prend ses médicaments.",144/95,144,95,,,yes,[],en
+1272,61,2026-02-25,chw,,,,,,,"Patient well, taking medicine.",136/88,136,88,,,yes,[],en
+1273,61,2026-03-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",153/94,153,94,,,yes,[],en
+1274,61,2026-04-09,chw,,,,,,,Patient complains of headache.,156/97,156,97,,,yes,[],en
+1275,62,2025-11-19,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,139/90,139,90,6.4,mmol/L,partial,[],fr
+1276,62,2026-02-12,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Stable. Continue.,,148/86,148,86,6.2,mmol/L,yes,[],en
+1277,62,2026-05-05,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,155/94,155,94,6.5,mmol/L,yes,[],fr
+1278,62,2025-11-12,chw,,,,,,,Amesahau dawa siku kadhaa.,143/92,143,92,,,partial,[],en
+1279,62,2025-12-07,chw,,,,,,,"Home visit, no complaints.",136/85,136,85,,,yes,[],en
+1280,62,2026-01-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",144/93,144,93,,,yes,[],en
+1281,62,2026-01-28,chw,,,,,,,"Home visit, no complaints.",140/88,140,88,,,yes,[],en
+1282,62,2026-02-20,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",148/93,148,93,,,yes,[],en
+1283,62,2026-03-11,chw,,,,,,,"Patient well, taking medicine.",140/87,140,87,,,yes,[],en
+1284,62,2026-03-30,chw,,,,,,,"Home visit, no complaints.",141/90,141,90,,,yes,[],en
+1285,62,2026-04-21,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",148/92,148,92,,,yes,[],en
+1286,62,2026-05-08,chw,,,,,,,Patient complains of headache.,152/95,152,95,,,yes,[],en
+1287,63,2025-11-12,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,144/88,144,88,7.2,mmol/L,partial,[],fr
+1288,63,2026-01-22,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,132/85,132,85,5.8,mmol/L,yes,[],fr
+1289,63,2026-03-30,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,135/83,135,83,5.1,mmol/L,yes,[],fr
+1290,63,2025-11-02,chw,,,,,,,"Patient bien, prend ses médicaments.",137/84,137,84,,,yes,[],en
+1291,63,2025-11-19,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",128/82,128,82,,,yes,[],en
+1292,63,2025-12-05,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",136/87,136,87,,,yes,[],en
+1293,63,2025-12-26,chw,,,,,,,"Home visit, no complaints.",132/82,132,82,,,yes,[],en
+1294,63,2026-01-16,chw,,,,,,,"Patient well, taking medicine.",128/78,128,78,,,yes,[],en
+1295,63,2026-02-13,chw,,,,,,,"Patient bien, prend ses médicaments.",138/92,138,92,,,yes,[],en
+1296,63,2026-03-07,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/83,132,83,,,yes,[],en
+1297,63,2026-04-03,chw,,,,,,,"Patient bien, prend ses médicaments.",138/89,138,89,,,yes,[],en
+1298,63,2026-04-18,chw,,,,,,,"Home visit, no complaints.",142/86,142,86,,,yes,[],en
+1299,63,2026-05-02,chw,,,,,,,Patient complains of headache.,158/95,158,95,,,yes,[],en
+1300,64,2025-10-14,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,145/95,145,95,5.2,mmol/L,yes,[],en
+1301,64,2025-12-26,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,144/86,144,86,8.1,mmol/L,partial,[],en
+1302,64,2026-03-12,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Discussed salt reduction.,,143/86,143,86,8.0,mmol/L,partial,[],en
+1303,64,2026-05-11,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,140/90,140,90,8.4,mmol/L,yes,[],en
+1304,64,2025-10-15,chw,,,,,,,"Patient bien, prend ses médicaments.",142/91,142,91,,,yes,[],en
+1305,64,2025-11-05,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,157/93,157,93,,,no,[],en
+1306,64,2025-12-03,chw,,,,,,,"Patient well, taking medicine.",145/87,145,87,,,yes,[],en
+1307,64,2025-12-19,chw,,,,,,,Amesahau dawa siku kadhaa.,149/89,149,89,,,partial,[],en
+1308,64,2026-01-08,chw,,,,,,,Takes medicine only when feeling unwell.,140/88,140,88,,,no,[],en
+1309,64,2026-01-29,chw,,,,,,,"Patient bien, prend ses médicaments.",144/86,144,86,,,yes,[],en
+1310,64,2026-02-15,chw,,,,,,,"Patient well, taking medicine.",142/91,142,91,,,yes,[],en
+1311,64,2026-03-08,chw,,,,,,,"Patient bien, prend ses médicaments.",150/92,150,92,,,no,[],en
+1312,64,2026-03-29,chw,,,,,,,"Patient bien, prend ses médicaments.",153/96,153,96,,,no,[],en
+1313,64,2026-04-26,chw,,,,,,,"Home visit, no complaints.",146/86,146,86,,,yes,[],en
+1314,64,2026-05-14,chw,,,,,,,Patient ran out of tablets last week.,147/91,147,91,,,partial,[],en
+1315,64,2026-06-08,chw,,,,,,,"Patient well, taking medicine.",150/95,150,95,,,no,[],en
+1316,64,2026-06-23,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/93,152,93,,,partial,[],en
+1317,64,2026-07-17,chw,,,,,,,Patient ran out of tablets last week.,171/109,171,109,,,partial,[],en
+1318,64,2026-07-20,chw,,,,,,,Patient complains of headache.,172/111,172,111,,,no,[],en
+1319,65,2025-11-01,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,142/91,142,91,7.1,mmol/L,yes,[],en
+1320,65,2026-01-30,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,135/83,135,83,7.2,mmol/L,yes,[],fr
+1321,65,2026-04-29,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,142/89,142,89,7.2,mmol/L,yes,[],en
+1322,65,2025-10-21,chw,,,,,,,"Patient well, taking medicine.",137/84,137,84,,,yes,[],en
+1323,65,2025-11-11,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/91,140,91,,,yes,[],en
+1324,65,2025-12-04,chw,,,,,,,"Patient bien, prend ses médicaments.",140/87,140,87,,,yes,[],en
+1325,65,2025-12-19,chw,,,,,,,"Home visit, no complaints.",134/86,134,86,,,yes,[],en
+1326,65,2026-01-15,chw,,,,,,,"Home visit, no complaints.",132/84,132,84,,,yes,[],en
+1327,65,2026-02-02,chw,,,,,,,"Patient well, taking medicine.",134/82,134,82,,,yes,[],en
+1328,65,2026-02-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",128/85,128,85,,,yes,[],en
+1329,65,2026-03-15,chw,,,,,,,"Patient well, taking medicine.",133/83,133,83,,,yes,[],en
+1330,65,2026-03-29,chw,,,,,,,Takes medicine only when feeling unwell.,137/83,137,83,,,partial,[],en
+1331,65,2026-04-15,chw,,,,,,,"Home visit, no complaints.",132/83,132,83,,,yes,[],en
+1332,65,2026-05-05,chw,,,,,,,"Patient well, taking medicine.",141/90,141,90,,,yes,[],en
+1333,65,2026-05-19,chw,,,,,,,"Patient bien, prend ses médicaments.",135/87,135,87,,,yes,[],en
+1334,65,2026-06-15,chw,,,,,,,"Home visit, no complaints.",138/78,138,78,,,yes,[],en
+1335,65,2026-07-12,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/92,146,92,,,yes,[],en
+1336,65,2026-07-13,chw,,,,,,,Patient complains of headache.,158/99,158,99,,,yes,[],en
+1337,66,2025-10-26,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Adherence counselling given.,,149/85,149,85,7.4,mmol/L,partial,[],en
+1338,66,2025-12-31,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Discussed salt reduction.,,143/81,143,81,7.5,mmol/L,yes,[],en
+1339,66,2026-03-31,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Adherence counselling given.,,141/82,141,82,8.0,mmol/L,partial,[],en
+1340,66,2026-06-04,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,157/88,157,88,7.9,mmol/L,no,[],en
+1341,66,2025-10-14,chw,,,,,,,"Patient bien, prend ses médicaments.",143/85,143,85,,,yes,[],en
+1342,66,2025-11-08,chw,,,,,,,"Patient well, taking medicine.",132/76,132,76,,,partial,[],en
+1343,66,2025-11-27,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/75,133,75,,,yes,[],en
+1344,66,2025-12-19,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",136/81,136,81,,,yes,[],en
+1345,66,2026-01-05,chw,,,,,,,"Patient bien, prend ses médicaments.",142/83,142,83,,,partial,[],en
+1346,66,2026-01-25,chw,,,,,,,Amesahau dawa siku kadhaa.,133/76,133,76,,,partial,[],en
+1347,66,2026-02-13,chw,,,,,,,"Patient well, taking medicine.",141/87,141,87,,,partial,[],en
+1348,66,2026-03-06,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/78,140,78,,,yes,[],en
+1349,66,2026-03-29,chw,,,,,,,Patient ran out of tablets last week.,142/80,142,80,,,partial,[],en
+1350,66,2026-04-18,chw,,,,,,,"Patient well, taking medicine.",137/78,137,78,,,partial,[],en
+1351,66,2026-05-06,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,136/78,136,78,,,partial,[],en
+1352,66,2026-05-31,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",151/85,151,85,,,partial,[],en
+1353,66,2026-06-17,chw,,,,,,,"Patient well, taking medicine.",159/88,159,88,,,partial,[],en
+1354,66,2026-06-30,chw,,,,,,,Patient complains of headache.,180/104,180,104,,,partial,[],en
+1355,67,2025-11-08,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,128/75,128,75,6.7,mmol/L,yes,[],fr
+1356,67,2026-01-15,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Stable. Continue.,,137/82,137,82,4.5,mmol/L,yes,[],en
+1357,67,2026-04-12,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,127/79,127,79,7.1,mmol/L,yes,[],fr
+1358,67,2026-06-20,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,130/81,130,81,7.6,mmol/L,yes,[],fr
+1359,67,2025-10-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",126/79,126,79,,,yes,[],en
+1360,67,2025-11-21,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",130/78,130,78,,,yes,[],en
+1361,67,2025-12-08,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,130/85,130,85,,,partial,[],en
+1362,67,2026-01-03,chw,,,,,,,"Home visit, no complaints.",131/85,131,85,,,yes,[],en
+1363,67,2026-01-23,chw,,,,,,,"Patient bien, prend ses médicaments.",131/78,131,78,,,yes,[],en
+1364,67,2026-02-06,chw,,,,,,,"Home visit, no complaints.",130/77,130,77,,,yes,[],en
+1365,67,2026-03-05,chw,,,,,,,"Home visit, no complaints.",127/80,127,80,,,yes,[],en
+1366,67,2026-03-24,chw,,,,,,,"Patient well, taking medicine.",131/90,131,90,,,yes,[],en
+1367,67,2026-04-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",128/80,128,80,,,yes,[],en
+1368,67,2026-05-07,chw,,,,,,,"Home visit, no complaints.",139/87,139,87,,,yes,[],en
+1369,67,2026-06-04,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",123/79,123,79,,,yes,[],en
+1370,67,2026-06-18,chw,,,,,,,"Patient well, taking medicine.",138/80,138,80,,,yes,[],en
+1371,67,2026-07-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",146/91,146,91,,,yes,[],en
+1372,67,2026-07-25,chw,,,,,,,Patient complains of headache.,148/89,148,89,,,yes,[],en
+1373,68,2025-11-19,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,137/85,137,85,8.2,mmol/L,yes,[],fr
+1374,68,2026-02-02,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,129/83,129,83,5.9,mmol/L,yes,[],fr
+1375,68,2026-04-26,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,139/91,139,91,5.2,mmol/L,yes,[],fr
+1376,68,2025-11-24,chw,,,,,,,"Patient bien, prend ses médicaments.",134/89,134,89,,,yes,[],en
+1377,68,2025-12-18,chw,,,,,,,"Home visit, no complaints.",139/91,139,91,,,yes,[],en
+1378,68,2026-01-15,chw,,,,,,,"Patient well, taking medicine.",139/94,139,94,,,yes,[],en
+1379,68,2026-02-10,chw,,,,,,,"Patient bien, prend ses médicaments.",142/88,142,88,,,yes,[],en
+1380,68,2026-03-08,chw,,,,,,,"Patient bien, prend ses médicaments.",142/88,142,88,,,yes,[],en
+1381,68,2026-03-27,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,137/84,137,84,,,partial,[],en
+1382,68,2026-04-19,chw,,,,,,,"Patient well, taking medicine.",131/81,131,81,,,yes,[],en
+1383,68,2026-05-08,chw,,,,,,,"Home visit, no complaints.",154/97,154,97,,,yes,[],en
+1384,68,2026-06-05,chw,,,,,,,Patient complains of headache.,174/114,174,114,,,yes,"[""headache""]",en
+1385,69,2025-12-02,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,158/105,158,105,7.6,mmol/L,yes,[],fr
+1386,69,2026-02-05,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,150/96,150,96,5.3,mmol/L,no,[],fr
+1387,69,2026-04-30,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,152/104,152,104,4.8,mmol/L,yes,[],fr
+1388,69,2025-11-25,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,157/105,157,105,,,partial,[],en
+1389,69,2025-12-18,chw,,,,,,,"Patient well, taking medicine.",142/93,142,93,,,yes,[],en
+1390,69,2026-01-13,chw,,,,,,,"Patient well, taking medicine.",148/98,148,98,,,yes,[],en
+1391,69,2026-02-08,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/99,152,99,,,partial,[],en
+1392,69,2026-02-25,chw,,,,,,,"Patient bien, prend ses médicaments.",150/101,150,101,,,yes,[],en
+1393,69,2026-03-17,chw,,,,,,,Amesahau dawa siku kadhaa.,148/94,148,94,,,partial,[],en
+1394,69,2026-04-05,chw,,,,,,,"Patient bien, prend ses médicaments.",160/107,160,107,,,partial,[],en
+1395,69,2026-05-02,chw,,,,,,,"Home visit, no complaints.",153/102,153,102,,,yes,[],en
+1396,69,2026-05-25,chw,,,,,,,Patient ran out of tablets last week.,161/109,161,109,,,partial,[],en
+1397,69,2026-05-29,chw,,,,,,,Patient complains of headache.,167/105,167,105,,,yes,[],en
+1398,70,2025-11-22,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,152/100,152,100,7.7,mmol/L,no,[],en
+1399,70,2026-02-04,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,140/88,140,88,5.5,mmol/L,partial,[],en
+1400,70,2026-04-28,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,145/92,145,92,4.9,mmol/L,partial,[],fr
+1401,70,2025-11-22,chw,,,,,,,Takes medicine only when feeling unwell.,147/95,147,95,,,no,[],en
+1402,70,2025-12-06,chw,,,,,,,Takes medicine only when feeling unwell.,146/95,146,95,,,no,[],en
+1403,70,2025-12-26,chw,,,,,,,Patient ran out of tablets last week.,139/92,139,92,,,partial,[],en
+1404,70,2026-01-16,chw,,,,,,,"Patient well, taking medicine.",141/90,141,90,,,yes,[],en
+1405,70,2026-02-01,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,146/96,146,96,,,partial,[],en
+1406,70,2026-03-01,chw,,,,,,,Patient ran out of tablets last week.,142/90,142,90,,,partial,[],en
+1407,70,2026-03-25,chw,,,,,,,"Home visit, no complaints.",141/97,141,97,,,partial,[],en
+1408,70,2026-04-11,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,147/92,147,92,,,partial,[],en
+1409,70,2026-04-26,chw,,,,,,,"Patient well, taking medicine.",155/93,155,93,,,no,[],en
+1410,70,2026-05-15,chw,,,,,,,"Patient well, taking medicine.",141/91,141,91,,,yes,[],en
+1411,70,2026-06-06,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,157/105,157,105,,,partial,[],en
+1412,70,2026-06-11,chw,,,,,,,Patient complains of headache.,163/99,163,99,,,partial,"[""headache""]",en
+1413,71,2025-10-24,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,141/90,141,90,7.6,mmol/L,yes,[],en
+1414,71,2026-01-12,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Discussed salt reduction.,,131/87,131,87,4.7,mmol/L,yes,[],en
+1415,71,2026-03-18,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,135/89,135,89,7.4,mmol/L,yes,[],en
+1416,71,2025-10-15,chw,,,,,,,"Patient bien, prend ses médicaments.",135/90,135,90,,,yes,[],en
+1417,71,2025-11-09,chw,,,,,,,"Patient well, taking medicine.",135/88,135,88,,,yes,[],en
+1418,71,2025-12-01,chw,,,,,,,"Home visit, no complaints.",141/94,141,94,,,yes,[],en
+1419,71,2025-12-20,chw,,,,,,,"Patient well, taking medicine.",140/88,140,88,,,partial,[],en
+1420,71,2026-01-10,chw,,,,,,,"Home visit, no complaints.",135/86,135,86,,,yes,[],en
+1421,71,2026-01-28,chw,,,,,,,"Patient bien, prend ses médicaments.",136/88,136,88,,,yes,[],en
+1422,71,2026-02-22,chw,,,,,,,"Patient bien, prend ses médicaments.",137/94,137,94,,,yes,[],en
+1423,71,2026-03-14,chw,,,,,,,"Patient bien, prend ses médicaments.",136/92,136,92,,,yes,[],en
+1424,71,2026-04-07,chw,,,,,,,"Home visit, no complaints.",140/93,140,93,,,partial,[],en
+1425,71,2026-04-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/97,145,97,,,yes,[],en
+1426,71,2026-05-03,chw,,,,,,,Patient complains of headache.,156/96,156,96,,,yes,[],en
+1427,72,2025-11-06,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,140/86,140,86,5.0,mmol/L,yes,[],fr
+1428,72,2026-01-12,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Stable. Continuer.,,139/95,139,95,5.9,mmol/L,yes,[],fr
+1429,72,2026-03-15,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,140/91,140,91,5.4,mmol/L,yes,[],fr
+1430,72,2026-05-27,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,152/96,152,96,5.5,mmol/L,yes,[],fr
+1431,72,2025-11-11,chw,,,,,,,"Home visit, no complaints.",135/88,135,88,,,yes,[],en
+1432,72,2025-12-05,chw,,,,,,,"Home visit, no complaints.",137/89,137,89,,,yes,[],en
+1433,72,2025-12-23,chw,,,,,,,"Patient well, taking medicine.",150/98,150,98,,,yes,[],en
+1434,72,2026-01-11,chw,,,,,,,"Home visit, no complaints.",143/92,143,92,,,yes,[],en
+1435,72,2026-01-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/95,139,95,,,yes,[],en
+1436,72,2026-02-13,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",149/97,149,97,,,yes,[],en
+1437,72,2026-03-11,chw,,,,,,,"Patient bien, prend ses médicaments.",145/86,145,86,,,yes,[],en
+1438,72,2026-04-08,chw,,,,,,,"Patient well, taking medicine.",147/93,147,93,,,yes,[],en
+1439,72,2026-04-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",139/95,139,95,,,yes,[],en
+1440,72,2026-05-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",147/102,147,102,,,yes,[],en
+1441,72,2026-06-10,chw,,,,,,,"Patient well, taking medicine.",152/94,152,94,,,yes,[],en
+1442,72,2026-06-25,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,162/105,162,105,,,partial,[],en
+1443,72,2026-06-29,chw,,,,,,,Patient complains of headache.,162/104,162,104,,,yes,[],en
+1444,73,2025-11-04,clinic,Needs refill of medicine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Stable. Continue.,,127/78,127,78,5.7,mmol/L,yes,[],en
+1445,73,2026-01-23,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,126/77,126,77,5.7,mmol/L,yes,[],fr
+1446,73,2026-04-21,clinic,Came for blood pressure review,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Reduce salt.,Adherence counselling given.,,126/78,126,78,6.5,mmol/L,yes,[],en
+1447,73,2025-10-22,chw,,,,,,,"Home visit, no complaints.",129/83,129,83,,,yes,[],en
+1448,73,2025-11-09,chw,,,,,,,"Home visit, no complaints.",120/80,120,80,,,yes,[],en
+1449,73,2025-11-28,chw,,,,,,,"Patient bien, prend ses médicaments.",124/79,124,79,,,yes,[],en
+1450,73,2025-12-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",129/87,129,87,,,yes,[],en
+1451,73,2026-01-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/85,131,85,,,yes,[],en
+1452,73,2026-02-05,chw,,,,,,,"Home visit, no complaints.",133/85,133,85,,,yes,[],en
+1453,73,2026-03-04,chw,,,,,,,"Home visit, no complaints.",125/81,125,81,,,yes,[],en
+1454,73,2026-03-23,chw,,,,,,,"Home visit, no complaints.",128/81,128,81,,,yes,[],en
+1455,73,2026-04-17,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/81,131,81,,,yes,[],en
+1456,73,2026-05-06,chw,,,,,,,"Patient well, taking medicine.",125/77,125,77,,,yes,[],en
+1457,73,2026-05-31,chw,,,,,,,"Patient well, taking medicine.",147/83,147,83,,,yes,[],en
+1458,73,2026-06-06,chw,,,,,,,Patient complains of headache.,161/93,161,93,,,yes,[],en
+1459,74,2025-10-16,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,135/85,135,85,5.5,mmol/L,partial,[],fr
+1460,74,2025-12-16,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,134/88,134,88,6.5,mmol/L,yes,[],fr
+1461,74,2026-02-20,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Adherence counselling given.,,136/79,136,79,5.1,mmol/L,yes,[],en
+1462,74,2026-05-19,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,138/84,138,84,6.9,mmol/L,yes,[],en
+1463,74,2025-10-26,chw,,,,,,,"Patient bien, prend ses médicaments.",147/92,147,92,,,yes,[],en
+1464,74,2025-11-20,chw,,,,,,,"Patient well, taking medicine.",135/88,135,88,,,yes,[],en
+1465,74,2025-12-14,chw,,,,,,,"Home visit, no complaints.",137/87,137,87,,,yes,[],en
+1466,74,2026-01-04,chw,,,,,,,"Patient bien, prend ses médicaments.",136/84,136,84,,,yes,[],en
+1467,74,2026-01-20,chw,,,,,,,"Patient well, taking medicine.",134/79,134,79,,,yes,[],en
+1468,74,2026-02-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",133/83,133,83,,,yes,[],en
+1469,74,2026-02-21,chw,,,,,,,"Home visit, no complaints.",137/83,137,83,,,yes,[],en
+1470,74,2026-03-20,chw,,,,,,,Amesahau dawa siku kadhaa.,143/90,143,90,,,partial,[],en
+1471,74,2026-04-04,chw,,,,,,,"Patient well, taking medicine.",142/90,142,90,,,partial,[],en
+1472,74,2026-05-01,chw,,,,,,,"Patient bien, prend ses médicaments.",129/86,129,86,,,yes,[],en
+1473,74,2026-05-20,chw,,,,,,,"Home visit, no complaints.",141/91,141,91,,,yes,[],en
+1474,74,2026-06-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/95,142,95,,,yes,[],en
+1475,74,2026-07-01,chw,,,,,,,"Patient bien, prend ses médicaments.",147/87,147,87,,,yes,[],en
+1476,74,2026-07-12,chw,,,,,,,Patient complains of headache.,161/94,161,94,,,yes,[],en
+1477,75,2025-11-22,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,129/86,129,86,7.5,mmol/L,yes,[],fr
+1478,75,2026-02-13,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Conseils sur la réduction du sel.,,139/95,139,95,4.5,mmol/L,yes,[],fr
+1479,75,2026-05-08,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Amlodipine 5 mg once daily. Réduire le sel.,Stable. Continuer.,,152/96,152,96,7.2,mmol/L,yes,[],fr
+1480,75,2025-11-09,chw,,,,,,,"Patient bien, prend ses médicaments.",132/88,132,88,,,yes,[],en
+1481,75,2025-11-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/93,134,93,,,yes,[],en
+1482,75,2025-12-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/90,131,90,,,yes,[],en
+1483,75,2026-01-20,chw,,,,,,,"Home visit, no complaints.",135/88,135,88,,,yes,[],en
+1484,75,2026-02-07,chw,,,,,,,"Patient bien, prend ses médicaments.",132/87,132,87,,,yes,[],en
+1485,75,2026-02-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/93,140,93,,,yes,[],en
+1486,75,2026-03-20,chw,,,,,,,"Patient well, taking medicine.",139/91,139,91,,,yes,[],en
+1487,75,2026-04-16,chw,,,,,,,"Patient well, taking medicine.",136/87,136,87,,,yes,[],en
+1488,75,2026-05-06,chw,,,,,,,"Patient well, taking medicine.",147/96,147,96,,,yes,[],en
+1489,75,2026-05-25,chw,,,,,,,"Patient bien, prend ses médicaments.",153/94,153,94,,,yes,[],en
+1490,75,2026-05-27,chw,,,,,,,Patient complains of headache.,154/100,154,100,,,yes,[],en
+1491,76,2025-11-11,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,141/79,141,79,6.8,mmol/L,partial,[],en
+1492,76,2026-02-06,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,139/81,139,81,6.7,mmol/L,yes,[],fr
+1493,76,2026-04-30,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,145/81,145,81,7.3,mmol/L,partial,[],en
+1494,76,2025-11-12,chw,,,,,,,Amesahau dawa siku kadhaa.,139/76,139,76,,,no,[],en
+1495,76,2025-12-03,chw,,,,,,,"Patient bien, prend ses médicaments.",133/77,133,77,,,partial,[],en
+1496,76,2025-12-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/83,138,83,,,partial,[],en
+1497,76,2026-01-22,chw,,,,,,,"Patient bien, prend ses médicaments.",143/81,143,81,,,no,[],en
+1498,76,2026-02-09,chw,,,,,,,"Home visit, no complaints.",133/89,133,89,,,partial,[],en
+1499,76,2026-03-05,chw,,,,,,,"Patient well, taking medicine.",137/80,137,80,,,partial,[],en
+1500,76,2026-03-25,chw,,,,,,,Amesahau dawa siku kadhaa.,135/78,135,78,,,partial,[],en
+1501,76,2026-04-14,chw,,,,,,,"Patient well, taking medicine.",139/78,139,78,,,partial,[],en
+1502,76,2026-05-08,chw,,,,,,,"Patient bien, prend ses médicaments.",129/82,129,82,,,yes,[],en
+1503,76,2026-05-26,chw,,,,,,,Takes medicine only when feeling unwell.,139/81,139,81,,,no,[],en
+1504,76,2026-06-15,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,147/89,147,89,,,partial,[],en
+1505,76,2026-07-08,chw,,,,,,,"Patient well, taking medicine.",156/90,156,90,,,partial,[],en
+1506,76,2026-07-11,chw,,,,,,,Patient complains of headache.,154/92,154,92,,,no,"[""headache""]",en
+1507,77,2025-11-17,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,148/100,148,100,8.0,mmol/L,yes,[],en
+1508,77,2026-02-14,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Adherence counselling given.,,150/104,150,104,6.2,mmol/L,yes,[],en
+1509,77,2026-05-11,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Discussed salt reduction.,,141/100,141,100,7.2,mmol/L,yes,[],en
+1510,77,2025-11-07,chw,,,,,,,"Patient bien, prend ses médicaments.",149/98,149,98,,,yes,[],en
+1511,77,2025-11-29,chw,,,,,,,"Patient well, taking medicine.",145/101,145,101,,,yes,[],en
+1512,77,2025-12-23,chw,,,,,,,"Patient well, taking medicine.",145/94,145,94,,,yes,[],en
+1513,77,2026-01-14,chw,,,,,,,"Patient well, taking medicine.",145/96,145,96,,,yes,[],en
+1514,77,2026-02-02,chw,,,,,,,"Home visit, no complaints.",146/98,146,98,,,yes,[],en
+1515,77,2026-03-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",141/96,141,96,,,yes,[],en
+1516,77,2026-03-15,chw,,,,,,,"Patient bien, prend ses médicaments.",150/97,150,97,,,yes,[],en
+1517,77,2026-04-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",150/98,150,98,,,yes,[],en
+1518,77,2026-04-17,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/95,143,95,,,yes,[],en
+1519,77,2026-05-07,chw,,,,,,,"Patient bien, prend ses médicaments.",150/101,150,101,,,yes,[],en
+1520,77,2026-05-24,chw,,,,,,,"Patient well, taking medicine.",145/94,145,94,,,yes,[],en
+1521,77,2026-06-17,chw,,,,,,,Patient ran out of tablets last week.,153/95,153,95,,,partial,[],en
+1522,77,2026-07-05,chw,,,,,,,Patient complains of headache.,156/101,156,101,,,yes,"[""headache""]",en
+1523,78,2025-11-06,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,124/83,124,83,7.8,mmol/L,yes,[],en
+1524,78,2026-02-01,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Adherence counselling given.,,128/85,128,85,7.6,mmol/L,yes,[],en
+1525,78,2025-11-04,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",125/78,125,78,,,yes,[],en
+1526,78,2025-11-30,chw,,,,,,,"Patient well, taking medicine.",128/83,128,83,,,yes,[],en
+1527,78,2025-12-17,chw,,,,,,,"Patient bien, prend ses médicaments.",133/80,133,80,,,yes,[],en
+1528,78,2026-01-14,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,128/85,128,85,,,partial,[],en
+1529,78,2026-02-03,chw,,,,,,,"Home visit, no complaints.",131/86,131,86,,,yes,[],en
+1530,78,2026-02-18,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/87,134,87,,,yes,[],en
+1531,78,2026-03-13,chw,,,,,,,"Patient bien, prend ses médicaments.",142/87,142,87,,,yes,[],en
+1532,78,2026-04-05,chw,,,,,,,"Patient bien, prend ses médicaments.",147/86,147,86,,,yes,[],en
+1533,78,2026-04-07,chw,,,,,,,Patient complains of headache.,151/91,151,91,,,yes,"[""headache""]",en
+1534,79,2025-11-22,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,144/87,144,87,5.2,mmol/L,yes,[],fr
+1535,79,2026-02-10,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,161/100,161,100,4.9,mmol/L,yes,[],fr
+1536,79,2026-04-16,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,139/93,139,93,5.5,mmol/L,yes,[],fr
+1537,79,2025-11-22,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",152/92,152,92,,,yes,[],en
+1538,79,2025-12-16,chw,,,,,,,"Patient bien, prend ses médicaments.",143/90,143,90,,,yes,[],en
+1539,79,2026-01-02,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",147/89,147,89,,,yes,[],en
+1540,79,2026-01-30,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,152/95,152,95,,,partial,[],en
+1541,79,2026-02-17,chw,,,,,,,Amesahau dawa siku kadhaa.,150/96,150,96,,,partial,[],en
+1542,79,2026-03-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",150/95,150,95,,,yes,[],en
+1543,79,2026-03-31,chw,,,,,,,"Patient bien, prend ses médicaments.",153/92,153,92,,,yes,[],en
+1544,79,2026-04-28,chw,,,,,,,"Patient well, taking medicine.",152/96,152,96,,,yes,[],en
+1545,79,2026-05-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",151/91,151,91,,,yes,[],en
+1546,80,2025-10-30,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,126/78,126,78,6.9,mmol/L,yes,[],fr
+1547,80,2026-01-26,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,127/77,127,77,5.4,mmol/L,yes,[],fr
+1548,80,2026-04-01,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,135/84,135,84,6.4,mmol/L,yes,[],fr
+1549,80,2026-06-10,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,131/75,131,75,5.1,mmol/L,yes,[],fr
+1550,80,2025-11-13,chw,,,,,,,"Patient bien, prend ses médicaments.",132/81,132,81,,,yes,[],en
+1551,80,2025-11-30,chw,,,,,,,"Patient bien, prend ses médicaments.",129/78,129,78,,,yes,[],en
+1552,80,2025-12-24,chw,,,,,,,"Patient bien, prend ses médicaments.",131/81,131,81,,,yes,[],en
+1553,80,2026-01-07,chw,,,,,,,"Home visit, no complaints.",137/85,137,85,,,yes,[],en
+1554,80,2026-01-27,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/84,132,84,,,yes,[],en
+1555,80,2026-02-23,chw,,,,,,,"Patient bien, prend ses médicaments.",132/77,132,77,,,partial,[],en
+1556,80,2026-03-17,chw,,,,,,,"Patient well, taking medicine.",134/86,134,86,,,yes,[],en
+1557,80,2026-04-11,chw,,,,,,,Patient ran out of tablets last week.,130/78,130,78,,,partial,[],en
+1558,80,2026-04-26,chw,,,,,,,"Patient bien, prend ses médicaments.",133/83,133,83,,,yes,[],en
+1559,80,2026-05-24,chw,,,,,,,"Patient bien, prend ses médicaments.",127/80,127,80,,,yes,[],en
+1560,80,2026-06-07,chw,,,,,,,"Home visit, no complaints.",139/82,139,82,,,yes,[],en
+1561,80,2026-06-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/79,132,79,,,yes,[],en
+1562,81,2025-10-31,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,140/92,140,92,6.3,mmol/L,yes,[],fr
+1563,81,2026-01-06,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,133/83,133,83,5.3,mmol/L,yes,[],fr
+1564,81,2026-03-20,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,145/87,145,87,7.4,mmol/L,yes,[],fr
+1565,81,2025-11-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/86,138,86,,,yes,[],en
+1566,81,2025-11-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/85,140,85,,,yes,[],en
+1567,81,2025-12-24,chw,,,,,,,"Patient well, taking medicine.",139/84,139,84,,,yes,[],en
+1568,81,2026-01-11,chw,,,,,,,"Patient bien, prend ses médicaments.",140/92,140,92,,,yes,[],en
+1569,81,2026-01-30,chw,,,,,,,"Patient bien, prend ses médicaments.",143/88,143,88,,,yes,[],en
+1570,81,2026-02-18,chw,,,,,,,"Patient well, taking medicine.",138/83,138,83,,,yes,[],en
+1571,81,2026-03-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/86,140,86,,,partial,[],en
+1572,81,2026-04-08,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/86,142,86,,,yes,[],en
+1573,82,2025-10-25,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,134/88,134,88,6.0,mmol/L,yes,[],fr
+1574,82,2026-01-19,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,141/91,141,91,7.5,mmol/L,yes,[],en
+1575,82,2026-03-31,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Stable. Continue.,,146/93,146,93,8.3,mmol/L,yes,[],en
+1576,82,2026-06-23,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,147/94,147,94,6.3,mmol/L,yes,[],fr
+1577,82,2025-11-03,chw,,,,,,,"Patient well, taking medicine.",138/84,138,84,,,yes,[],en
+1578,82,2025-11-17,chw,,,,,,,Amesahau dawa siku kadhaa.,138/86,138,86,,,partial,[],en
+1579,82,2025-12-01,chw,,,,,,,"Home visit, no complaints.",136/86,136,86,,,yes,[],en
+1580,82,2025-12-20,chw,,,,,,,"Patient bien, prend ses médicaments.",144/86,144,86,,,yes,[],en
+1581,82,2026-01-03,chw,,,,,,,"Patient bien, prend ses médicaments.",137/84,137,84,,,yes,[],en
+1582,82,2026-01-22,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",130/80,130,80,,,yes,[],en
+1583,82,2026-02-07,chw,,,,,,,"Patient well, taking medicine.",135/91,135,91,,,yes,[],en
+1584,82,2026-03-06,chw,,,,,,,"Patient well, taking medicine.",138/86,138,86,,,yes,[],en
+1585,82,2026-03-23,chw,,,,,,,"Patient bien, prend ses médicaments.",148/91,148,91,,,yes,[],en
+1586,82,2026-04-07,chw,,,,,,,"Patient well, taking medicine.",149/96,149,96,,,yes,[],en
+1587,82,2026-04-29,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/93,145,93,,,yes,[],en
+1588,82,2026-05-20,chw,,,,,,,"Home visit, no complaints.",146/96,146,96,,,yes,[],en
+1589,82,2026-06-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",156/98,156,98,,,yes,[],en
+1590,82,2026-07-07,chw,,,,,,,"Home visit, no complaints.",145/94,145,94,,,yes,[],en
+1591,83,2025-10-28,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Adherence counselling given.,,141/93,141,93,4.7,mmol/L,yes,[],en
+1592,83,2026-01-18,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,Discussed salt reduction.,,146/91,146,91,7.9,mmol/L,yes,[],en
+1593,83,2026-04-09,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,140/93,140,93,6.9,mmol/L,yes,[],fr
+1594,83,2026-06-27,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,141/94,141,94,6.9,mmol/L,yes,[],en
+1595,83,2025-10-22,chw,,,,,,,"Patient bien, prend ses médicaments.",142/96,142,96,,,yes,[],en
+1596,83,2025-11-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",141/87,141,87,,,yes,[],en
+1597,83,2025-11-26,chw,,,,,,,"Patient bien, prend ses médicaments.",149/96,149,96,,,yes,[],en
+1598,83,2025-12-22,chw,,,,,,,"Patient bien, prend ses médicaments.",136/92,136,92,,,yes,[],en
+1599,83,2026-01-12,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",134/91,134,91,,,yes,[],en
+1600,83,2026-02-08,chw,,,,,,,"Patient well, taking medicine.",142/91,142,91,,,yes,[],en
+1601,83,2026-02-26,chw,,,,,,,"Patient well, taking medicine.",139/91,139,91,,,yes,[],en
+1602,83,2026-03-14,chw,,,,,,,"Home visit, no complaints.",142/89,142,89,,,yes,[],en
+1603,83,2026-03-31,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",142/90,142,90,,,yes,[],en
+1604,83,2026-04-24,chw,,,,,,,"Patient well, taking medicine.",143/96,143,96,,,yes,[],en
+1605,83,2026-05-15,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",141/88,141,88,,,yes,[],en
+1606,83,2026-06-10,chw,,,,,,,"Patient bien, prend ses médicaments.",144/94,144,94,,,yes,[],en
+1607,84,2025-10-24,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,123/83,123,83,8.2,mmol/L,yes,[],fr
+1608,84,2026-01-06,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,125/78,125,78,7.4,mmol/L,yes,[],fr
+1609,84,2026-03-24,clinic,Suivi de la tension,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,122/82,122,82,8.3,mmol/L,yes,[],fr
+1610,84,2026-06-04,clinic,Maux de tête légers parfois,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,125/83,125,83,6.5,mmol/L,yes,[],fr
+1611,84,2025-10-25,chw,,,,,,,"Patient well, taking medicine.",117/78,117,78,,,yes,[],en
+1612,84,2025-11-09,chw,,,,,,,"Patient well, taking medicine.",123/83,123,83,,,yes,[],en
+1613,84,2025-12-01,chw,,,,,,,"Patient bien, prend ses médicaments.",124/83,124,83,,,yes,[],en
+1614,84,2025-12-21,chw,,,,,,,"Home visit, no complaints.",120/86,120,86,,,yes,[],en
+1615,84,2026-01-06,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",123/82,123,82,,,yes,[],en
+1616,84,2026-02-03,chw,,,,,,,"Patient bien, prend ses médicaments.",124/80,124,80,,,yes,[],en
+1617,84,2026-03-03,chw,,,,,,,"Patient well, taking medicine.",124/90,124,90,,,yes,[],en
+1618,84,2026-03-25,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",127/90,127,90,,,yes,[],en
+1619,84,2026-04-15,chw,,,,,,,"Patient well, taking medicine.",118/77,118,77,,,yes,[],en
+1620,84,2026-04-30,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",131/87,131,87,,,yes,[],en
+1621,84,2026-05-27,chw,,,,,,,"Patient bien, prend ses médicaments.",133/86,133,86,,,yes,[],en
+1622,84,2026-06-22,chw,,,,,,,"Patient well, taking medicine.",132/80,132,80,,,yes,[],en
+1623,84,2026-07-07,chw,,,,,,,"Home visit, no complaints.",120/75,120,75,,,yes,[],en
+1624,85,2025-10-26,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,146/85,146,85,6.5,mmol/L,yes,[],fr
+1625,85,2025-12-30,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,147/86,147,86,8.0,mmol/L,yes,[],fr
+1626,85,2026-03-11,clinic,Contrôle de routine,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Stable. Continuer.,,136/86,136,86,5.9,mmol/L,yes,[],fr
+1627,85,2025-10-28,chw,,,,,,,"Home visit, no complaints.",144/89,144,89,,,yes,[],en
+1628,85,2025-11-18,chw,,,,,,,"Patient well, taking medicine.",131/73,131,73,,,yes,[],en
+1629,85,2025-12-15,chw,,,,,,,"Home visit, no complaints.",137/83,137,83,,,yes,[],en
+1630,85,2026-01-04,chw,,,,,,,"Patient well, taking medicine.",149/84,149,84,,,yes,[],en
+1631,85,2026-01-26,chw,,,,,,,Amesahau dawa siku kadhaa.,144/86,144,86,,,partial,[],en
+1632,85,2026-02-15,chw,,,,,,,"Patient bien, prend ses médicaments.",143/82,143,82,,,yes,[],en
+1633,85,2026-03-13,chw,,,,,,,"Patient well, taking medicine.",149/87,149,87,,,yes,[],en
+1634,86,2025-11-03,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,Éducation sur l'observance.,,123/80,123,80,4.7,mmol/L,yes,[],fr
+1635,86,2026-01-15,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,130/75,130,75,8.4,mmol/L,yes,[],en
+1636,86,2026-04-02,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Adherence counselling given.,,124/77,124,77,6.6,mmol/L,yes,[],en
+1637,86,2025-10-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",127/76,127,76,,,yes,[],en
+1638,86,2025-11-22,chw,,,,,,,"Patient well, taking medicine.",121/77,121,77,,,yes,[],en
+1639,86,2025-12-11,chw,,,,,,,"Patient well, taking medicine.",128/79,128,79,,,yes,[],en
+1640,86,2026-01-06,chw,,,,,,,"Patient bien, prend ses médicaments.",132/87,132,87,,,yes,[],en
+1641,86,2026-01-30,chw,,,,,,,"Patient well, taking medicine.",125/83,125,83,,,yes,[],en
+1642,86,2026-02-15,chw,,,,,,,"Patient well, taking medicine.",133/80,133,80,,,yes,[],en
+1643,86,2026-03-04,chw,,,,,,,"Patient bien, prend ses médicaments.",119/72,119,72,,,yes,[],en
+1644,86,2026-03-26,chw,,,,,,,"Home visit, no complaints.",129/79,129,79,,,yes,[],en
+1645,86,2026-04-09,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",125/70,125,70,,,yes,[],en
+1646,86,2026-04-27,chw,,,,,,,"Home visit, no complaints.",125/74,125,74,,,yes,[],en
+1647,87,2025-10-31,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,150/91,150,91,6.8,mmol/L,yes,[],fr
+1648,87,2026-01-07,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,134/85,134,85,6.8,mmol/L,yes,[],fr
+1649,87,2026-03-27,clinic,Renouvellement du traitement,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,133/81,133,81,8.1,mmol/L,yes,[],fr
+1650,87,2025-10-31,chw,,,,,,,"Patient bien, prend ses médicaments.",128/80,128,80,,,yes,[],en
+1651,87,2025-11-16,chw,,,,,,,"Home visit, no complaints.",135/82,135,82,,,partial,[],en
+1652,87,2025-12-05,chw,,,,,,,"Patient well, taking medicine.",132/81,132,81,,,partial,[],en
+1653,87,2025-12-29,chw,,,,,,,"Patient bien, prend ses médicaments.",138/80,138,80,,,yes,[],en
+1654,87,2026-01-26,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/92,140,92,,,yes,[],en
+1655,87,2026-02-22,chw,,,,,,,"Patient well, taking medicine.",142/82,142,82,,,yes,[],en
+1656,87,2026-03-10,chw,,,,,,,"Patient bien, prend ses médicaments.",140/86,140,86,,,yes,[],en
+1657,88,2025-11-26,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Stable. Continuer.,,140/89,140,89,4.7,mmol/L,yes,[],fr
+1658,88,2026-02-08,clinic,Ukaguzi wa kawaida,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Éducation sur l'observance.,,139/89,139,89,8.2,mmol/L,yes,[],fr
+1659,88,2026-05-01,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Enalapril 5 mg twice daily. Réduire le sel.,Conseils sur la réduction du sel.,,135/89,135,89,5.8,mmol/L,yes,[],fr
+1660,88,2025-11-19,chw,,,,,,,"Home visit, no complaints.",141/89,141,89,,,yes,[],en
+1661,88,2025-12-16,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",145/91,145,91,,,yes,[],en
+1662,88,2026-01-07,chw,,,,,,,"Home visit, no complaints.",147/92,147,92,,,yes,[],en
+1663,88,2026-01-28,chw,,,,,,,"Patient bien, prend ses médicaments.",141/88,141,88,,,yes,[],en
+1664,88,2026-02-11,chw,,,,,,,"Patient bien, prend ses médicaments.",138/92,138,92,,,yes,[],en
+1665,88,2026-03-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/86,138,86,,,yes,[],en
+1666,88,2026-03-22,chw,,,,,,,"Home visit, no complaints.",152/98,152,98,,,yes,[],en
+1667,88,2026-04-07,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",140/90,140,90,,,yes,[],en
+1668,88,2026-05-02,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",143/95,143,95,,,yes,[],en
+1669,88,2026-05-26,chw,,,,,,,"Patient well, taking medicine.",147/97,147,97,,,yes,[],en
+1670,89,2025-11-19,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,"BP not at goal, continue treatment and lifestyle advice.",,146/90,146,90,8.0,mmol/L,yes,[],en
+1671,89,2026-01-20,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,145/91,145,91,7.4,mmol/L,partial,[],fr
+1672,89,2026-04-09,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Nifedipine 20 mg twice daily. Reduce salt.,Discussed salt reduction.,,157/100,157,100,7.7,mmol/L,yes,[],en
+1673,89,2025-11-07,chw,,,,,,,"Patient well, taking medicine.",146/90,146,90,,,yes,[],en
+1674,89,2025-11-28,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",138/88,138,88,,,yes,[],en
+1675,89,2025-12-12,chw,,,,,,,"Home visit, no complaints.",133/88,133,88,,,yes,[],en
+1676,89,2026-01-09,chw,,,,,,,"Patient well, taking medicine.",138/85,138,85,,,yes,[],en
+1677,89,2026-02-05,chw,,,,,,,"Home visit, no complaints.",146/91,146,91,,,yes,[],en
+1678,89,2026-02-21,chw,,,,,,,"Patient well, taking medicine.",157/93,157,93,,,yes,[],en
+1679,89,2026-03-07,chw,,,,,,,"Patient bien, prend ses médicaments.",152/89,152,89,,,yes,[],en
+1680,89,2026-03-23,chw,,,,,,,N'a pas pris ses comprimés depuis 3 jours.,161/94,161,94,,,partial,[],en
+1681,89,2026-04-14,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",156/92,156,92,,,yes,[],en
+1682,89,2026-05-03,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",154/91,154,91,,,yes,[],en
+1683,90,2025-10-26,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Discussed salt reduction.,,141/86,141,86,8.5,mmol/L,yes,[],en
+1684,90,2026-01-04,clinic,Kichwa kinauma kidogo mara moja moja,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Stable. Continue.,,145/95,145,95,5.3,mmol/L,yes,[],en
+1685,90,2026-04-04,clinic,Dawa zimeisha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Reduce salt.,Discussed salt reduction.,,138/90,138,90,5.3,mmol/L,yes,[],en
+1686,90,2026-06-08,clinic,Nimekuja kupima presha,"[""bp"", ""blood_sugar"", ""weight""]","[""hypertension""]",[],Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.,"TA non contrôlée, poursuivre le traitement.",,133/87,133,87,7.1,mmol/L,yes,[],fr
+1687,90,2025-10-24,chw,,,,,,,"Home visit, no complaints.",134/84,134,84,,,partial,[],en
+1688,90,2025-11-18,chw,,,,,,,"Patient bien, prend ses médicaments.",134/86,134,86,,,yes,[],en
+1689,90,2025-12-14,chw,,,,,,,"Patient well, taking medicine.",136/80,136,80,,,yes,[],en
+1690,90,2026-01-02,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/86,137,86,,,yes,[],en
+1691,90,2026-01-26,chw,,,,,,,"Home visit, no complaints.",134/78,134,78,,,yes,[],en
+1692,90,2026-02-16,chw,,,,,,,"Home visit, no complaints.",133/84,133,84,,,yes,[],en
+1693,90,2026-03-10,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/86,137,86,,,yes,[],en
+1694,90,2026-04-01,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",132/83,132,83,,,yes,[],en
+1695,90,2026-04-24,chw,,,,,,,"Mgonjwa yuko sawa, anakunywa dawa.",137/83,137,83,,,yes,[],en
+1696,90,2026-05-16,chw,,,,,,,"Home visit, no complaints.",144/86,144,86,,,yes,[],en
+1697,90,2026-06-08,chw,,,,,,,"Home visit, no complaints.",134/85,134,85,,,yes,[],en

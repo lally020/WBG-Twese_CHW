@@ -1,0 +1,618 @@
+{
+  "version": "2026-10-03-draft",
+  "approved": false,
+  "approved_by": "",
+  "note": "Drafted by Claude Code for physician review. Not approved clinical content.",
+  "languages_verified": {
+    "en": true,
+    "sw": false,
+    "fr": false,
+    "rn": false
+  },
+  "needs_retranslation": [
+    "q06",
+    "q12"
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "topic": "medication",
+      "correct": 2,
+      "source": "WHO HEARTS technical package, 2018",
+      "text": {
+        "en": "When should you take your blood pressure medicine?",
+        "sw": "Unapaswa kunywa dawa ya presha lini?",
+        "fr": "Quand faut-il prendre le médicament de la tension ?",
+        "rn": "Mutegerezwa kunywa umuti w'umuvuduko w'amaraso ryari?"
+      },
+      "options": {
+        "en": [
+          "Only when I feel sick",
+          "Every day, as I was told",
+          "Only when BP is very high"
+        ],
+        "sw": [
+          "Ninapojisikia mgonjwa tu",
+          "Kila siku, kama nilivyoelekezwa",
+          "Presha ikiwa juu sana tu"
+        ],
+        "fr": [
+          "Seulement quand je suis malade",
+          "Chaque jour, comme on m'a dit",
+          "Seulement si la tension est haute"
+        ],
+        "rn": [
+          "Igihe ndwaye gusa",
+          "Imisi yose, nk'uko nabwiwe",
+          "Igihe umuvuduko uri hejuru gusa"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: take your medicine every day, as the health worker or doctor told you.",
+        "sw": "Asante. Jibu sahihi: kunywa dawa yako kila siku, kama mhudumu wa afya au daktari alivyokuambia.",
+        "fr": "Merci. La bonne réponse : prenez votre médicament chaque jour, comme l'agent de santé ou le médecin vous l'a dit.",
+        "rn": "Murakoze. Inyishu nziza: nimunywe umuti imisi yose, nk'uko umuremesha w'amagara canke umuganga yababwiye."
+      }
+    },
+    {
+      "id": "q02",
+      "topic": "medication",
+      "correct": 1,
+      "source": "ISH 2020 guidelines",
+      "text": {
+        "en": "You feel well. What do you do with your BP medicine?",
+        "sw": "Unajisikia vizuri. Ufanye nini na dawa ya presha?",
+        "fr": "Vous vous sentez bien. Que faire avec le médicament de la tension ?",
+        "rn": "Mwiyumva neza. Mukora iki n'umuti w'umuvuduko w'amaraso?"
+      },
+      "options": {
+        "en": [
+          "Keep taking it every day",
+          "Stop taking it",
+          "Take it every few days"
+        ],
+        "sw": [
+          "Niendelee kunywa kila siku",
+          "Niache kunywa",
+          "Ninywe baada ya siku kadhaa"
+        ],
+        "fr": [
+          "Continuer chaque jour",
+          "Arrêter de le prendre",
+          "Le prendre de temps en temps"
+        ],
+        "rn": [
+          "Kubandanya kuwunywa imisi yose",
+          "Kureka kuwunywa",
+          "Kuwunywa rimwe na rimwe"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: keep taking it every day, even when you feel well. BP can be high with no signs.",
+        "sw": "Asante. Jibu sahihi: endelea kunywa dawa kila siku hata ukijisikia vizuri. Presha inaweza kuwa juu bila dalili.",
+        "fr": "Merci. La bonne réponse : continuez chaque jour, même si vous vous sentez bien. La tension peut être haute sans signe.",
+        "rn": "Murakoze. Inyishu nziza: nimubandanye kunywa umuti imisi yose, naho mwiyumva neza. Umuvuduko ushobora kuba hejuru nta kimenyetso."
+      }
+    },
+    {
+      "id": "q03",
+      "topic": "medication",
+      "correct": 3,
+      "source": "WHO HEARTS technical package, 2018",
+      "text": {
+        "en": "Your medicine is almost finished. What do you do?",
+        "sw": "Dawa yako inakaribia kuisha. Ufanye nini?",
+        "fr": "Votre médicament est presque fini. Que faire ?",
+        "rn": "Umuti wanyu ugiye guhera. Mukora iki?"
+      },
+      "options": {
+        "en": [
+          "Wait until it is finished",
+          "Use a neighbour's medicine",
+          "Get more before it runs out"
+        ],
+        "sw": [
+          "Nisubiri iishe kabisa",
+          "Nitumie dawa ya jirani",
+          "Nichukue nyingine kabla haijaisha"
+        ],
+        "fr": [
+          "Attendre qu'il soit fini",
+          "Prendre celui du voisin",
+          "En chercher avant qu'il finisse"
+        ],
+        "rn": [
+          "Kurindira ko uhera",
+          "Gukoresha uw'umubanyi",
+          "Kurondera uwundi utaraheze"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: get more medicine before it runs out, so you do not miss any days.",
+        "sw": "Asante. Jibu sahihi: chukua dawa nyingine kabla haijaisha, ili usikose siku hata moja.",
+        "fr": "Merci. La bonne réponse : allez chercher vos médicaments avant qu'ils finissent, pour ne manquer aucun jour.",
+        "rn": "Murakoze. Inyishu nziza: nimurondere uwundi muti utaraheze, kugira ntimusibe n'umusi n'umwe."
+      }
+    },
+    {
+      "id": "q04",
+      "topic": "salt_and_diet",
+      "correct": 2,
+      "source": "WHO HEARTS technical package, 2018; ISH 2020 guidelines",
+      "text": {
+        "en": "What helps lower blood pressure?",
+        "sw": "Nini kinasaidia kushusha presha?",
+        "fr": "Qu'est-ce qui aide à baisser la tension ?",
+        "rn": "Ni igiki gifasha kugabanya umuvuduko w'amaraso?"
+      },
+      "options": {
+        "en": [
+          "Adding more salt to food",
+          "Eating less salt",
+          "Eating more fried food"
+        ],
+        "sw": [
+          "Kuongeza chumvi kwenye chakula",
+          "Kula chumvi kidogo",
+          "Kula vyakula vya kukaanga zaidi"
+        ],
+        "fr": [
+          "Ajouter du sel aux repas",
+          "Manger moins de sel",
+          "Manger plus de fritures"
+        ],
+        "rn": [
+          "Kwongera umunyu mu biryo",
+          "Kurya umunyu muke",
+          "Kurya ibikaranze vyinshi"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: eat less salt. Do not add salt at the table.",
+        "sw": "Asante. Jibu sahihi: kula chumvi kidogo. Usiongeze chumvi mezani.",
+        "fr": "Merci. La bonne réponse : mangez moins de sel. N'ajoutez pas de sel à table.",
+        "rn": "Murakoze. Inyishu nziza: nimurye umunyu muke. Ntimwongere umunyu ku meza."
+      }
+    },
+    {
+      "id": "q05",
+      "topic": "salt_and_diet",
+      "correct": 3,
+      "source": "ISH 2020 guidelines",
+      "text": {
+        "en": "Which food is best for your blood pressure?",
+        "sw": "Chakula gani ni bora kwa presha yako?",
+        "fr": "Quels aliments sont les meilleurs pour la tension ?",
+        "rn": "Ni ibiki vyiza ku muvuduko w'amaraso?"
+      },
+      "options": {
+        "en": [
+          "Salty snacks",
+          "Salty stock cubes",
+          "Vegetables, beans and fruit"
+        ],
+        "sw": [
+          "Vitafunio vyenye chumvi",
+          "Vidonge vya supu vyenye chumvi",
+          "Mboga, maharage na matunda"
+        ],
+        "fr": [
+          "Grignotages salés",
+          "Bouillons cubes salés",
+          "Légumes, haricots et fruits"
+        ],
+        "rn": [
+          "Utuntu turimwo umunyu mwinshi",
+          "Utubuye tw'isosi turimwo umunyu",
+          "Imboga, ibiharage n'ivyamwa"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: vegetables, beans and fruit are best for your blood pressure.",
+        "sw": "Asante. Jibu sahihi: mboga, maharage na matunda ni bora kwa presha yako.",
+        "fr": "Merci. La bonne réponse : légumes, haricots et fruits sont les meilleurs pour la tension.",
+        "rn": "Murakoze. Inyishu nziza: imboga, ibiharage n'ivyamwa ni vyo vyiza ku muvuduko w'amaraso."
+      }
+    },
+    {
+      "id": "q06",
+      "topic": "salt_and_diet",
+      "correct": 1,
+      "source": "ISH 2020 guidelines",
+      "text": {
+        "en": "What else helps your blood pressure?",
+        "sw": "Nini kingine kinasaidia presha yako?",
+        "fr": "Qu'est-ce qui aide aussi la tension ?",
+        "rn": "Ni igiki kandi gifasha umuvuduko w'amaraso?"
+      },
+      "options": {
+        "en": [
+          "Being active, like walking, most days",
+          "Resting all day",
+          "Drinking more alcohol"
+        ],
+        "sw": [
+          "Kufanya mazoezi siku nyingi",
+          "Kunywa pombe zaidi",
+          "Kuvuta sigara zaidi"
+        ],
+        "fr": [
+          "Bouger, comme marcher, presque tous les jours",
+          "Se reposer toute la journée",
+          "Boire plus d'alcool"
+        ],
+        "rn": [
+          "Kugenda n'amaguru imisi myinshi",
+          "Kunywa inzoga nyinshi",
+          "Kunywa itabi cane"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: be active, like walking, most days. Drink less alcohol and do not smoke.",
+        "sw": "Asante. Jibu sahihi: fanya mazoezi, kama kutembea, siku nyingi. Punguza pombe na usivute sigara.",
+        "fr": "Merci. La bonne réponse : bougez, par exemple marchez, presque tous les jours. Buvez moins d'alcool et ne fumez pas.",
+        "rn": "Murakoze. Inyishu nziza: nimugende n'amaguru imisi myinshi. Mugabanye inzoga kandi ntimunywe itabi."
+      }
+    },
+    {
+      "id": "q07",
+      "topic": "danger_signs",
+      "correct": 1,
+      "source": "FAST stroke warning signs, American Stroke Association",
+      "text": {
+        "en": "Which is a warning sign of stroke?",
+        "sw": "Ipi ni dalili ya hatari ya kiharusi?",
+        "fr": "Quel est un signe d'alerte d'AVC ?",
+        "rn": "Ni ikihe kimenyetso c'AVC?"
+      },
+      "options": {
+        "en": [
+          "Face drooping on one side",
+          "Feeling hungry",
+          "A runny nose"
+        ],
+        "sw": [
+          "Uso kulegea upande mmoja",
+          "Kusikia njaa",
+          "Mafua"
+        ],
+        "fr": [
+          "Visage qui tombe d'un côté",
+          "Avoir faim",
+          "Le nez qui coule"
+        ],
+        "rn": [
+          "Mu maso hagoramye uruhande rumwe",
+          "Kwumva inzara",
+          "Ibicurane"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: face drooping on one side is a sign of stroke. Go to the health centre at once.",
+        "sw": "Asante. Jibu sahihi: uso kulegea upande mmoja ni dalili ya kiharusi. Nenda kituo cha afya mara moja.",
+        "fr": "Merci. La bonne réponse : un visage qui tombe d'un côté est un signe d'AVC. Allez tout de suite au centre de santé.",
+        "rn": "Murakoze. Inyishu nziza: mu maso hagoramye uruhande rumwe ni ikimenyetso c'AVC. Nimuje ku ivuriro ubu nyene."
+      }
+    },
+    {
+      "id": "q08",
+      "topic": "danger_signs",
+      "correct": 2,
+      "source": "FAST stroke warning signs, American Stroke Association",
+      "text": {
+        "en": "Which is also a sign of stroke?",
+        "sw": "Ipi pia ni dalili ya kiharusi?",
+        "fr": "Quel est aussi un signe d'AVC ?",
+        "rn": "Ni ikihe kandi kimenyetso c'AVC?"
+      },
+      "options": {
+        "en": [
+          "Itchy skin",
+          "Sudden weak arm or leg",
+          "Tired after work"
+        ],
+        "sw": [
+          "Kuwashwa ngozi",
+          "Mkono au mguu kulegea ghafla",
+          "Uchovu baada ya kazi"
+        ],
+        "fr": [
+          "Peau qui gratte",
+          "Bras ou jambe faible d'un coup",
+          "Fatigue après le travail"
+        ],
+        "rn": [
+          "Kwiyagaza ku mubiri",
+          "Ukuboko gucitse intege giturumbuka",
+          "Kuruha inyuma y'akazi"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: a sudden weak arm or leg is a sign of stroke. Get help at once.",
+        "sw": "Asante. Jibu sahihi: mkono au mguu kulegea ghafla ni dalili ya kiharusi. Tafuta msaada mara moja.",
+        "fr": "Merci. La bonne réponse : un bras ou une jambe faible d'un coup est un signe d'AVC. Demandez de l'aide tout de suite.",
+        "rn": "Murakoze. Inyishu nziza: ukuboko canke ukuguru gucitse intege giturumbuka ni ikimenyetso c'AVC. Nimurondere imfashanyo ubu nyene."
+      }
+    },
+    {
+      "id": "q09",
+      "topic": "danger_signs",
+      "correct": 3,
+      "source": "FAST stroke warning signs, American Stroke Association",
+      "text": {
+        "en": "Sudden trouble speaking can be a sign of:",
+        "sw": "Shida ya kuongea ghafla inaweza kuwa dalili ya:",
+        "fr": "Avoir du mal à parler d'un coup peut être un signe de :",
+        "rn": "Ingorane zo kuvuga giturumbuka zishobora kwerekana:"
+      },
+      "options": {
+        "en": [
+          "Hunger",
+          "A cold",
+          "A stroke"
+        ],
+        "sw": [
+          "Njaa",
+          "Mafua",
+          "Kiharusi"
+        ],
+        "fr": [
+          "La faim",
+          "Un rhume",
+          "Un AVC"
+        ],
+        "rn": [
+          "Inzara",
+          "Ibicurane",
+          "AVC"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: sudden trouble speaking can be a stroke. Go to the health centre at once.",
+        "sw": "Asante. Jibu sahihi: shida ya kuongea ghafla inaweza kuwa kiharusi. Nenda kituo cha afya mara moja.",
+        "fr": "Merci. La bonne réponse : avoir du mal à parler d'un coup peut être un AVC. Allez tout de suite au centre de santé.",
+        "rn": "Murakoze. Inyishu nziza: ingorane zo kuvuga giturumbuka zishobora kuba AVC. Nimuje ku ivuriro ubu nyene."
+      }
+    },
+    {
+      "id": "q10",
+      "topic": "when_to_seek_care",
+      "correct": 3,
+      "source": "FAST stroke warning signs, American Stroke Association",
+      "text": {
+        "en": "Your face droops or your arm goes weak suddenly. What do you do?",
+        "sw": "Uso unalegea au mkono unakosa nguvu ghafla. Ufanye nini?",
+        "fr": "Votre visage tombe ou votre bras devient faible d'un coup. Que faire ?",
+        "rn": "Mu maso hagoramye canke ukuboko gucitse intege giturumbuka. Mukora iki?"
+      },
+      "options": {
+        "en": [
+          "Wait until tomorrow",
+          "Sleep and rest",
+          "Go to the health centre now"
+        ],
+        "sw": [
+          "Nisubiri hadi kesho",
+          "Nilale nipumzike",
+          "Niende kituo cha afya sasa"
+        ],
+        "fr": [
+          "Attendre demain",
+          "Dormir et se reposer",
+          "Aller au centre de santé maintenant"
+        ],
+        "rn": [
+          "Kurindira ejo",
+          "Kuryama no kuruhuka",
+          "Kuja ku ivuriro ubu nyene"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: go to the health centre now and call your health worker. Do not wait.",
+        "sw": "Asante. Jibu sahihi: nenda kituo cha afya sasa hivi na umpigie mhudumu wa afya. Usisubiri.",
+        "fr": "Merci. La bonne réponse : allez au centre de santé maintenant et appelez votre agent de santé. N'attendez pas.",
+        "rn": "Murakoze. Inyishu nziza: nimuje ku ivuriro ubu nyene kandi muhamagare umuremesha w'amagara. Ntimurindire."
+      }
+    },
+    {
+      "id": "q11",
+      "topic": "when_to_seek_care",
+      "correct": 2,
+      "source": "FAST stroke warning signs, American Stroke Association; ISH 2020 guidelines",
+      "text": {
+        "en": "You get a sudden, very bad headache and blurred sight. What do you do?",
+        "sw": "Unapata maumivu makali ya kichwa ghafla na huoni vizuri. Ufanye nini?",
+        "fr": "Mal de tête très fort et soudain, et vue trouble. Que faire ?",
+        "rn": "Umutwe ubabaza cane giturumbuka kandi ntimubona neza. Mukora iki?"
+      },
+      "options": {
+        "en": [
+          "Take a neighbour's pills",
+          "Get care now at the health centre",
+          "Wait one week"
+        ],
+        "sw": [
+          "Nimeze dawa za jirani",
+          "Niende kituo cha afya sasa",
+          "Nisubiri wiki moja"
+        ],
+        "fr": [
+          "Prendre les comprimés du voisin",
+          "Aller tout de suite au centre de santé",
+          "Attendre une semaine"
+        ],
+        "rn": [
+          "Kunywa imiti y'umubanyi",
+          "Kuja ku ivuriro ubu nyene",
+          "Kurindira indwi imwe"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: get care now at the health centre, or call your health worker. Do not wait.",
+        "sw": "Asante. Jibu sahihi: nenda kituo cha afya sasa, au mpigie mhudumu wa afya. Usisubiri.",
+        "fr": "Merci. La bonne réponse : allez tout de suite au centre de santé, ou appelez votre agent de santé. N'attendez pas.",
+        "rn": "Murakoze. Inyishu nziza: nimuje ku ivuriro ubu nyene, canke muhamagare umuremesha w'amagara. Ntimurindire."
+      }
+    },
+    {
+      "id": "q12",
+      "topic": "when_to_seek_care",
+      "correct": 1,
+      "source": "WHO HEARTS technical package, 2018",
+      "text": {
+        "en": "Your medicine gives you a problem, like swollen feet or dizziness. What do you do?",
+        "sw": "Dawa inakuletea shida, kama kuvimba miguu. Ufanye nini?",
+        "fr": "Votre médicament vous cause un problème, comme des pieds gonflés ou des vertiges. Que faites-vous ?",
+        "rn": "Umuti urabatera ingorane, nko kuvyimba ibirenge. Mukora iki?"
+      },
+      "options": {
+        "en": [
+          "Tell your health worker",
+          "Stop it on your own",
+          "Do nothing"
+        ],
+        "sw": [
+          "Nimwambie mhudumu wa afya",
+          "Niache dawa mwenyewe",
+          "Nisifanye chochote"
+        ],
+        "fr": [
+          "Le dire à l'agent de santé",
+          "L'arrêter tout seul",
+          "Ne rien faire"
+        ],
+        "rn": [
+          "Kubibwira umuremesha w'amagara",
+          "Kuwureka jewe nyene",
+          "Kutagira ico nkora"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: tell your health worker. Do not stop your medicine on your own.",
+        "sw": "Asante. Jibu sahihi: mwambie mhudumu wa afya. Usiache dawa bila ushauri.",
+        "fr": "Merci. La bonne réponse : dites-le à votre agent de santé. N'arrêtez pas le médicament tout seul.",
+        "rn": "Murakoze. Inyishu nziza: nimubibwire umuremesha w'amagara. Ntimureke umuti ata nama."
+      }
+    },
+    {
+      "id": "q13",
+      "topic": "what_bp_means",
+      "correct": 2,
+      "source": "WHO hypertension fact sheet, 2023",
+      "text": {
+        "en": "Can blood pressure be high when you feel well?",
+        "sw": "Je, presha inaweza kuwa juu ukijisikia vizuri?",
+        "fr": "La tension peut-elle être haute si on se sent bien ?",
+        "rn": "Umuvuduko w'amaraso ushobora kuba hejuru naho mwiyumva neza?"
+      },
+      "options": {
+        "en": [
+          "No, you would feel sick",
+          "Yes, often with no signs",
+          "Only in old people"
+        ],
+        "sw": [
+          "Hapana, ningejisikia mgonjwa",
+          "Ndiyo, mara nyingi bila dalili",
+          "Kwa wazee tu"
+        ],
+        "fr": [
+          "Non, on se sentirait malade",
+          "Oui, souvent sans aucun signe",
+          "Seulement chez les personnes âgées"
+        ],
+        "rn": [
+          "Oya, noca numva ndwaye",
+          "Ego, kenshi nta kimenyetso",
+          "Ku bakuze gusa"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: yes. BP is often high with no signs. That is why we measure it.",
+        "sw": "Asante. Jibu sahihi: ndiyo. Presha mara nyingi iko juu bila dalili. Ndiyo maana tunaipima.",
+        "fr": "Merci. La bonne réponse : oui. La tension est souvent haute sans aucun signe. C'est pour ça qu'on la mesure.",
+        "rn": "Murakoze. Inyishu nziza: ego. Umuvuduko w'amaraso kenshi uba hejuru nta kimenyetso. Ni co gituma tuwupima."
+      }
+    },
+    {
+      "id": "q14",
+      "topic": "what_bp_means",
+      "correct": 3,
+      "source": "ISH 2020 guidelines",
+      "text": {
+        "en": "Why is it important to control high blood pressure?",
+        "sw": "Kwa nini ni muhimu kudhibiti presha ya juu?",
+        "fr": "Pourquoi contrôler une tension haute ?",
+        "rn": "Kubera iki ari ngombwa kugabanya umuvuduko w'amaraso uri hejuru?"
+      },
+      "options": {
+        "en": [
+          "It is not important",
+          "To prevent malaria",
+          "To prevent stroke and heart disease"
+        ],
+        "sw": [
+          "Si muhimu",
+          "Kuzuia malaria",
+          "Kuzuia kiharusi na ugonjwa wa moyo"
+        ],
+        "fr": [
+          "Ce n'est pas important",
+          "Pour éviter le paludisme",
+          "Pour éviter AVC et maladie du cœur"
+        ],
+        "rn": [
+          "Nta co bimaze",
+          "Kwirinda malariya",
+          "Kwirinda AVC n'indwara z'umutima"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: controlling high BP helps prevent stroke and heart disease.",
+        "sw": "Asante. Jibu sahihi: kudhibiti presha ya juu kunasaidia kuzuia kiharusi na ugonjwa wa moyo.",
+        "fr": "Merci. La bonne réponse : contrôler la tension aide à éviter l'AVC et les maladies du cœur.",
+        "rn": "Murakoze. Inyishu nziza: kugabanya umuvuduko w'amaraso bifasha kwirinda AVC n'indwara z'umutima."
+      }
+    },
+    {
+      "id": "q15",
+      "topic": "what_bp_means",
+      "correct": 1,
+      "source": "WHO HEARTS technical package, 2018",
+      "text": {
+        "en": "How can you know your blood pressure?",
+        "sw": "Unawezaje kujua presha yako?",
+        "fr": "Comment connaître votre tension ?",
+        "rn": "Mushobora kumenya gute umuvuduko w'amaraso wanyu?"
+      },
+      "options": {
+        "en": [
+          "Measure it regularly",
+          "By how I feel",
+          "By my weight"
+        ],
+        "sw": [
+          "Kuipima mara kwa mara",
+          "Kwa jinsi ninavyojisikia",
+          "Kwa uzito wangu"
+        ],
+        "fr": [
+          "La mesurer régulièrement",
+          "Selon comment je me sens",
+          "Selon mon poids"
+        ],
+        "rn": [
+          "Kuwupimisha kenshi",
+          "Ukuntu niyumva",
+          "Uburemere bwanje"
+        ]
+      },
+      "correction": {
+        "en": "Thank you. The right answer: the only way to know is to measure it regularly.",
+        "sw": "Asante. Jibu sahihi: njia pekee ya kujua ni kuipima mara kwa mara.",
+        "fr": "Merci. La bonne réponse : la seule façon de savoir est de la mesurer régulièrement.",
+        "rn": "Murakoze. Inyishu nziza: inzira imwe rukumbi yo kumenya ni ukuwupimisha kenshi."
+      }
+    }
+  ]
+}

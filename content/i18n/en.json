@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "language_name": "English",
+  "verified": true,
+  "verified_by": "",
+  "note": "English source text",
+  "strings": {
+    "reminder_appointment": "Hello. Reminder from your health worker: you have an appointment at the health centre on {date}. Please come and bring your medicines. Thank you.",
+    "follow_up_after_visit": "Hello, this is your health worker. How are you? Are you taking your medicine every day? If you have a blood pressure reading, please reply with it, for example 140/90.",
+    "sms_check": "Hello, this is your weekly check from your health worker. Please reply with your blood pressure if you have it (for example 140/90), if you took your medicine, and how you feel.",
+    "quiz_reply_instruction": "Reply 1, 2 or 3",
+    "report_received": "Thank you. Your health worker has received your message.",
+    "danger_signs_seek_care": "Important: if you have face drooping, a weak arm, trouble speaking, a sudden very bad headache or loss of sight, go to the health centre now and call your health worker."
+  }
+}

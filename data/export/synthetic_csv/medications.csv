@@ -1,0 +1,328 @@
+id,patient_id,encounter_id,name,dose_text,source_text
+1,1,1,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+2,1,5,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+3,2,10,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+4,2,11,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+5,2,12,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+6,3,36,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+7,3,36,losartan,50 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+8,3,37,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+9,3,37,losartan,50 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+10,3,38,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+11,3,38,losartan,50 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+12,4,60,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+13,4,61,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+14,5,85,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+15,5,86,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+16,5,87,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+17,6,109,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+18,6,109,hydrochlorothiazide,12.5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+19,6,110,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+20,6,110,hydrochlorothiazide,12.5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+21,6,111,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+22,6,111,hydrochlorothiazide,12.5 mg once daily,Amlodipine 5 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+23,7,135,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+24,7,136,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+25,7,137,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+26,8,159,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+27,8,160,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+28,8,161,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+29,9,165,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+30,9,166,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+31,9,167,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+32,10,193,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+33,10,194,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+34,10,195,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+35,11,217,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+36,11,218,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+37,11,219,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+38,12,240,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+39,12,241,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+40,13,245,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+41,13,246,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+42,13,247,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+43,14,271,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+44,14,272,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Reduce salt.
+45,14,273,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+46,15,297,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+47,15,298,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+48,15,299,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+49,16,321,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+50,16,322,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+51,16,323,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+52,17,345,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+53,17,346,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+54,18,368,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+55,18,369,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+56,18,370,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+57,19,390,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+58,19,390,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+59,19,391,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+60,19,391,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+61,19,392,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+62,19,392,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+63,20,413,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+64,20,414,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+65,21,438,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+66,21,439,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+67,21,440,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+68,22,464,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+69,22,465,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+70,23,486,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+71,23,487,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+72,23,488,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+73,24,508,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+74,24,508,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+75,24,509,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+76,24,509,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+77,24,510,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+78,24,510,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+79,25,534,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+80,25,534,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+81,25,535,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+82,25,535,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+83,25,536,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+84,25,536,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+85,26,557,losartan,50 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+86,26,557,hydrochlorothiazide,12.5 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+87,26,558,losartan,50 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+88,26,558,hydrochlorothiazide,12.5 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+89,26,559,losartan,50 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+90,26,559,hydrochlorothiazide,12.5 mg once daily,Losartan 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+91,27,581,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+92,27,582,losartan,50 mg once daily,Losartan 50 mg once daily. Réduire le sel.
+93,27,583,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+94,28,607,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+95,28,608,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+96,28,609,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+97,29,613,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Reduce salt.
+98,29,614,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+99,30,636,losartan,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+100,30,636,atenolol,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+101,30,637,losartan,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+102,30,637,atenolol,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+103,30,638,losartan,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+104,30,638,atenolol,50 mg once daily,Losartan 50 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+105,31,661,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+106,31,661,hydrochlorothiazide,12.5 mg once daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+107,31,662,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+108,31,662,hydrochlorothiazide,12.5 mg once daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+109,31,663,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+110,31,663,hydrochlorothiazide,12.5 mg once daily,Nifedipine 20 mg twice daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+111,32,685,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+112,32,686,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+113,32,687,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+114,33,708,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+115,33,709,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+116,34,732,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+117,34,733,atenolol,50 mg once daily,Atenolol 50 mg once daily. Reduce salt.
+118,34,734,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+119,35,738,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+120,35,738,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+121,35,739,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+122,35,739,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+123,35,740,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+124,35,740,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+125,36,761,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+126,36,761,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+127,37,785,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+128,37,786,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+129,37,787,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+130,38,810,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+131,38,811,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+132,38,812,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+133,39,836,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Losartan 50 mg once daily. Reduce salt.
+134,39,836,losartan,50 mg once daily,Amlodipine 5 mg once daily. Losartan 50 mg once daily. Reduce salt.
+135,39,837,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+136,39,837,losartan,50 mg once daily,Amlodipine 5 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+137,40,860,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+138,40,861,losartan,50 mg once daily,Losartan 50 mg once daily. Réduire le sel.
+139,40,862,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+140,41,883,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+141,41,883,losartan,50 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+142,41,884,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Reduce salt.
+143,41,884,losartan,50 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Reduce salt.
+144,41,885,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+145,41,885,losartan,50 mg once daily,Lisinopril 10 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+146,42,889,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+147,42,889,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+148,42,890,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+149,42,890,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+150,42,891,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+151,42,891,nifedipine,20 mg twice daily,Lisinopril 10 mg once daily. Nifedipine 20 mg twice daily. Réduire le sel.
+152,43,895,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+153,43,895,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+154,43,896,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+155,43,896,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+156,43,897,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+157,43,897,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Reduce salt.
+158,44,922,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+159,44,922,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+160,44,923,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+161,44,923,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+162,44,924,atenolol,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+163,44,924,losartan,50 mg once daily,Atenolol 50 mg once daily. Losartan 50 mg once daily. Réduire le sel.
+164,45,944,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+165,45,945,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+166,45,946,atenolol,50 mg once daily,Atenolol 50 mg once daily. Réduire le sel.
+167,46,967,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+168,46,968,losartan,50 mg once daily,Losartan 50 mg once daily. Réduire le sel.
+169,46,969,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+170,47,996,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+171,47,997,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+172,47,998,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+173,48,1023,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+174,48,1023,atenolol,50 mg once daily,Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+175,48,1024,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+176,48,1024,atenolol,50 mg once daily,Lisinopril 10 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+177,49,1028,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+178,49,1029,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+179,49,1030,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+180,50,1051,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+181,50,1051,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+182,50,1052,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+183,50,1052,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Reduce salt.
+184,50,1053,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+185,50,1053,atenolol,50 mg once daily,Amlodipine 5 mg once daily. Atenolol 50 mg once daily. Réduire le sel.
+186,51,1074,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+187,51,1074,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+188,51,1075,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+189,51,1075,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+190,51,1076,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+191,51,1076,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+192,52,1100,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+193,52,1100,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+194,52,1101,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+195,52,1101,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+196,52,1102,atenolol,50 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+197,52,1102,hydrochlorothiazide,12.5 mg once daily,Atenolol 50 mg once daily. Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+198,53,1125,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+199,53,1126,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+200,53,1127,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+201,54,1152,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+202,54,1153,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+203,54,1154,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+204,55,1176,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Reduce salt.
+205,55,1177,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Reduce salt.
+206,55,1178,lisinopril,10 mg once daily,Lisinopril 10 mg once daily. Réduire le sel.
+207,56,1183,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+208,56,1184,losartan,50 mg once daily,Losartan 50 mg once daily. Réduire le sel.
+209,56,1185,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+210,57,1189,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+211,57,1189,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Réduire le sel.
+212,57,1190,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.
+213,57,1190,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.
+214,57,1191,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.
+215,57,1191,atenolol,50 mg once daily,Nifedipine 20 mg twice daily. Atenolol 50 mg once daily. Reduce salt.
+216,58,1212,atenolol,50 mg once daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+217,58,1212,enalapril,5 mg twice daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+218,58,1213,atenolol,50 mg once daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.
+219,58,1213,enalapril,5 mg twice daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.
+220,58,1214,atenolol,50 mg once daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+221,58,1214,enalapril,5 mg twice daily,Atenolol 50 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+222,59,1218,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+223,59,1218,enalapril,5 mg twice daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+224,59,1219,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.
+225,59,1219,enalapril,5 mg twice daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Réduire le sel.
+226,59,1220,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+227,59,1220,enalapril,5 mg twice daily,Amlodipine 5 mg once daily. Enalapril 5 mg twice daily. Reduce salt.
+228,60,1242,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+229,60,1243,losartan,50 mg once daily,Losartan 50 mg once daily. Reduce salt.
+230,61,1264,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+231,61,1265,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+232,62,1275,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+233,62,1276,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+234,62,1277,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+235,63,1287,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+236,63,1288,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+237,63,1289,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+238,64,1300,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+239,64,1301,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+240,64,1302,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+241,64,1303,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+242,65,1319,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+243,65,1320,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+244,65,1321,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+245,66,1337,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+246,66,1338,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+247,66,1339,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+248,66,1340,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+249,67,1355,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+250,67,1356,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+251,67,1357,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+252,67,1358,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+253,68,1373,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+254,68,1374,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+255,68,1375,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+256,69,1385,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+257,69,1386,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+258,69,1387,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+259,70,1398,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+260,70,1399,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+261,70,1400,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+262,71,1413,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+263,71,1414,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+264,71,1415,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+265,72,1427,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+266,72,1428,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+267,72,1429,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+268,72,1430,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+269,73,1444,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+270,73,1445,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+271,73,1446,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Reduce salt.
+272,74,1459,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+273,74,1460,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+274,74,1461,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+275,74,1462,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+276,75,1477,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+277,75,1478,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+278,75,1479,amlodipine,5 mg once daily,Amlodipine 5 mg once daily. Réduire le sel.
+279,76,1491,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+280,76,1492,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+281,76,1493,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+282,77,1507,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+283,77,1508,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+284,77,1509,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+285,78,1523,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+286,78,1524,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+287,79,1534,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+288,79,1535,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+289,79,1536,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+290,80,1546,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+291,80,1547,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+292,80,1548,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+293,80,1549,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+294,81,1562,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+295,81,1563,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+296,81,1564,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+297,82,1573,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+298,82,1574,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+299,82,1575,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+300,82,1576,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+301,83,1591,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+302,83,1592,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+303,83,1593,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+304,83,1594,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Reduce salt.
+305,84,1607,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+306,84,1608,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+307,84,1609,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+308,84,1610,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+309,85,1624,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+310,85,1625,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+311,85,1626,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+312,86,1634,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.
+313,86,1635,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+314,86,1636,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+315,87,1647,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+316,87,1648,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+317,87,1649,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+318,88,1657,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+319,88,1658,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+320,88,1659,enalapril,5 mg twice daily,Enalapril 5 mg twice daily. Réduire le sel.
+321,89,1670,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+322,89,1671,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Réduire le sel.
+323,89,1672,nifedipine,20 mg twice daily,Nifedipine 20 mg twice daily. Reduce salt.
+324,90,1683,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+325,90,1684,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+326,90,1685,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Reduce salt.
+327,90,1686,hydrochlorothiazide,12.5 mg once daily,Hydrochlorothiazide 12.5 mg once daily. Réduire le sel.

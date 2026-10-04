@@ -1,0 +1,148 @@
+{
+  "title": "TWESE CHW AI: the three-minute demo",
+  "note": "Fictional patient on synthetic data. The Swahili SMS reading changed from 150/95 to 138/88 on 4 October (demo step 3: no threshold crossed yet); the wording is unchanged - the bilingual teammate checks it before recording.",
+  "patient_id": 1,
+  "patient": {
+    "name": "Neema (fictional)",
+    "age": 58,
+    "sex": "female",
+    "village": "Kirundo",
+    "language": "sw"
+  },
+  "reset_route": "POST /demo/reset",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Offline start",
+      "actor": "presenter",
+      "say": "WiFi is off. Everything runs on this laptop.",
+      "message": null,
+      "api": [
+        "GET /status",
+        "GET /patients"
+      ],
+      "expected": "Dashboard lists 60 synthetic patients (one CHW); banner: thresholds not yet physician-approved. Patient 1 is medium tier: a borderline flag (readings 130, 132, 135, 136 just under 140/90), her WHO 10-year risk, and on this data a peer-trajectory flag. She is already on the weekly SMS watch, which is why she texts."
+    },
+    {
+      "step": 2,
+      "title": "A patient texts in Swahili",
+      "actor": "patient",
+      "message": {
+        "lang": "sw",
+        "text": "Habari. Leo presha yangu ni 138/88. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.",
+        "gloss_en": "Hello. Today my blood pressure is 138/88. I took only half of my medicine. I have a headache."
+      },
+      "api": [
+        "POST /messages/incoming",
+        "GET /inbox?status=needs_review",
+        "POST /messages/{id}/confirm"
+      ],
+      "expected": "Intent bp_report; fields sbp 138, dbp 88, meds_taken partial, symptoms [headache]; all checks pass; the CHW taps Confirm."
+    },
+    {
+      "step": 3,
+      "title": "The flag: no threshold crossed yet",
+      "actor": "chw",
+      "message": null,
+      "api": [
+        "GET /patients/1",
+        "GET /patients/1/trajectory"
+      ],
+      "expected": "Trend flag: each of the last three readings (135, 136, 138) at least 10 mmHg above her baseline of 125. Borderline flag: readings in a row in the band just under 140/90. Headache at goal, half dose. Show her chart: every reading still under 140/90 while the line climbs. Risk tier moves from medium to high.",
+      "say": "No threshold has been crossed yet. This is the patient the tool is for."
+    },
+    {
+      "step": 4,
+      "title": "Suggested action and override",
+      "actor": "chw",
+      "message": null,
+      "api": [
+        "POST /patients/1/decide",
+        "POST /patients/1/confirm_decision"
+      ],
+      "override": {
+        "final_choice": "recheck_7_days",
+        "override_reason": "patient travelling, weekly SMS continues"
+      },
+      "say": "The text moved the rule's answer one step, and the screen quotes the words that did it. The CHW still decides; the override is stored and reviewed.",
+      "expected": "Suggestion visit_this_week: the rule default is recheck_7_days (trend, borderline, headache at goal), and the context code missed_doses, quoted from her SMS (\"nusu ya dawa\"), steps it up one level. The CHW steps back down to recheck_7_days, reason 'patient travelling, weekly SMS continues'; the override is stored and becomes a review card in step 7."
+    },
+    {
+      "step": 5,
+      "title": "The education question",
+      "actor": "patient",
+      "message": {
+        "lang": "sw",
+        "text": "2",
+        "gloss_en": "2"
+      },
+      "api": [
+        "POST /sync",
+        "GET /phone/1",
+        "POST /messages/incoming",
+        "POST /messages/{id}/sent"
+      ],
+      "expected": "After Sync the danger-signs question arrives on the phone; the reply 2 is wrong; the correction is queued; the CHW taps Send and it appears on the phone; danger-signs understanding drops to 0 and risk points are added."
+    },
+    {
+      "step": 6,
+      "title": "The weekly plan",
+      "actor": "chw",
+      "message": null,
+      "api": [
+        "GET /plan?chw=1&week_start={next_monday}&hours=20&regenerate=true",
+        "POST /plan/{id}/update",
+        "POST /plan/approve"
+      ],
+      "expected": "Patient 1 now has a visit this week in the Kirundo group; the CHW moves one patient and approves the plan. Emergencies are not in the plan; they are on the escalation list."
+    },
+    {
+      "step": 7,
+      "title": "The monthly review",
+      "actor": "supervisor",
+      "message": null,
+      "api": [
+        "POST /errors/detect",
+        "GET /errors?label=pending",
+        "POST /errors/{id}/label",
+        "POST /errors/replay",
+        "GET /errors/summary",
+        "POST /review/run",
+        "POST /patients/1/decide"
+      ],
+      "say": "Every missed event and every override becomes a review card that a person labels. Thresholds move only after a replay shows what the change would have caught and what it would have cost. A person pressed this; the model never updates itself.",
+      "expected": "The review queue shows the override from step 4 (visit_this_week down to recheck_7_days) as a candidate false positive, and synthetic patients whose event had no prior flag as false negatives with their pre-filled cause (in the demo data: 'extraction', a headache in the CHW note that was never coded). The supervisor labels both (PIN). Replay a lower trend threshold (POST /errors/replay with trend rules +7 over three readings and +10 over four): it shows which past events it would have caught and how many more contacts it would have flagged. Then the engine retrains, shows the new model version and its held-out score, and the next suggestion carries the new version.",
+      "replay_example": {
+        "changes": {
+          "trend": {
+            "rules": [
+              {
+                "sbp_rise_mmhg": 7,
+                "consecutive_readings": 3
+              },
+              {
+                "sbp_rise_mmhg": 10,
+                "over_readings": 4
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "step": 8,
+      "title": "Languages",
+      "actor": "presenter",
+      "message": null,
+      "api": [
+        "GET /languages"
+      ],
+      "expected": "Switch the interface to French, then Swahili. Stored data does not change. Kirundi is marked not yet verified."
+    }
+  ],
+  "notes_for_presenter": [
+    "Run POST /demo/reset before each take.",
+    "Escalation list: 3 patients. Severe BP without symptoms is an urgent clinic referral in 2 days, not an emergency.",
+    "GET /escalation?lang=fr shows the protocol text in French."
+  ]
+}

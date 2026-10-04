@@ -1,0 +1,15 @@
+{
+  "lang": "fr",
+  "language_name": "Français",
+  "verified": false,
+  "verified_by": "",
+  "note": "Drafted by Claude Code on 2026-10-03; awaiting review by the bilingual teammate",
+  "strings": {
+    "reminder_appointment": "Bonjour. Rappel de votre agent de santé : vous avez un rendez-vous au centre de santé le {date}. Merci de venir avec vos médicaments.",
+    "follow_up_after_visit": "Bonjour, c'est votre agent de santé. Comment allez-vous ? Prenez-vous vos médicaments chaque jour ? Si vous avez une mesure de tension, répondez avec, par exemple 140/90.",
+    "sms_check": "Bonjour, c'est le suivi de la semaine de votre agent de santé. Répondez avec votre tension si vous l'avez (par exemple 140/90), si vous avez pris vos médicaments, et comment vous vous sentez.",
+    "quiz_reply_instruction": "Répondez 1, 2 ou 3",
+    "report_received": "Merci. Votre agent de santé a bien reçu votre message.",
+    "danger_signs_seek_care": "Important : si vous avez le visage qui tombe d'un côté, un bras faible, du mal à parler, un mal de tête soudain et très fort ou une perte de la vue, allez tout de suite au centre de santé et appelez votre agent de santé."
+  }
+}

@@ -1,0 +1,11 @@
+# Python packages for the TWESE CHW AI engine.
+# Julia-1 is installed separately from models/Julia-1 (see PLAN.md step 4).
+pandas
+scikit-learn
+fastapi
+uvicorn
+requests
+psutil
+huggingface_hub
+pytest
+httpx

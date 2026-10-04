@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models are downloaded, never committed (Julia-1 and the LLM)
+models/
+
+# The database holds patient records, even synthetic ones: never commit it
+*.db
+*.db-journal
+*.sqlite
+
+# Frontend build output and packages
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# PyInstaller (step 15)
+build/
+dist/
+*.spec
+
+# Mac
+.DS_Store
+
+# Promo video and its render files: kept out of git
+docs/video/

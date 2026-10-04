@@ -1,0 +1,210 @@
+{
+  "lang": "fr",
+  "note": "Example incoming patient SMS for synthetic data and labeled test sets. {sbp} and {dbp} are filled with random numbers. meds_taken and symptoms are gold labels and match the text exactly. Drafted by Claude Code on 2026-10-03; awaiting review by the bilingual teammate.",
+  "examples": [
+    {
+      "intent": "bp_report",
+      "template": "Bonjour, ma tension aujourd'hui est {sbp}/{dbp}. J'ai pris mes médicaments.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "tension {sbp}/{dbp}",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Bjr, tension {sbp} sur {dbp} ce matin",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Ma tension est à {sbp} sur {dbp}, je n'ai pas pris le médicament depuis hier",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "{sbp}/{dbp} aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Bonsoir. Tension {sbp}/{dbp}, j'ai pris seulement la moitié du comprimé.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Tension {sbp} sur {dbp}, j'ai mal à la tête depuis ce matin.",
+      "meds_taken": null,
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "J'ai mesuré au centre de santé : {sbp}/{dbp}. Médicaments pris.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "ma tension {sbp}/{dbp} et j'ai des vertiges",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Bonjour agent, {sbp} sur {dbp}, j'ai oublié mes comprimés aujourd'hui.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Tension {sbp}/{dbp}. J'ai pris un seul médicament sur les deux.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Ce matin {sbp}/{dbp}, je vois flou.",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Ma tension est {sbp} sur {dbp}, je prends bien mes médicaments chaque jour.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "tension {sbp}/{dbp} medicament pris mais douleur a la poitrine",
+      "meds_taken": "yes",
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "J'ai très mal à la tête depuis hier soir.",
+      "meds_taken": null,
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Je vois trouble depuis ce matin.",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "J'ai une douleur dans la poitrine.",
+      "meds_taken": null,
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Mon mari a la bouche tordue d'un côté et il parle mal.",
+      "meds_taken": null,
+      "symptoms": [
+        "face_droop",
+        "speech_difficulty"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Mon bras droit est faible, je ne peux pas le lever.",
+      "meds_taken": null,
+      "symptoms": [
+        "arm_weakness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "J'ai des vertiges quand je me lève.",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "mal de tête et vertiges depuis deux jours",
+      "meds_taken": null,
+      "symptoms": [
+        "headache",
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "meds_question",
+      "template": "Mes médicaments sont finis, où je peux en avoir ?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Est-ce que je peux arrêter le traitement si je me sens bien ?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Le médicament me fait gonfler les pieds, c'est normal ?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Je dois prendre le comprimé le matin ou le soir ?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Merci beaucoup.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Bonjour, je suis en voyage cette semaine.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "D'accord, j'ai compris.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Que Dieu vous bénisse.",
+      "meds_taken": null,
+      "symptoms": []
+    }
+  ]
+}

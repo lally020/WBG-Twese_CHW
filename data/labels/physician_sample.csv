@@ -1,0 +1,434 @@
+encounter_id,patient_id,date,state,physician_action,physician_note
+1709,58,2026-10-01,"Flag threshold: Latest BP 166/102 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.""
+Patient messages:
+""Nikisahau dawa asubuhi, nikunywe jioni?""
+""Shikamoo. Nimepima leo 135/86, dawa nimekunywa asubuhi.""
+""Shikamoo. Nimepima leo 132/81, dawa nimekunywa asubuhi.""",,
+1695,90,2026-02-01,"Flag borderline: Borderline: 3 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 135/86, 133/86, 131/85 (2025-12-13 to 2026-02-01). No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient well, taking medicine.""
+""Patient bien, prend ses médicaments.""",,
+809,38,2026-06-18,"Flag threshold: Latest BP 154/102 on 2026-06-18 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: no, no, partial.
+Days since last contact: 0.
+Patient messages:
+""Nimepima dispensari 140/94. Nimekunywa dawa moja tu kati ya mbili.""
+""Nimepima dispensari 136/89. Nimekunywa dawa moja tu kati ya mbili.""
+""presha leo 143/94""",,
+1270,61,2025-11-26,"Flag who_risk: WHO 10-year CVD risk 22% (man, smoker, age 70-74, SBP 140-159, BMI 20-24 (24.2)) on the reading of 2025-11-26: at or above the 'high' level (20%).
+Medicine taken at the last three contacts: no, partial.
+Days since last contact: 0.
+CHW notes:
+""Patient ran out of tablets last week.""",,
+1730,7,2026-06-24,"Flag borderline: Borderline: 4 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 135/85, 139/83, 134/88, 132/82 (2026-06-06 to 2026-06-24). No threshold crossed; recheck and ask for a weekly reading.
+Flag symptom: Symptom 'headache' reported on 2026-06-24; latest BP 132/82 is under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Vit seule, ne sait pas lire, n'utilise pas les SMS.""
+Patient messages:
+""Sawa, nimeelewa.""
+""presha leo 135/85""
+""Mimi ni mzima. Presha ni 134/88, nakunywa dawa kila siku.""",,
+1720,8,2026-06-29,"Flag threshold: Latest BP 166/101 on 2026-06-29 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+""Feet and ankles swollen since the new tablets started two weeks ago.""
+Patient messages:
+""Habari daktari, presha yangu ni 134 kwa 81. Nimekunywa dawa zangu.""
+""presha leo 128/76""
+""Je, niendelee kunywa dawa hata kama najisikia vizuri?""",,
+1257,60,2026-08-04,"Flag borderline: Borderline: 3 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 137/87, 133/79, 132/86 (2026-06-20 to 2026-07-11). No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: partial, yes, no.
+Days since last contact: 0.
+CHW notes:
+""N'a pas pris ses comprimés depuis 3 jours.""
+Patient messages:
+""presha leo 137/87""
+""Nimepima dispensari 132/86. Nimekunywa dawa moja tu kati ya mbili.""
+""Mimi ni mzima. Presha ni 133/83, nakunywa dawa kila siku.""",,
+1718,60,2026-05-26,"Flag symptom: Symptom 'headache' reported on 2026-05-26; latest BP 132/82 is under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, partial, no.
+Days since last contact: 0.
+CHW notes:
+""Lives alone, cannot read, does not use the phone for messages.""
+Patient messages:
+""130/89 leo. Asante""
+""Naweza kunywa dawa ya presha pamoja na chakula?""
+""Nimepima dispensari 129/83. Nimekunywa dawa moja tu kati ya mbili.""",,
+1411,70,2026-03-04,"Flag threshold: Latest BP 150/102 on 2026-03-04 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Patient well, taking medicine.""
+""Mgonjwa yuko sawa, anakunywa dawa.""",,
+1431,71,2026-05-14,"Flag threshold: Latest BP 182/108 on 2026-05-14 is at or above the 'severe_with_symptoms' cut-off (180/110). Symptom present: headache.
+Flag trend: Trend rule: each of the last 3 readings (167, 171, 182, 2026-04-27 to 2026-05-14) is at least 10 mmHg above the baseline of 147; and the last 4 readings (2026-04-05 to 2026-05-14) average 169, 22 mmHg above the baseline of 147 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Flag symptom: Symptom 'headache' reported on 2026-05-14; latest BP 182/108 is not under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient complains of headache.""",,
+936,42,2026-10-01,"Flag threshold: Latest BP 163/101 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Flag trend: Trend rule: each of the last 3 readings (161, 157, 163, 2026-09-21 to 2026-10-01) is at least 10 mmHg above the baseline of 140; and the last 4 readings (2026-09-07 to 2026-10-01) average 162, 21 mmHg above the baseline of 140 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Flag symptom: Symptom 'speech_difficulty' reported on 2026-10-01 - on the emergency symptom list.
+Medicine taken at the last three contacts: partial, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+""Speech slurred since yesterday evening, family worried.""
+Patient messages:
+""Ma tension est 165 sur 96, je prends bien mes médicaments chaque jour.""
+""Bjr, tension 161 sur 101 ce matin""
+""Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?""",,
+1404,70,2026-06-29,"Flag threshold: Latest BP 184/118 on 2026-06-29 is at or above the 'severe_no_symptoms' cut-off (180/110). No symptom in the same encounter or in an SMS in the previous 24 hours. Urgent: within 2 days.
+Medicine taken at the last three contacts: partial, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient bien, prend ses médicaments.""",,
+1729,40,2026-07-09,"Flag threshold: Latest BP 164/101 on 2026-07-09 is at or above the 'grade2' cut-off (160/100).
+Flag who_risk: WHO 10-year CVD risk 23% (woman, smoker, age 70-74, SBP 160-179, BMI 30-34 (34.3)) on the reading of 2026-07-09: at or above the 'high' level (20%).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.""
+Patient messages:
+""Mimi ni mzima. Presha ni 146/88, nakunywa dawa kila siku.""
+""140/92 leo. Asante""
+""Shikamoo. Nimepima leo 148/83, dawa nimekunywa asubuhi.""",,
+794,37,2026-04-14,"Flags: none.
+Medicine taken at the last three contacts: partial, partial.
+Days since last contact: 0.
+Patient messages:
+""Nimepima dispensari 124/75. Nimekunywa dawa moja tu kati ya mbili.""",,
+1713,37,2026-10-01,"Flags: none.
+Medicine taken at the last three contacts: yes, partial, partial.
+Days since last contact: 0.
+CHW notes:
+""N'a pas pris ses comprimés depuis 3 jours.""
+""Home visit, BP taken.""
+Patient messages:
+""Nimepima dispensari 125/80. Nimekunywa dawa moja tu kati ya mbili.""
+""presha leo 122/70""
+""Kifua kinauma sana tangu asubuhi na napumua kwa shida.""",,
+1200,57,2026-04-19,"Flags: none.
+Medicine taken at the last three contacts: yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, no complaints.""",,
+1323,64,2026-04-26,"Flag borderline: Borderline: 6 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 131/83, 134/79, 132/81, 133/82, 138/83, 135/82 (2026-01-26 to 2026-04-26). No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient well, taking medicine.""
+""Mgonjwa yuko sawa, anakunywa dawa.""",,
+1727,55,2026-07-22,"Flag threshold: Latest BP 166/102 on 2026-07-22 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""BP taken right after she walked up the hill carrying water. Repeat after 10 minutes of rest: 138/86.""
+Patient messages:
+""Shikamoo. Nimepima leo 124/75, dawa nimekunywa asubuhi.""
+""Pressure yangu ni 138/87, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.""
+""Habari daktari, presha yangu ni 135 kwa 87. Nimekunywa dawa zangu.""",,
+1717,41,2026-07-20,"Flag threshold: Latest BP 164/101 on 2026-07-20 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.""
+Patient messages:
+""Habari daktari, presha yangu ni 140 kwa 91. Nimekunywa dawa zangu.""
+""Shikamoo. Nimepima leo 131/83, dawa nimekunywa asubuhi.""
+""presha leo 134/88""",,
+1707,26,2026-10-01,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+""Home visit, BP taken.""
+Patient messages:
+""Sawa, nimeelewa.""
+""Mimi ni mzima. Presha ni 124/84, nakunywa dawa kila siku.""
+""Strong pain in my chest since this morning, it is hard to breathe.""",,
+471,23,2026-05-21,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Home visit, no complaints.""
+Patient messages:
+""Naweza kunywa dawa ya presha pamoja na chakula?""
+""Shikamoo. Nimepima leo 146/86, dawa nimekunywa asubuhi.""
+""presha leo 139/90""",,
+1704,35,2026-10-02,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, BP taken.""
+Patient messages:
+""Le médicament me fait gonfler les pieds, c'est normal ?""
+""Bonjour, ma tension aujourd'hui est 129/84. J'ai pris mes médicaments.""
+""Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.""",,
+291,13,2026-05-05,"Flag borderline: Borderline: the readings crossed the goal 140/90 2 times in the last 5 readings: 142/90, 137/85, 140/84, 151/88, 141/85. No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: yes, partial, partial.
+Days since last contact: 0.
+Patient messages:
+""Bonsoir. Tension 151/88, j'ai pris seulement la moitié du comprimé.""
+""Merci beaucoup.""
+""Bonjour, ma tension aujourd'hui est 141/85. J'ai pris mes médicaments.""",,
+1712,47,2026-10-01,"Flag borderline: Borderline: the readings crossed the goal 140/90 2 times in the last 6 readings: 136/80, 137/87, 136/90, 135/90, 128/82, 132/82. No threshold crossed; recheck and ask for a weekly reading.
+Flag symptom: Symptom 'headache' reported on 2026-10-01; latest BP 132/82 is under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Vit seule, ne sait pas lire, n'utilise pas les SMS.""
+Patient messages:
+""Je, niendelee kunywa dawa hata kama najisikia vizuri?""
+""Mimi ni mzima. Presha ni 135/90, nakunywa dawa kila siku.""
+""Habari daktari, presha yangu ni 128 kwa 82. Nimekunywa dawa zangu.""",,
+1719,45,2026-06-05,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Home visit, BP taken.""
+Patient messages:
+""Bonsoir. Tension 127/83, j'ai pris seulement la moitié du comprimé.""
+""Bonjour, ma tension aujourd'hui est 117/72. J'ai pris mes médicaments.""
+""Kifua kinauma sana tangu asubuhi na napumua kwa shida.""",,
+1725,11,2026-06-01,"Flags: none.
+Medicine taken at the last three contacts: yes, no, yes.
+Days since last contact: 0.
+CHW notes:
+""N'a pas pris ses comprimés depuis 3 jours.""
+""Home visit, BP taken.""
+Patient messages:
+""148/101 leo. Asante""
+""Mimi ni mzima. Presha ni 139/94, nakunywa dawa kila siku.""
+""Kifua kinauma sana tangu asubuhi na napumua kwa shida.""",,
+652,31,2026-08-17,"Flag borderline: Borderline: 3 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 135/85, 132/80, 137/86 (2026-07-07 to 2026-07-24). No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+Patient messages:
+""presha leo 135/85""
+""Mimi ni mzima. Presha ni 141/89, nakunywa dawa kila siku.""
+""140/90 leo. Asante""",,
+1723,28,2026-06-11,"Flag threshold: Latest BP 164/101 on 2026-06-11 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.""
+Patient messages:
+""Habari daktari, presha yangu ni 135 kwa 79. Nimekunywa dawa zangu.""
+""Shikamoo. Nimepima leo 130/77, dawa nimekunywa asubuhi.""
+""Mimi ni mzima. Presha ni 135/80, nakunywa dawa kila siku.""",,
+587,27,2026-10-01,"Flag threshold: Latest BP 160/97 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Flag who_risk: WHO 10-year CVD risk 21% (man, non-smoker, age 70-74, SBP 160-179, BMI 20-24 (24.5)) on the reading of 2026-10-01: at or above the 'high' level (20%).
+Flag trend: Trend rule: each of the last 3 readings (155, 152, 160, 2026-09-26 to 2026-10-01) is at least 10 mmHg above the baseline of 130; and the last 4 readings (2026-09-13 to 2026-10-01) average 152, 22 mmHg above the baseline of 130 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Flag symptom: Symptom 'arm_weakness' reported on 2026-10-01 - on the emergency symptom list.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient cannot lift left arm, started today.""
+Patient messages:
+""presha leo 133/85""
+""141/84 leo. Asante""
+""Mimi ni mzima. Presha ni 152/92, nakunywa dawa kila siku.""",,
+1731,23,2026-07-15,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, BP taken.""
+Patient messages:
+""Habari daktari, presha yangu ni 143 kwa 85. Nimekunywa dawa zangu.""
+""Habari daktari, presha yangu ni 151 kwa 93. Nimekunywa dawa zangu.""
+""Kifua kinauma sana tangu asubuhi na napumua kwa shida.""",,
+1706,59,2026-10-01,"Flag borderline: Borderline: 6 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 138/88, 135/86, 138/87, 138/83, 132/80, 132/82 (2026-08-31 to 2026-10-01). No threshold crossed; recheck and ask for a weekly reading.
+Flag symptom: Symptom 'headache' reported on 2026-10-01; latest BP 132/82 is under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Vit seule, ne sait pas lire, n'utilise pas les SMS.""
+Patient messages:
+""Habari daktari, presha yangu ni 135 kwa 86. Nimekunywa dawa zangu.""
+""138/87 leo. Asante""
+""Mimi ni mzima. Presha ni 132/80, nakunywa dawa kila siku.""",,
+1205,58,2026-04-11,"Flags: none.
+Medicine taken at the last three contacts: yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""",,
+211,10,2026-06-29,"Flag borderline: Borderline: the readings crossed the goal 140/90 2 times in the last 6 readings: 141/82, 142/85, 148/90, 134/79, 140/81, 140/88. No threshold crossed; recheck and ask for a weekly reading.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, no complaints.""
+Patient messages:
+""Bonjour, ma tension aujourd'hui est 148/90. J'ai pris mes médicaments.""
+""Le médicament me fait gonfler les pieds, c'est normal ?""
+""Ma tension est 140 sur 81, je prends bien mes médicaments chaque jour.""",,
+1710,36,2026-10-01,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, BP taken.""
+Patient messages:
+""presha leo 125/79""
+""Shikamoo. Nimepima leo 110/81, dawa nimekunywa asubuhi.""
+""Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.""",,
+1716,39,2026-07-03,"Flags: none.
+Medicine taken at the last three contacts: yes, partial, partial.
+Days since last contact: 0.
+CHW notes:
+""Home visit, BP taken.""
+Patient messages:
+""125/79 leo. Asante""
+""Mimi ni mzima. Presha ni 126/80, nakunywa dawa kila siku.""
+""Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.""",,
+1721,49,2026-07-28,"Flag threshold: Latest BP 166/102 on 2026-07-28 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""BP taken right after she walked up the hill carrying water. Repeat after 10 minutes of rest: 138/86.""
+Patient messages:
+""134/88 leo. Asante""
+""presha leo 131/81""
+""137/90 leo. Asante""",,
+1703,17,2026-10-01,"Flag threshold: Latest BP 166/102 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.""
+Patient messages:
+""Mimi ni mzima. Presha ni 152/99, nakunywa dawa kila siku.""
+""150/98 leo. Asante""
+""Nimepima dispensari 161/103. Nimekunywa dawa moja tu kati ya mbili.""",,
+1705,19,2026-10-01,"Flag threshold: Latest BP 164/101 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Flag trend: Trend rule: each of the last 3 readings (158, 159, 164, 2026-09-29 to 2026-10-01) is at least 10 mmHg above the baseline of 133; and the last 4 readings (2026-09-18 to 2026-10-01) average 158, 25 mmHg above the baseline of 133 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Patient bien, prend ses médicaments.""
+""Mgonjwa anasafiri kwenda Bujumbura kwa wiki mbili; ana simu na anajibu SMS.""
+Patient messages:
+""Sawa, nimeelewa.""
+""presha leo 151/97""
+""Pressure yangu ni 158/98, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.""",,
+1446,73,2025-10-21,"Flag threshold: Latest BP 149/100 on 2025-10-21 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes.
+Days since last contact: 0.",,
+1728,5,2026-06-07,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient well, taking medicine.""
+""Home visit, BP taken.""
+Patient messages:
+""142/89 leo. Asante""
+""147/97 leo. Asante""
+""Dawa zangu ziliisha siku kumi zilizopita, sijapata nyingine.""",,
+1722,33,2026-07-18,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+""Home visit, BP taken.""
+Patient messages:
+""Shikamoo. Nimepima leo 129/84, dawa nimekunywa asubuhi.""
+""122/81 leo. Asante""
+""Dawa zangu ziliisha siku kumi zilizopita, sijapata nyingine.""",,
+1714,3,2026-10-01,"Flag threshold: Latest BP 166/101 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).
+Flag trend: Trend rule: each of the last 3 readings (134, 133, 166, 2026-09-15 to 2026-10-01) is at least 10 mmHg above the baseline of 120; and the last 4 readings (2026-09-14 to 2026-10-01) average 138, 19 mmHg above the baseline of 120 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Medicine taken at the last three contacts: yes, yes, partial.
+Days since last contact: 0.
+CHW notes:
+""Pieds et chevilles gonflés depuis le début du nouveau médicament.""
+Patient messages:
+""Bonjour, ma tension aujourd'hui est 122/72. J'ai pris mes médicaments.""
+""tension 121/73""
+""Ma tension est 133 sur 77, je prends bien mes médicaments chaque jour.""",,
+1726,31,2026-05-30,"Flag threshold: Latest BP 166/101 on 2026-05-30 is at or above the 'grade2' cut-off (160/100).
+Flag who_risk: WHO 10-year CVD risk 23% (woman, smoker, age 70-74, SBP 160-179, BMI 30-34 (30.2)) on the reading of 2026-05-30: at or above the 'high' level (20%). Note: age 77 is above the chart: read as 70-74, so the risk is likely higher.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient bien, prend ses médicaments.""
+""Feet and ankles swollen since the new tablets started two weeks ago.""
+Patient messages:
+""Habari za asubuhi, niko safarini wiki hii.""
+""Mimi ni mzima. Presha ni 137/90, nakunywa dawa kila siku.""
+""Habari za asubuhi, niko safarini wiki hii.""",,
+1732,12,2026-07-14,"Flag threshold: Latest BP 166/101 on 2026-07-14 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+""Pieds et chevilles gonflés depuis le début du nouveau médicament.""
+Patient messages:
+""Habari daktari, presha yangu ni 143 kwa 94. Nimekunywa dawa zangu.""
+""presha leo 146/94""
+""Habari daktari, presha yangu ni 138 kwa 87. Nimekunywa dawa zangu.""",,
+1724,24,2026-06-23,"Flag borderline: Borderline: 3 readings in a row in the band just under the goal 140/90 (130-139 systolic or 85-89 diastolic): 136/82, 136/82, 130/77 (2026-05-18 to 2026-06-06). No threshold crossed; recheck and ask for a weekly reading.
+Flag symptom: Symptom 'headache' reported on 2026-06-23; latest BP 132/82 is under the goal 140/90 (bp_goal).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Home visit, no complaints.""
+""Lives alone, cannot read, does not use the phone for messages.""
+Patient messages:
+""Bonjour agent, 136 sur 82, j'ai oublié mes comprimés aujourd'hui.""
+""D'accord, j'ai compris.""
+""J'ai mesuré au centre de santé : 130/77. Médicaments pris.""",,
+1708,22,2026-09-30,"Flag threshold: Latest BP 166/101 on 2026-09-30 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Pieds et chevilles gonflés depuis le début du nouveau médicament.""
+Patient messages:
+""Mimi ni mzima. Presha ni 121/75, nakunywa dawa kila siku.""
+""Habari daktari, presha yangu ni 130 kwa 87. Nimekunywa dawa zangu.""
+""Habari daktari, presha yangu ni 131 kwa 83. Nimekunywa dawa zangu.""",,
+1711,20,2026-09-30,"Flag threshold: Latest BP 164/101 on 2026-09-30 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.""
+Patient messages:
+""Bonjour, ma tension aujourd'hui est 138/92. J'ai pris mes médicaments.""
+""J'ai mesuré au centre de santé : 144/88. Médicaments pris.""
+""Bjr, tension 139 sur 81 ce matin""",,
+1715,25,2026-08-02,"Flag threshold: Latest BP 166/102 on 2026-08-02 is at or above the 'grade2' cut-off (160/100).
+Flag trend: Trend rule: each of the last 3 readings (149, 151, 166, 2026-07-25 to 2026-08-02) is at least 10 mmHg above the baseline of 132; and the last 4 readings (2026-07-24 to 2026-08-02) average 153, 21 mmHg above the baseline of 132 (rule: at least 15 mmHg over 4 readings) (baseline = first 3 readings).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.""
+Patient messages:
+""Habari daktari, presha yangu ni 140 kwa 99. Nimekunywa dawa zangu.""
+""Habari daktari, presha yangu ni 149 kwa 100. Nimekunywa dawa zangu.""
+""151/97 leo. Asante""",,
+977,46,2026-05-04,"Flags: none.
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Patient bien, prend ses médicaments.""
+Patient messages:
+""Mimi ni mzima. Presha ni 132/80, nakunywa dawa kila siku.""
+""Habari daktari, presha yangu ni 130 kwa 85. Nimekunywa dawa zangu.""",,
+532,25,2026-07-25,"Flag threshold: Latest BP 149/100 on 2026-07-25 is at or above the 'grade2' cut-off (160/100).
+Medicine taken at the last three contacts: yes, yes, yes.
+Days since last contact: 0.
+CHW notes:
+""Mgonjwa yuko sawa, anakunywa dawa.""
+Patient messages:
+""Pressure yangu ni 147/98, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.""
+""Habari daktari, presha yangu ni 140 kwa 99. Nimekunywa dawa zangu.""
+""Habari daktari, presha yangu ni 149 kwa 100. Nimekunywa dawa zangu.""",,

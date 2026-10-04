@@ -1,0 +1,91 @@
+patient_id,trajectory,deteriorates_within_30d,groups_json
+1,drifting,no,"[""demo""]"
+2,stable,no,[]
+3,stable,no,"[""smoker_high_bmi""]"
+4,deteriorating,no,"[""low_understanding"", ""event""]"
+5,drifting,no,[]
+6,deteriorating,no,"[""low_understanding"", ""event""]"
+7,stable,no,[]
+8,stable,no,"[""smoker_high_bmi"", ""silent""]"
+9,deteriorating,yes,[]
+10,deteriorating,yes,"[""missed_meds""]"
+11,drifting,no,"[""missed_meds""]"
+12,drifting,no,"[""silent""]"
+13,deteriorating,no,"[""low_understanding"", ""event""]"
+14,deteriorating,no,"[""event""]"
+15,stable,no,[]
+16,stable,no,"[""missed_meds""]"
+17,drifting,no,"[""missed_appointments"", ""emergency_symptom""]"
+18,drifting,no,"[""smoker_high_bmi""]"
+19,drifting,no,"[""smoker_high_bmi""]"
+20,stable,no,"[""missed_meds""]"
+21,deteriorating,yes,[]
+22,stable,no,"[""missed_appointments""]"
+23,drifting,no,"[""missed_meds""]"
+24,stable,no,[]
+25,drifting,no,[]
+26,stable,no,"[""missed_meds""]"
+27,deteriorating,yes,"[""emergency_symptom""]"
+28,stable,no,"[""missed_meds"", ""silent""]"
+29,stable,no,"[""missed_meds"", ""missed_appointments""]"
+30,stable,no,"[""missed_appointments""]"
+31,stable,no,[]
+32,deteriorating,no,"[""event""]"
+33,stable,no,"[""missed_appointments""]"
+34,drifting,no,"[""silent""]"
+35,stable,no,[]
+36,stable,no,"[""missed_meds"", ""missed_appointments""]"
+37,stable,no,[]
+38,deteriorating,no,"[""event""]"
+39,stable,no,"[""smoker_high_bmi"", ""missed_appointments""]"
+40,drifting,no,[]
+41,stable,no,"[""silent""]"
+42,drifting,no,"[""smoker_high_bmi"", ""silent""]"
+43,stable,no,[]
+44,drifting,no,"[""missed_appointments""]"
+45,stable,no,[]
+46,deteriorating,no,"[""low_understanding"", ""event""]"
+47,stable,no,[]
+48,drifting,no,"[""silent""]"
+49,drifting,no,[]
+50,stable,no,"[""smoker_high_bmi""]"
+51,deteriorating,no,"[""low_understanding"", ""event""]"
+52,deteriorating,yes,[]
+53,deteriorating,yes,[]
+54,drifting,no,"[""missed_appointments""]"
+55,stable,no,"[""smoker_high_bmi"", ""silent""]"
+56,stable,no,"[""silent""]"
+57,stable,no,[]
+58,stable,no,"[""silent""]"
+59,stable,no,"[""missed_meds""]"
+60,stable,no,"[""missed_appointments""]"
+61,deteriorating,no,"[""former"", ""event""]"
+62,deteriorating,no,"[""former"", ""event""]"
+63,deteriorating,no,"[""former"", ""event""]"
+64,deteriorating,no,"[""former"", ""missed_meds"", ""event""]"
+65,deteriorating,no,"[""former"", ""event""]"
+66,deteriorating,no,"[""former"", ""missed_meds"", ""event""]"
+67,deteriorating,no,"[""former"", ""event""]"
+68,deteriorating,no,"[""former"", ""event""]"
+69,deteriorating,no,"[""former"", ""missed_meds"", ""event""]"
+70,deteriorating,no,"[""former"", ""missed_meds"", ""event""]"
+71,deteriorating,no,"[""former"", ""event""]"
+72,deteriorating,no,"[""former"", ""event""]"
+73,deteriorating,no,"[""former"", ""event""]"
+74,deteriorating,no,"[""former"", ""event""]"
+75,deteriorating,no,"[""former"", ""event""]"
+76,deteriorating,no,"[""former"", ""missed_meds"", ""event""]"
+77,deteriorating,no,"[""former"", ""event""]"
+78,deteriorating,no,"[""former"", ""event""]"
+79,stable,no,"[""former""]"
+80,stable,no,"[""former""]"
+81,stable,no,"[""former""]"
+82,drifting,no,"[""former""]"
+83,stable,no,"[""former""]"
+84,stable,no,"[""former""]"
+85,drifting,no,"[""former""]"
+86,stable,no,"[""former""]"
+87,stable,no,"[""former""]"
+88,stable,no,"[""former""]"
+89,drifting,no,"[""former""]"
+90,stable,no,"[""former""]"

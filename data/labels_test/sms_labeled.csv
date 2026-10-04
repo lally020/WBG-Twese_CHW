@@ -1,0 +1,301 @@
+id,lang,template_id,text,intent,sbp,dbp,meds_taken,symptoms,messy,no_numbers
+1,sw,sw-03,"Shikamoo. Nimepima leo 118 91, dawa nimekunywa asubuhi. ok",bp_report,118.0,91.0,yes,[],1,0
+2,sw,sw-00,Habari. Leo presha yangu ni 172/116. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,172.0,116.0,partial,"[""headache""]",0,0
+3,en,en-04,BP 163/109. My tablets are finished so I took nothing.,bp_report,163.0,109.0,no,[],0,0
+4,sw,sw-04,presha 177 kwa 81 sijakunywa dawa tangu juzi,bp_report,177.0,81.0,no,[],0,0
+5,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+6,fr,fr-01,tension 138-114,bp_report,138.0,114.0,,[],1,0
+7,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+8,en,en-17,My husband's face is drooping on one side and he can't talk well.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+9,en,en-08,"pressure 191/94, feeling dizzy",bp_report,191.0,94.0,,"[""dizziness""]",0,0
+10,sw,sw-29,Mungu akubariki mhudumu.,other,,,,[],0,1
+11,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+12,fr,fr-21,"Mes médicaments sont finis, où je peux en avoir ?",meds_question,,,,[],0,1
+13,fr,fr-03,"Ma tesion est à 127 63, je n'ai pas pris le médicament depuis hier thanks",bp_report,127.0,63.0,no,[],1,0
+14,fr,fr-20,mal de tête et vertiges depuis deux jours,symptom,,,,"[""headache"", ""dizziness""]",0,1
+15,en,en-16,I have pain in my chest.,symptom,,,,"[""chest_pain""]",0,1
+16,fr,fr-25,Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?,meds_question,,,,[],0,1
+17,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+18,en,en-07,Checked at the health centre: 139-70. Meds taken.,bp_report,139.0,70.0,yes,[],1,0
+19,sw,sw-06,"Mimi ni mzima. Presha ni 180/91, nakunywa dawa kila siku.",bp_report,180.0,91.0,yes,[],0,0
+20,sw,sw-13,"pressure yangu ni 146-106, nimekunywa nusu doi kwa sabaub dawa zinakaribia kuisha.",bp_report,146.0,106.0,partial,[],1,0
+21,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+22,fr,fr-21,"Mes médicaments sont finis, où je peux en avoir ?",meds_question,,,,[],0,1
+23,en,en-11,"this mrning 172 94, my eyes are blurry. merci",bp_report,172.0,94.0,,"[""vision_change""]",1,0
+24,en,en-00,"Hi, my BP today is 129/112. I took my medicine.",bp_report,129.0,112.0,yes,[],0,0
+25,en,en-19,I feel dizzy when I stand up.,symptom,,,,"[""dizziness""]",0,1
+26,sw,sw-15,"Naona giza machoni, siwezi kuona vizuri.",symptom,,,,"[""vision_change""]",0,1
+27,sw,sw-02,"Habari daktari, presha yangu ni 158 kwa 70. Nimekunywa dawa zangu.",bp_report,158.0,70.0,yes,[],0,0
+28,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+29,en,en-01,bp 121/103,bp_report,121.0,103.0,,[],0,0
+30,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+31,sw,sw-09,nimepima dispensari 151-80. nimekunywa awa moja tu kati ya mbili. ok,bp_report,151.0,80.0,partial,[],1,0
+32,sw,sw-00,Habari. Leo presha yangu ni 108/85. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,108.0,85.0,partial,"[""headache""]",0,0
+33,sw,sw-20,kichwa kinauma na kizunguzungu pia,symptom,,,,"[""headache"", ""dizziness""]",0,1
+34,sw,sw-26,Asante sana kwa ujumbe.,other,,,,[],0,1
+35,sw,sw-09,Nimepima dispensari 109/98. Nimekunywa dawa moja tu kati ya mbili.,bp_report,109.0,98.0,partial,[],0,0
+36,sw,sw-13,"Pressure yangu ni 193/80, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,193.0,80.0,partial,[],0,0
+37,sw,sw-13,"Pressure yangu ni 113/96, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,113.0,96.0,partial,[],0,0
+38,sw,sw-20,kichwa kinauma na kizunguzungu pia,symptom,,,,"[""headache"", ""dizziness""]",0,1
+39,sw,sw-25,"Je, niendelee kunywa dawa hata kama najisikia vizuri?",meds_question,,,,[],0,1
+40,en,en-03,"111 over 87, did not take meds yesteday or oday",bp_report,111.0,87.0,no,[],1,0
+41,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+42,fr,fr-25,Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?,meds_question,,,,[],0,1
+43,en,en-16,I have pain in my chest.,symptom,,,,"[""chest_pain""]",0,1
+44,fr,fr-02,"Bjr, tension 185 sur 71 ce matin",bp_report,185.0,71.0,,[],0,0
+45,en,en-22,Can I stop the tablets if I feel fine?,meds_question,,,,[],0,1
+46,en,en-04,BP 158/111. My tablets are finished so I took nothing.,bp_report,158.0,111.0,no,[],0,0
+47,sw,sw-05,Leo 139/116. Dawa zimeisha sijanywa.,bp_report,139.0,116.0,no,[],0,0
+48,sw,sw-08,presha yangu 195 kwa 73 na macho yanaona ukungu,bp_report,195.0,73.0,,"[""vision_change""]",0,0
+49,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+50,fr,fr-02,"Bjr, tesion 150 70 ce matin sawa",bp_report,150.0,70.0,,[],1,0
+51,sw,sw-06,"Mimi ni mzima. Presha ni 146/77, nakunywa dawa kila siku.",bp_report,146.0,77.0,yes,[],0,0
+52,sw,sw-26,Asante sana kwa ujumbe.,other,,,,[],0,1
+53,sw,sw-12,"habari mhudumu. presha juu 162 chini 65, nimekunywa dawa lakiin kifau kinauma. ok",bp_report,162.0,65.0,yes,"[""chest_pain""]",1,0
+54,sw,sw-01,presha leo juu 189 chini 113,bp_report,189.0,113.0,,[],1,0
+55,sw,sw-05,Leo 121/108. Dawa zimeisha sijanywa.,bp_report,121.0,108.0,no,[],0,0
+56,sw,sw-06,"Mimi ni mzima. Presha ni 152/78, nakunywa dawa kila siku.",bp_report,152.0,78.0,yes,[],0,0
+57,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+58,sw,sw-08,presha yangu 155 kwa 101 na macho yanaona ukungu,bp_report,155.0,101.0,,"[""vision_change""]",0,0
+59,sw,sw-15,"Naona giza machoni, siwezi kuona vizuri.",symptom,,,,"[""vision_change""]",0,1
+60,sw,sw-13,"Pressure yangu ni 162/93, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,162.0,93.0,partial,[],0,0
+61,sw,sw-20,kichwa kinauma na kizunguzungu pia,symptom,,,,"[""headache"", ""dizziness""]",0,1
+62,en,en-10,bp 132-79. ook one of my two medicines.,bp_report,132.0,79.0,partial,[],1,0
+63,sw,sw-09,Nimepima dispensari 175/110. Nimekunywa dawa moja tu kati ya mbili.,bp_report,175.0,110.0,partial,[],0,0
+64,sw,sw-00,Habari. Leo presha yangu ni 151/118. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,151.0,118.0,partial,"[""headache""]",0,0
+65,fr,fr-21,"Mes médicaments sont finis, où je peux en avoir ?",meds_question,,,,[],0,1
+66,sw,sw-17,Mama yangu uso umepinda upande mmoja na hawezi kuongea vizuri.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+67,sw,sw-07,Habari ya leo. Kipimo changu 175/74. Nina kizunguzungu kidogo.,bp_report,175.0,74.0,,"[""dizziness""]",0,0
+68,fr,fr-17,Mon mari a la bouche tordue d'un côté et il parle mal.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+69,sw,sw-04,presha 108 kwa 80 sijakunywa dawa tangu juzi,bp_report,108.0,80.0,no,[],0,0
+70,fr,fr-26,Merci beaucoup.,other,,,,[],0,1
+71,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+72,sw,sw-28,"Sawa, nimeelewa.",other,,,,[],0,1
+73,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+74,sw,sw-08,presha yangu 108 kwa 63 na macho yanaona ukungu,bp_report,108.0,63.0,,"[""vision_change""]",0,0
+75,en,en-21,"My medicine is finished, where can I get more?",meds_question,,,,[],0,1
+76,sw,sw-07,Habari ya leo. Kipimo changu 177/112. Nina kizunguzungu kidogo.,bp_report,177.0,112.0,,"[""dizziness""]",0,0
+77,sw,sw-12,"Habari mhudumu. Presha 124 kwa 68, nimekunywa dawa lakini kifua kinauma.",bp_report,124.0,68.0,yes,"[""chest_pain""]",0,0
+78,sw,sw-11,108/81 leo. Asante,bp_report,108.0,81.0,,[],0,0
+79,en,en-04,BP 195/65. My tablets are finished so I took nothing.,bp_report,195.0,65.0,no,[],0,0
+80,en,en-14,I have a very bad headache since last night.,symptom,,,,"[""headache""]",0,1
+81,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+82,fr,fr-17,Mon mari a la bouche tordue d'un côté et il parle mal.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+83,sw,sw-18,Mkono wangu wa kushoto hauna nguvu tangu asubuhi.,symptom,,,,"[""arm_weakness""]",0,1
+84,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+85,en,en-03,"116-104, did not take meds yesterday or today",bp_report,116.0,104.0,no,[],1,0
+86,sw,sw-06,"Mimi ni mzima. Presha ni 124/72, nakunywa dawa kila siku.",bp_report,124.0,72.0,yes,[],0,0
+87,fr,fr-13,tension 168/103 medicament pris mais douleur a la poitrine,bp_report,168.0,103.0,yes,"[""chest_pain""]",0,0
+88,sw,sw-13,"Pressure yangu ni 138/82, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,138.0,82.0,partial,[],0,0
+89,sw,sw-14,Nina maumivu makali ya kichwa tangu jana usiku.,symptom,,,,"[""headache""]",0,1
+90,sw,sw-28,"Sawa, nimeelewa.",other,,,,[],0,1
+91,fr,fr-19,J'ai des vertiges quand je me lève.,symptom,,,,"[""dizziness""]",0,1
+92,sw,sw-00,Habari. Leo presha yangu ni 116/71. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,116.0,71.0,partial,"[""headache""]",0,0
+93,fr,fr-15,Je vois trouble depuis ce matin.,symptom,,,,"[""vision_change""]",0,1
+94,en,en-19,I feel dizzy when I stand up.,symptom,,,,"[""dizziness""]",0,1
+95,en,en-15,My vision is blurry since morning.,symptom,,,,"[""vision_change""]",0,1
+96,en,en-13,bp 193 91 took my meds but chest is paining asante,bp_report,193.0,91.0,yes,"[""chest_pain""]",1,0
+97,en,en-13,bp 176 111 took my meds but chest is painnig sawa,bp_report,176.0,111.0,yes,"[""chest_pain""]",1,0
+98,en,en-19,I feel dizzy when I stand up.,symptom,,,,"[""dizziness""]",0,1
+99,fr,fr-13,tension 134/64 medicament pris mais douleur a la poitrine,bp_report,134.0,64.0,yes,"[""chest_pain""]",0,0
+100,en,en-03,"183 103, did not ake meds yesterday or today",bp_report,183.0,103.0,no,[],1,0
+101,en,en-28,"Ok, I understand.",other,,,,[],0,1
+102,sw,sw-04,presha 168 kwa 88 sijakunywa dawa tangu juzi,bp_report,168.0,88.0,no,[],0,0
+103,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+104,fr,fr-16,J'ai une douleur dans la poitrine.,symptom,,,,"[""chest_pain""]",0,1
+105,fr,fr-04,"159/108 aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",bp_report,159.0,108.0,no,[],0,0
+106,en,en-10,BP 128/90. Took one of my two medicines.,bp_report,128.0,90.0,partial,[],0,0
+107,sw,sw-09,nimepima dispensari 165 90. nimekunywa dawa moja tu kati ya mbili. thank you,bp_report,165.0,90.0,partial,[],1,0
+108,fr,fr-23,"Le médicament me fait gonfler les pieds, c'est normal ?",meds_question,,,,[],0,1
+109,sw,sw-15,"Naona giza machoni, siwezi kuona vizuri.",symptom,,,,"[""vision_change""]",0,1
+110,en,en-20,headache and dizziness for two days,symptom,,,,"[""headache"", ""dizziness""]",0,1
+111,en,en-29,God bless you.,other,,,,[],0,1
+112,fr,fr-28,"D'accord, j'ai compris.",other,,,,[],0,1
+113,en,en-24,Should I take the tablet in the morning or at night?,meds_question,,,,[],0,1
+114,sw,sw-06,"iMmi ni mzima. Presha ni 180 64, nakunywa dawa kila siku.",bp_report,180.0,64.0,yes,[],1,0
+115,sw,sw-18,Mkono wangu wa kushoto hauna nguvu tangu asubuhi.,symptom,,,,"[""arm_weakness""]",0,1
+116,sw,sw-00,Habari. Leo presha yangu ni 193/87. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,193.0,87.0,partial,"[""headache""]",0,0
+117,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+118,sw,sw-06,"Mimi ni mzima. Presha ni 189/101, nakunywa dawa kila siku.",bp_report,189.0,101.0,yes,[],0,0
+119,en,en-14,I have a very bad headache since last night.,symptom,,,,"[""headache""]",0,1
+120,en,en-13,bp 121/71 took my meds but chest is paining,bp_report,121.0,71.0,yes,"[""chest_pain""]",0,0
+121,sw,sw-09,Nimepima dispensari 107/117. Nimekunywa dawa moja tu kati ya mbili.,bp_report,107.0,117.0,partial,[],0,0
+122,en,en-20,headache and dizziness for two days,symptom,,,,"[""headache"", ""dizziness""]",0,1
+123,sw,sw-10,Asubuhi presha ilikuwa 143 kwa 111. Nimesahau kunywa dawa leo.,bp_report,143.0,111.0,no,[],0,0
+124,fr,fr-01,tension 146/62,bp_report,146.0,62.0,,[],0,0
+125,sw,sw-04,presha 184 kwa 108 sijakunywa dawa tangu juzi,bp_report,184.0,108.0,no,[],0,0
+126,fr,fr-24,Je dois prendre le comprimé le matin ou le soir ?,meds_question,,,,[],0,1
+127,sw,sw-12,"Habari mhudumu. Presha 113 kwa 85, nimekunywa dawa lakini kifua kinauma.",bp_report,113.0,85.0,yes,"[""chest_pain""]",0,0
+128,fr,fr-09,"Bonjour agent, 108 sur 97, j'ai oublié mes comprimés aujourd'hui.",bp_report,108.0,97.0,no,[],0,0
+129,en,en-26,Thank you very much.,other,,,,[],0,1
+130,en,en-11,"This morning 171/116, my eyes are blurry.",bp_report,171.0,116.0,,"[""vision_change""]",0,0
+131,fr,fr-29,Que Dieu vous bénisse.,other,,,,[],0,1
+132,fr,fr-19,J'ai des vertiges quand je me lève.,symptom,,,,"[""dizziness""]",0,1
+133,sw,sw-28,"Sawa, nimeelewa.",other,,,,[],0,1
+134,fr,fr-09,"Bonjour agent, 187 sur 64, j'ai oublié mes comprimés aujourd'hui.",bp_report,187.0,64.0,no,[],0,0
+135,en,en-28,"Ok, I understand.",other,,,,[],0,1
+136,en,en-02,my pressure is 159 ver 70 this morning merci,bp_report,159.0,70.0,,[],1,0
+137,fr,fr-18,"Mon bras droit est faible, je ne peux pas le lever.",symptom,,,,"[""arm_weakness""]",0,1
+138,sw,sw-12,"Habari mhudumu. Presha 190 kwa 104, nimekunywa dawa lakini kifua kinauma.",bp_report,190.0,104.0,yes,"[""chest_pain""]",0,0
+139,sw,sw-14,Nina maumivu makali ya kichwa tangu jana usiku.,symptom,,,,"[""headache""]",0,1
+140,fr,fr-04,"166/96 aujourd'hui. Les médicaments sont finis, je n'ai rien pris.",bp_report,166.0,96.0,no,[],0,0
+141,fr,fr-11,"Ce matin 186/79, je vois flou.",bp_report,186.0,79.0,,"[""vision_change""]",0,0
+142,sw,sw-14,Nina maumivu makali ya kichwa tangu jana usiku.,symptom,,,,"[""headache""]",0,1
+143,sw,sw-07,Habari ya leo. Kipimo changu 183/82. Nina kizunguzungu kidogo.,bp_report,183.0,82.0,,"[""dizziness""]",0,0
+144,en,en-07,checked at the health centre: 137 94. mesd taken.,bp_report,137.0,94.0,yes,[],1,0
+145,sw,sw-03,"Shikamoo. Nimepima leo 159/62, dawa nimekunywa asubuhi.",bp_report,159.0,62.0,yes,[],0,0
+146,fr,fr-03,"ma tension est à 158 106, je n'ai pas prs le médicamet depuis hier asante",bp_report,158.0,106.0,no,[],1,0
+147,en,en-02,My rpessure is 119 and 94 this morning asante,bp_report,119.0,94.0,,[],1,0
+148,en,en-08,"pressure 141 92, feeling dizzy",bp_report,141.0,92.0,,"[""dizziness""]",1,0
+149,sw,sw-12,"Habari mhudumu. Presha 180 kwa 64, nimekunywa dawa lakini kifua kinauma.",bp_report,180.0,64.0,yes,"[""chest_pain""]",0,0
+150,en,en-28,"Ok, I understand.",other,,,,[],0,1
+151,sw,sw-02,"habari daktari, prehsa yangu ni 131-83. nimekunywa dawa zangu. merci",bp_report,131.0,83.0,yes,[],1,0
+152,en,en-04,BP 170/67. My tablets are finished so I took nothing.,bp_report,170.0,67.0,no,[],0,0
+153,en,en-04,BP 170/118. My tablets are finished so I took nothing.,bp_report,170.0,118.0,no,[],0,0
+154,en,en-01,bp 147 95 asante,bp_report,147.0,95.0,,[],1,0
+155,en,en-17,My husband's face is drooping on one side and he can't talk well.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+156,en,en-12,"My BP is 184 over 77, taking my medicine every day.",bp_report,184.0,77.0,yes,[],0,0
+157,sw,sw-10,Asubuhi presha ilikuwa 156 kwa 92. Nimesahau kunywa dawa leo.,bp_report,156.0,92.0,no,[],0,0
+158,fr,fr-10,tension 187 et 87. j'ai pris un seul méciament sur les deux. thanks,bp_report,187.0,87.0,partial,[],1,0
+159,en,en-23,"The medicine makes my feet swell, is that normal?",meds_question,,,,[],0,1
+160,fr,fr-00,"Bonjour, ma ensin aujourd'hui est 193 et 74. J'ai pris mes médicaments.",bp_report,193.0,74.0,yes,[],1,0
+161,fr,fr-10,tnesion 185 112. j'ai pris un seul médiacment sur les deux. asante,bp_report,185.0,112.0,partial,[],1,0
+162,sw,sw-00,Habari. Leo presha yangu ni 146/69. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,146.0,69.0,partial,"[""headache""]",0,0
+163,sw,sw-24,"Dawa hii inanifanya nikojoe sana, ni kawaida?",meds_question,,,,[],0,1
+164,fr,fr-28,"D'accord, j'ai compris.",other,,,,[],0,1
+165,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+166,sw,sw-13,"Pressure yangu ni 176/64, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,176.0,64.0,partial,[],0,0
+167,sw,sw-02,"Habari daktari, presha yangu ni 134 kwa 98. Nimekunywa dawa zangu.",bp_report,134.0,98.0,yes,[],0,0
+168,fr,fr-14,J'ai très mal à la tête depuis hier soir.,symptom,,,,"[""headache""]",0,1
+169,sw,sw-17,Mama yangu uso umepinda upande mmoja na hawezi kuongea vizuri.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+170,sw,sw-06,"Mimi ni mzima. Presha ni 152/114, nakunywa dawa kila siku.",bp_report,152.0,114.0,yes,[],0,0
+171,sw,sw-22,Naweza kunywa dawa ya presha pamoja na chakula?,meds_question,,,,[],0,1
+172,sw,sw-01,presha leo 149/68,bp_report,149.0,68.0,,[],0,0
+173,en,en-15,My vision is blurry since morning.,symptom,,,,"[""vision_change""]",0,1
+174,sw,sw-01,presha leo 166 na 70,bp_report,166.0,70.0,,[],1,0
+175,sw,sw-11,185/64 leo. Asante,bp_report,185.0,64.0,,[],0,0
+176,fr,fr-06,"Tension 134 sur 72, j'ai mal à la tête deuis ce matin. sawa",bp_report,134.0,72.0,,"[""headache""]",1,0
+177,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+178,sw,sw-05,leo 126 na 84. dawa zimeisa sijanywa. ok,bp_report,126.0,84.0,no,[],1,0
+179,fr,fr-25,Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?,meds_question,,,,[],0,1
+180,sw,sw-05,Leo 183/64. Dawa zimeisha sijanywa.,bp_report,183.0,64.0,no,[],0,0
+181,sw,sw-08,presha yangu 157 kwa 118 na macho yanaona ukungu,bp_report,157.0,118.0,,"[""vision_change""]",0,0
+182,en,en-00,"Hi, my BP today is 177/69. I took my medicine.",bp_report,177.0,69.0,yes,[],0,0
+183,en,en-23,"The medicine makes my feet swell, is that normal?",meds_question,,,,[],0,1
+184,sw,sw-25,"Je, niendelee kunywa dawa hata kama najisikia vizuri?",meds_question,,,,[],0,1
+185,sw,sw-04,prsha 148 na 93 sijakunwa dawa tangu juzi,bp_report,148.0,93.0,no,[],1,0
+186,sw,sw-09,nimepima dispensari 189 na 92. nimekunywa dawa mjoa tu kati ya mbili.,bp_report,189.0,92.0,partial,[],1,0
+187,fr,fr-27,"Bonjour, je suis en voyage cette semaine.",other,,,,[],0,1
+188,sw,sw-00,Habari. Leo presha yangu ni 184/67. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,184.0,67.0,partial,"[""headache""]",0,0
+189,en,en-13,bp 158/77 took my meds but chest is paining,bp_report,158.0,77.0,yes,"[""chest_pain""]",0,0
+190,fr,fr-13,tension 119/94 medicament pris mais douleur a la poitrine,bp_report,119.0,94.0,yes,"[""chest_pain""]",0,0
+191,sw,sw-19,Nasikia kizunguzungu nikisimama.,symptom,,,,"[""dizziness""]",0,1
+192,sw,sw-13,"Pressure yangu ni 160/79, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,160.0,79.0,partial,[],0,0
+193,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+194,en,en-09,"Hello, 132 over 77, I forgot my pills today.",bp_report,132.0,77.0,no,[],0,0
+195,sw,sw-25,"Je, niendelee kunywa dawa hata kama najisikia vizuri?",meds_question,,,,[],0,1
+196,sw,sw-06,"Mimi ni mzima. Presha ni 184/107, nakunywa dawa kila siku.",bp_report,184.0,107.0,yes,[],0,0
+197,sw,sw-14,Nina maumivu makali ya kichwa tangu jana usiku.,symptom,,,,"[""headache""]",0,1
+198,fr,fr-26,Merci beaucoup.,other,,,,[],0,1
+199,sw,sw-19,Nasikia kizunguzungu nikisimama.,symptom,,,,"[""dizziness""]",0,1
+200,en,en-23,"The medicine makes my feet swell, is that normal?",meds_question,,,,[],0,1
+201,sw,sw-08,presha yanu 140 na 65 na macho yanaona ukungu thank you,bp_report,140.0,65.0,,"[""vision_change""]",1,0
+202,sw,sw-28,"Sawa, nimeelewa.",other,,,,[],0,1
+203,sw,sw-12,"Habari mhudumu. Presha 180-93, nimekunywa dawa lakini iua kinauma. thank you",bp_report,180.0,93.0,yes,"[""chest_pain""]",1,0
+204,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+205,en,en-26,Thank you very much.,other,,,,[],0,1
+206,sw,sw-22,Naweza kunywa dawa ya presha pamoja na chakula?,meds_question,,,,[],0,1
+207,fr,fr-15,Je vois trouble depuis ce matin.,symptom,,,,"[""vision_change""]",0,1
+208,en,en-25,Can I take my tablets with traditional medicine?,meds_question,,,,[],0,1
+209,en,en-09,"Hello, 121 69, I forgot my pills today. sawa",bp_report,121.0,69.0,no,[],1,0
+210,sw,sw-08,prseha yangu juu 184 chini 74 na macho yanaona ukungu,bp_report,184.0,74.0,,"[""vision_change""]",1,0
+211,sw,sw-19,Nasikia kizunguzungu nikisimama.,symptom,,,,"[""dizziness""]",0,1
+212,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+213,fr,fr-25,Est-ce que je peux prendre mes comprimés avec les médicaments traditionnels ?,meds_question,,,,[],0,1
+214,sw,sw-27,"Habari za asubuhi, niko safarini wiki hii.",other,,,,[],0,1
+215,sw,sw-18,Mkono wangu wa kushoto hauna nguvu tangu asubuhi.,symptom,,,,"[""arm_weakness""]",0,1
+216,fr,fr-03,"Ma tension est à 105 sur 66, je n'ai pas pris le médicament depuis hier",bp_report,105.0,66.0,no,[],0,0
+217,sw,sw-10,Asubui presha ilikuwa 108-109. Nimesahau kunywa dawa leo.,bp_report,108.0,109.0,no,[],1,0
+218,sw,sw-29,Mungu akubariki mhudumu.,other,,,,[],0,1
+219,en,en-22,Can I stop the tablets if I feel fine?,meds_question,,,,[],0,1
+220,fr,fr-04,"181-94 aujourd'hui. Les médicaments sot finis, je n'ai rien pris. thanks",bp_report,181.0,94.0,no,[],1,0
+221,fr,fr-14,J'ai très mal à la tête depuis hier soir.,symptom,,,,"[""headache""]",0,1
+222,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+223,en,en-10,BP 134 and 94. Took one of my two medicines. asante,bp_report,134.0,94.0,partial,[],1,0
+224,fr,fr-03,"Ma tension est à 151 sur 94, je n'ai pas pris le médicament depuis hier",bp_report,151.0,94.0,no,[],0,0
+225,sw,sw-03,"shikamoo. nimepima leo 174-62, dawa nimekunya asubuhi. merci",bp_report,174.0,62.0,yes,[],1,0
+226,en,en-13,bp 190/111 took my meds but chest is paining,bp_report,190.0,111.0,yes,"[""chest_pain""]",0,0
+227,fr,fr-00,"Bonjour, ma tension aujourd'hui est 132-88. J'ai pris mes médicaments.",bp_report,132.0,88.0,yes,[],1,0
+228,sw,sw-21,"Dawa zangu zimeisha, nitapata wapi zingine?",meds_question,,,,[],0,1
+229,en,en-07,checked at the health centre: 108 ovre 113. meds taken. sawa,bp_report,108.0,113.0,yes,[],1,0
+230,fr,fr-03,"Ma tension est à 107 sur 103, je n'ai pas pris le médicament depuis hier",bp_report,107.0,103.0,no,[],0,0
+231,en,en-10,bp 107 106. took one of my two medicines. asante,bp_report,107.0,106.0,partial,[],1,0
+232,sw,sw-04,presha 134 kwa 104 sijakunywa dawa tangu juzi,bp_report,134.0,104.0,no,[],0,0
+233,sw,sw-18,Mkono wangu wa kushoto hauna nguvu tangu asubuhi.,symptom,,,,"[""arm_weakness""]",0,1
+234,sw,sw-01,presha leo 167/74,bp_report,167.0,74.0,,[],0,0
+235,sw,sw-07,Habari ya leo. Kipimo changu 191/91. Nina kizunguzungu kidogo.,bp_report,191.0,91.0,,"[""dizziness""]",0,0
+236,sw,sw-02,"habari daktari, presha yangu ni 142 86. niekunywa dawa zangu.",bp_report,142.0,86.0,yes,[],1,0
+237,en,en-29,God bless you.,other,,,,[],0,1
+238,en,en-07,Checked at the halth centre: 144 oer 96. Meds taken. merci,bp_report,144.0,96.0,yes,[],1,0
+239,sw,sw-19,Nasikia kizunguzungu nikisimama.,symptom,,,,"[""dizziness""]",0,1
+240,sw,sw-13,"Pressure yangu ni 106/77, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",bp_report,106.0,77.0,partial,[],0,0
+241,sw,sw-09,Nimepima dispensari 184-107. Nimekunywa daaw moja tu kati ya mbili. thank you,bp_report,184.0,107.0,partial,[],1,0
+242,en,en-18,"My right arm is weak, I can't lift it.",symptom,,,,"[""arm_weakness""]",0,1
+243,fr,fr-16,J'ai une douleur dans la poitrine.,symptom,,,,"[""chest_pain""]",0,1
+244,fr,fr-24,Je dois prendre le comprimé le matin ou le soir ?,meds_question,,,,[],0,1
+245,en,en-29,God bless you.,other,,,,[],0,1
+246,sw,sw-08,presha yangu juu 179 chini 111 na mahco yanaona ukungu,bp_report,179.0,111.0,,"[""vision_change""]",1,0
+247,en,en-03,"160 over 100, did not take meds yesterday or today",bp_report,160.0,100.0,no,[],0,0
+248,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+249,sw,sw-02,"Habari daktari, presha yangu ni 170 kwa 115. Nimekunywa dawa zangu.",bp_report,170.0,115.0,yes,[],0,0
+250,fr,fr-00,"bonjour, ma tension aujourd'hui est 173 sur 116. j'ai pirs mes médicaments. sawa",bp_report,173.0,116.0,yes,[],1,0
+251,fr,fr-29,Que Dieu vous bénisse.,other,,,,[],0,1
+252,fr,fr-29,Que Dieu vous bénisse.,other,,,,[],0,1
+253,sw,sw-01,presha leo 150 73,bp_report,150.0,73.0,,[],1,0
+254,sw,sw-29,Mungu akubariki mhudumu.,other,,,,[],0,1
+255,en,en-16,I have pain in my chest.,symptom,,,,"[""chest_pain""]",0,1
+256,en,en-11,"This morning 135-87, my eyes are blurry.",bp_report,135.0,87.0,,"[""vision_change""]",1,0
+257,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+258,fr,fr-03,"Ma tension est à 152 sur 111, je n'ai pas pris le médicament depuis hier",bp_report,152.0,111.0,no,[],0,0
+259,en,en-05,"Good evening. BP 168/100, I only took half of my tablets.",bp_report,168.0,100.0,partial,[],0,0
+260,sw,sw-28,"Sawa, nimeelewa.",other,,,,[],0,1
+261,sw,sw-05,leo 152 na 103. dawa zimeisha sijanywa.,bp_report,152.0,103.0,no,[],1,0
+262,en,en-24,Should I take the tablet in the morning or at night?,meds_question,,,,[],0,1
+263,fr,fr-11,"Ce matin 175/77, je vois flou.",bp_report,175.0,77.0,,"[""vision_change""]",0,0
+264,fr,fr-07,J'ai mesuré au centre de santé : 172 sur 117. Médicaments pris.,bp_report,172.0,117.0,yes,[],1,0
+265,en,en-29,God bless you.,other,,,,[],0,1
+266,sw,sw-20,kichwa kinauma na kizunguzungu pia,symptom,,,,"[""headache"", ""dizziness""]",0,1
+267,sw,sw-14,Nina maumivu makali ya kichwa tangu jana usiku.,symptom,,,,"[""headache""]",0,1
+268,sw,sw-20,kichwa kinauma na kizunguzungu pia,symptom,,,,"[""headache"", ""dizziness""]",0,1
+269,sw,sw-12,"Habari mhudumu. Presha 139 kwa 99, nimekunywa dawa lakini kifua kinauma.",bp_report,139.0,99.0,yes,"[""chest_pain""]",0,0
+270,fr,fr-07,J'ai mesuré au centre de santé : 164/107. Médicaments pris.,bp_report,164.0,107.0,yes,[],0,0
+271,sw,sw-19,Nasikia kizunguzungu nikisimama.,symptom,,,,"[""dizziness""]",0,1
+272,fr,fr-01,tension 120-67,bp_report,120.0,67.0,,[],1,0
+273,sw,sw-23,"Nikisahau dawa asubuhi, nikunywe jioni?",meds_question,,,,[],0,1
+274,en,en-13,bp 181/114 took my meds but chest is paining,bp_report,181.0,114.0,yes,"[""chest_pain""]",0,0
+275,en,en-24,Should I take the tablet in the morning or at night?,meds_question,,,,[],0,1
+276,sw,sw-01,presha leo 154/107,bp_report,154.0,107.0,,[],0,0
+277,sw,sw-01,presha leo 173/95,bp_report,173.0,95.0,,[],0,0
+278,en,en-23,"The medicine makes my feet swell, is that normal?",meds_question,,,,[],0,1
+279,en,en-26,Thank you very much.,other,,,,[],0,1
+280,en,en-18,"My right arm is weak, I can't lift it.",symptom,,,,"[""arm_weakness""]",0,1
+281,sw,sw-13,"pressure yangu ni juu 117 chini 63, nimekunywa nusu dozi kwa sabau dawa zinakaribia kuisha.",bp_report,117.0,63.0,partial,[],1,0
+282,sw,sw-00,Habari. Leo presha yangu ni 110/83. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.,bp_report,110.0,83.0,partial,"[""headache""]",0,0
+283,en,en-02,my pressure is 138 over 84 this orning asante,bp_report,138.0,84.0,,[],1,0
+284,en,en-12,"My BP is 155 over 92, taking my medicine every day.",bp_report,155.0,92.0,yes,[],0,0
+285,sw,sw-03,"Shikamoo. Nimepima leo 167 na 74, daaw nimekunywa asubuhi. merci",bp_report,167.0,74.0,yes,[],1,0
+286,en,en-09,"Hello, 187 over 107, I forgot my pills today.",bp_report,187.0,107.0,no,[],0,0
+287,fr,fr-01,tension 178/73,bp_report,178.0,73.0,,[],0,0
+288,fr,fr-21,"Mes médicaments sont finis, où je peux en avoir ?",meds_question,,,,[],0,1
+289,sw,sw-17,Mama yangu uso umepinda upande mmoja na hawezi kuongea vizuri.,symptom,,,,"[""face_droop"", ""speech_difficulty""]",0,1
+290,fr,fr-02,"Bjr, tension 168-90 ce matin",bp_report,168.0,90.0,,[],1,0
+291,sw,sw-06,"mimi ni mzima. presha ni 121 106, nakunyaw dawa kila siku.",bp_report,121.0,106.0,yes,[],1,0
+292,sw,sw-16,Kifua kinaniuma sana leo asubuhi.,symptom,,,,"[""chest_pain""]",0,1
+293,sw,sw-06,"Mimi ni mzima. Presha ni 145/65, nakunywa dawa kila siku.",bp_report,145.0,65.0,yes,[],0,0
+294,fr,fr-16,J'ai une douleur dans la poitrine.,symptom,,,,"[""chest_pain""]",0,1
+295,en,en-12,"My BP is 134 over 94, taking my medicine every day.",bp_report,134.0,94.0,yes,[],0,0
+296,sw,sw-15,"Naona giza machoni, siwezi kuona vizuri.",symptom,,,,"[""vision_change""]",0,1
+297,fr,fr-03,"Ma tension est à 182 sur 112, je n'ai pas pris le médicament depuis hier",bp_report,182.0,112.0,no,[],0,0
+298,en,en-01,bp 176/84,bp_report,176.0,84.0,,[],0,0
+299,en,en-11,"This morning 187-92, my ees are blurry. sawa",bp_report,187.0,92.0,,"[""vision_change""]",1,0
+300,sw,sw-01,presha leo 172/95,bp_report,172.0,95.0,,[],0,0

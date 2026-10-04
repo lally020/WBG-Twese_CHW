@@ -1,0 +1,37 @@
+{
+  "note": "Template keys and English source text for outgoing patient SMS. Translations live in en.json, sw.json, fr.json, rn.json under the same keys, with the same {placeholders}. Drafted by Claude Code on 2026-10-03; awaiting review. No diagnosis, no prescribing, no dose advice.",
+  "templates": {
+    "reminder_appointment": {
+      "purpose": "Reminder sent before a clinic appointment. {date} is filled in by the engine.",
+      "placeholders": [
+        "date"
+      ],
+      "en": "Hello. Reminder from your health worker: you have an appointment at the health centre on {date}. Please come and bring your medicines. Thank you."
+    },
+    "follow_up_after_visit": {
+      "purpose": "Follow-up message a few days after a CHW visit: asks how the patient is, whether they take their medicine, and invites a BP reading.",
+      "placeholders": [],
+      "en": "Hello, this is your health worker. How are you? Are you taking your medicine every day? If you have a blood pressure reading, please reply with it, for example 140/90."
+    },
+    "sms_check": {
+      "purpose": "Weekly SMS check-in from the CHW (planner 'SMS' slot): asks for a BP reading, whether medicine was taken, and any symptoms.",
+      "placeholders": [],
+      "en": "Hello, this is your weekly check from your health worker. Please reply with your blood pressure if you have it (for example 140/90), if you took your medicine, and how you feel."
+    },
+    "quiz_reply_instruction": {
+      "purpose": "Line appended to every education question SMS.",
+      "placeholders": [],
+      "en": "Reply 1, 2 or 3"
+    },
+    "report_received": {
+      "purpose": "Acknowledgement after an incoming patient SMS is processed.",
+      "placeholders": [],
+      "en": "Thank you. Your health worker has received your message."
+    },
+    "danger_signs_seek_care": {
+      "purpose": "General safety message on stroke warning signs (FAST-style, WHO stroke warning signs). Approved-style general safety text, not individual advice; still needs physician sign-off.",
+      "placeholders": [],
+      "en": "Important: if you have face drooping, a weak arm, trouble speaking, a sudden very bad headache or loss of sight, go to the health centre now and call your health worker."
+    }
+  }
+}

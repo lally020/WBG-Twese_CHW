@@ -1,0 +1,15 @@
+{
+  "lang": "sw",
+  "language_name": "Kiswahili",
+  "verified": false,
+  "verified_by": "",
+  "note": "Drafted by Claude Code on 2026-10-03; awaiting review by the bilingual teammate",
+  "strings": {
+    "reminder_appointment": "Habari. Ukumbusho kutoka kwa mhudumu wako wa afya: una miadi kituo cha afya tarehe {date}. Tafadhali njoo na dawa zako. Asante.",
+    "follow_up_after_visit": "Habari, ni mhudumu wako wa afya. Unaendeleaje? Je, unakunywa dawa zako kila siku? Ukiwa na kipimo cha presha, tafadhali nijibu, kwa mfano 140/90.",
+    "sms_check": "Habari, huu ni ujumbe wa kila wiki kutoka kwa mhudumu wako wa afya. Tafadhali jibu: presha yako kama unayo (kwa mfano 140/90), kama ulikunywa dawa, na unavyojisikia.",
+    "quiz_reply_instruction": "Jibu 1, 2 au 3",
+    "report_received": "Asante. Mhudumu wako wa afya amepokea ujumbe wako.",
+    "danger_signs_seek_care": "Muhimu: ukiona uso umelegea upande mmoja, mkono hauna nguvu, shida ya kuongea, maumivu makali ya kichwa ghafla au kushindwa kuona, nenda kituo cha afya sasa na umpigie mhudumu wako wa afya."
+  }
+}

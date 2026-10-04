@@ -1,0 +1,41 @@
+patient_id,kind,text,gold_codes
+3.0,side_effect,Pieds et chevilles gonflés depuis le début du nouveau médicament.,"[{""code"": ""side_effect"", ""quote"": ""Pieds et chevilles gonflés depuis le début du nouveau médicament""}]"
+5.0,pills_ran_out,"Dawa zangu ziliisha siku kumi zilizopita, sijapata nyingine.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Dawa zangu ziliisha siku kumi zilizopita""}]"
+7.0,lives_alone,"Vit seule, ne sait pas lire, n'utilise pas les SMS.","[{""code"": ""lives_alone"", ""quote"": ""Vit seule""}, {""code"": ""cannot_read"", ""quote"": ""ne sait pas lire""}]"
+8.0,side_effect,Feet and ankles swollen since the new tablets started two weeks ago.,"[{""code"": ""side_effect"", ""quote"": ""Feet and ankles swollen since the new tablets started""}]"
+11.0,chest_pain_sms,Kifua kinauma sana tangu asubuhi na napumua kwa shida.,"[{""code"": ""new_symptom"", ""quote"": ""Kifua kinauma sana""}]"
+12.0,side_effect,Pieds et chevilles gonflés depuis le début du nouveau médicament.,"[{""code"": ""side_effect"", ""quote"": ""Pieds et chevilles gonflés depuis le début du nouveau médicament""}]"
+17.0,exertion,Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.,"[{""code"": ""measured_after_exertion"", ""quote"": ""Tension prise juste après une longue marche""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Contrôle après 10 minutes de repos : 136/84""}]"
+19.0,travelling,Mgonjwa anasafiri kwenda Bujumbura kwa wiki mbili; ana simu na anajibu SMS.,"[{""code"": ""travelling"", ""quote"": ""anasafiri kwenda Bujumbura kwa wiki mbili""}]"
+20.0,travelling,Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.,"[{""code"": ""travelling"", ""quote"": ""leaves tomorrow to visit family in Bujumbura for two weeks""}]"
+22.0,side_effect,Pieds et chevilles gonflés depuis le début du nouveau médicament.,"[{""code"": ""side_effect"", ""quote"": ""Pieds et chevilles gonflés depuis le début du nouveau médicament""}]"
+23.0,chest_pain_sms,Kifua kinauma sana tangu asubuhi na napumua kwa shida.,"[{""code"": ""new_symptom"", ""quote"": ""Kifua kinauma sana""}]"
+24.0,lives_alone,"Lives alone, cannot read, does not use the phone for messages.","[{""code"": ""lives_alone"", ""quote"": ""Lives alone""}, {""code"": ""cannot_read"", ""quote"": ""cannot read""}]"
+25.0,exertion,Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.,"[{""code"": ""measured_after_exertion"", ""quote"": ""Tension prise juste après une longue marche""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Contrôle après 10 minutes de repos : 136/84""}]"
+26.0,chest_pain_sms,"Strong pain in my chest since this morning, it is hard to breathe.","[{""code"": ""new_symptom"", ""quote"": ""Strong pain in my chest""}]"
+28.0,travelling,Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.,"[{""code"": ""travelling"", ""quote"": ""leaves tomorrow to visit family in Bujumbura for two weeks""}]"
+31.0,side_effect,Feet and ankles swollen since the new tablets started two weeks ago.,"[{""code"": ""side_effect"", ""quote"": ""Feet and ankles swollen since the new tablets started""}]"
+33.0,pills_ran_out,"Dawa zangu ziliisha siku kumi zilizopita, sijapata nyingine.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Dawa zangu ziliisha siku kumi zilizopita""}]"
+35.0,pills_ran_out,"Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Je n'ai plus de comprimés depuis dix jours""}]"
+36.0,pills_ran_out,"Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Je n'ai plus de comprimés depuis dix jours""}]"
+37.0,chest_pain_sms,Kifua kinauma sana tangu asubuhi na napumua kwa shida.,"[{""code"": ""new_symptom"", ""quote"": ""Kifua kinauma sana""}]"
+39.0,pills_ran_out,"Je n'ai plus de comprimés depuis dix jours, la pharmacie est loin.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Je n'ai plus de comprimés depuis dix jours""}]"
+40.0,travelling,Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.,"[{""code"": ""travelling"", ""quote"": ""leaves tomorrow to visit family in Bujumbura for two weeks""}]"
+41.0,travelling,Patient leaves tomorrow to visit family in Bujumbura for two weeks; has a phone and replies to SMS.,"[{""code"": ""travelling"", ""quote"": ""leaves tomorrow to visit family in Bujumbura for two weeks""}]"
+45.0,chest_pain_sms,Kifua kinauma sana tangu asubuhi na napumua kwa shida.,"[{""code"": ""new_symptom"", ""quote"": ""Kifua kinauma sana""}]"
+47.0,lives_alone,"Vit seule, ne sait pas lire, n'utilise pas les SMS.","[{""code"": ""lives_alone"", ""quote"": ""Vit seule""}, {""code"": ""cannot_read"", ""quote"": ""ne sait pas lire""}]"
+49.0,exertion,BP taken right after she walked up the hill carrying water. Repeat after 10 minutes of rest: 138/86.,"[{""code"": ""measured_after_exertion"", ""quote"": ""BP taken right after she walked up the hill carrying water""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Repeat after 10 minutes of rest: 138/86""}]"
+55.0,exertion,BP taken right after she walked up the hill carrying water. Repeat after 10 minutes of rest: 138/86.,"[{""code"": ""measured_after_exertion"", ""quote"": ""BP taken right after she walked up the hill carrying water""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Repeat after 10 minutes of rest: 138/86""}]"
+58.0,exertion,Tension prise juste après une longue marche avec de l'eau. Contrôle après 10 minutes de repos : 136/84.,"[{""code"": ""measured_after_exertion"", ""quote"": ""Tension prise juste après une longue marche""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Contrôle après 10 minutes de repos : 136/84""}]"
+59.0,lives_alone,"Vit seule, ne sait pas lire, n'utilise pas les SMS.","[{""code"": ""lives_alone"", ""quote"": ""Vit seule""}, {""code"": ""cannot_read"", ""quote"": ""ne sait pas lire""}]"
+60.0,lives_alone,"Lives alone, cannot read, does not use the phone for messages.","[{""code"": ""lives_alone"", ""quote"": ""Lives alone""}, {""code"": ""cannot_read"", ""quote"": ""cannot read""}]"
+,neutral,"Patient well, taking medicine.",[]
+,neutral,"Mgonjwa yuko sawa, anakunywa dawa.",[]
+,neutral,"Patient bien, prend ses médicaments.",[]
+,neutral,"Home visit, no complaints.",[]
+,neutral,"Home visit, BP taken.",[]
+,neutral,Asante sana kwa ujumbe,[]
+,neutral,"Bonjour, merci pour le message",[]
+,neutral,Thank you for checking on me,[]
+,neutral,Nimekunywa dawa zote leo,[]
+,neutral,J'ai pris tous mes médicaments ce matin,[]

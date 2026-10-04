@@ -1,0 +1,41 @@
+patient_id,kind,text,gold_codes
+1.0,side_effect,Miguu imevimba tangu aanze dawa mpya ya presha.,"[{""code"": ""side_effect"", ""quote"": ""Miguu imevimba tangu aanze dawa mpya""}]"
+2.0,exertion,"He had just come back from digging in the field when I measured. Rested 15 minutes, second reading 134/84.","[{""code"": ""measured_after_exertion"", ""quote"": ""He had just come back from digging in the field""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Rested 15 minutes, second reading 134/84""}]"
+3.0,pills_ran_out,My tablets finished last week and the clinic had none left.,"[{""code"": ""ran_out_of_pills"", ""quote"": ""My tablets finished last week""}]"
+11.0,pills_ran_out,"Sina vidonge tena tangu wiki iliyopita, sina pesa ya kununua.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Sina vidonge tena tangu wiki iliyopita""}]"
+13.0,pills_ran_out,"Sina vidonge tena tangu wiki iliyopita, sina pesa ya kununua.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Sina vidonge tena tangu wiki iliyopita""}]"
+14.0,lives_alone,Widower living by himself; his phone is broken and he cannot read texts anyway.,"[{""code"": ""lives_alone"", ""quote"": ""living by himself""}, {""code"": ""unreachable"", ""quote"": ""his phone is broken""}, {""code"": ""cannot_read"", ""quote"": ""he cannot read texts""}]"
+15.0,travelling,"Elle part chez sa fille à Ngozi pour deux semaines, elle répond aux SMS.","[{""code"": ""travelling"", ""quote"": ""Elle part chez sa fille à Ngozi pour deux semaines""}]"
+17.0,travelling,"Away at a funeral in Gitega until the end of the month, reachable by text.","[{""code"": ""travelling"", ""quote"": ""Away at a funeral in Gitega until the end of the month""}]"
+18.0,side_effect,Legs puffy up to the knees since the doctor changed her medicine.,"[{""code"": ""side_effect"", ""quote"": ""Legs puffy up to the knees since the doctor changed her medicine""}]"
+20.0,chest_pain_sms,J'ai une forte douleur dans la poitrine qui va dans le bras gauche.,"[{""code"": ""new_symptom"", ""quote"": ""une forte douleur dans la poitrine""}]"
+22.0,pills_ran_out,"Sina vidonge tena tangu wiki iliyopita, sina pesa ya kununua.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Sina vidonge tena tangu wiki iliyopita""}]"
+23.0,exertion,"He had just come back from digging in the field when I measured. Rested 15 minutes, second reading 134/84.","[{""code"": ""measured_after_exertion"", ""quote"": ""He had just come back from digging in the field""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Rested 15 minutes, second reading 134/84""}]"
+26.0,exertion,"He had just come back from digging in the field when I measured. Rested 15 minutes, second reading 134/84.","[{""code"": ""measured_after_exertion"", ""quote"": ""He had just come back from digging in the field""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Rested 15 minutes, second reading 134/84""}]"
+28.0,chest_pain_sms,"Moyo unauma sana na jasho linatoka, sijisikii vizuri kabisa.","[{""code"": ""new_symptom"", ""quote"": ""Moyo unauma sana""}]"
+29.0,exertion,"He had just come back from digging in the field when I measured. Rested 15 minutes, second reading 134/84.","[{""code"": ""measured_after_exertion"", ""quote"": ""He had just come back from digging in the field""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Rested 15 minutes, second reading 134/84""}]"
+34.0,side_effect,Miguu imevimba tangu aanze dawa mpya ya presha.,"[{""code"": ""side_effect"", ""quote"": ""Miguu imevimba tangu aanze dawa mpya""}]"
+35.0,side_effect,Miguu imevimba tangu aanze dawa mpya ya presha.,"[{""code"": ""side_effect"", ""quote"": ""Miguu imevimba tangu aanze dawa mpya""}]"
+36.0,travelling,"Away at a funeral in Gitega until the end of the month, reachable by text.","[{""code"": ""travelling"", ""quote"": ""Away at a funeral in Gitega until the end of the month""}]"
+39.0,pills_ran_out,"Sina vidonge tena tangu wiki iliyopita, sina pesa ya kununua.","[{""code"": ""ran_out_of_pills"", ""quote"": ""Sina vidonge tena tangu wiki iliyopita""}]"
+41.0,side_effect,Legs puffy up to the knees since the doctor changed her medicine.,"[{""code"": ""side_effect"", ""quote"": ""Legs puffy up to the knees since the doctor changed her medicine""}]"
+43.0,chest_pain_sms,"Moyo unauma sana na jasho linatoka, sijisikii vizuri kabisa.","[{""code"": ""new_symptom"", ""quote"": ""Moyo unauma sana""}]"
+45.0,lives_alone,Widower living by himself; his phone is broken and he cannot read texts anyway.,"[{""code"": ""lives_alone"", ""quote"": ""living by himself""}, {""code"": ""unreachable"", ""quote"": ""his phone is broken""}, {""code"": ""cannot_read"", ""quote"": ""he cannot read texts""}]"
+46.0,travelling,"Elle part chez sa fille à Ngozi pour deux semaines, elle répond aux SMS.","[{""code"": ""travelling"", ""quote"": ""Elle part chez sa fille à Ngozi pour deux semaines""}]"
+47.0,chest_pain_sms,J'ai une forte douleur dans la poitrine qui va dans le bras gauche.,"[{""code"": ""new_symptom"", ""quote"": ""une forte douleur dans la poitrine""}]"
+48.0,travelling,"Elle part chez sa fille à Ngozi pour deux semaines, elle répond aux SMS.","[{""code"": ""travelling"", ""quote"": ""Elle part chez sa fille à Ngozi pour deux semaines""}]"
+52.0,lives_alone,"Anaishi peke yake, hajui kusoma, hana simu.","[{""code"": ""lives_alone"", ""quote"": ""Anaishi peke yake""}, {""code"": ""cannot_read"", ""quote"": ""hajui kusoma""}, {""code"": ""unreachable"", ""quote"": ""hana simu""}]"
+53.0,chest_pain_sms,J'ai une forte douleur dans la poitrine qui va dans le bras gauche.,"[{""code"": ""new_symptom"", ""quote"": ""une forte douleur dans la poitrine""}]"
+55.0,lives_alone,Widower living by himself; his phone is broken and he cannot read texts anyway.,"[{""code"": ""lives_alone"", ""quote"": ""living by himself""}, {""code"": ""unreachable"", ""quote"": ""his phone is broken""}, {""code"": ""cannot_read"", ""quote"": ""he cannot read texts""}]"
+57.0,exertion,"Amepima mara baada ya kubeba kuni kutoka msituni. Baada ya kupumzika, presha ilikuwa 137/85.","[{""code"": ""measured_after_exertion"", ""quote"": ""Amepima mara baada ya kubeba kuni""}, {""code"": ""repeat_reading_normal"", ""quote"": ""Baada ya kupumzika, presha ilikuwa 137/85""}]"
+60.0,lives_alone,"Anaishi peke yake, hajui kusoma, hana simu.","[{""code"": ""lives_alone"", ""quote"": ""Anaishi peke yake""}, {""code"": ""cannot_read"", ""quote"": ""hajui kusoma""}, {""code"": ""unreachable"", ""quote"": ""hana simu""}]"
+,neutral,"Patient well, taking medicine.",[]
+,neutral,"Mgonjwa yuko sawa, anakunywa dawa.",[]
+,neutral,"Patient bien, prend ses médicaments.",[]
+,neutral,"Home visit, no complaints.",[]
+,neutral,"Home visit, BP taken.",[]
+,neutral,Asante sana kwa ujumbe,[]
+,neutral,"Bonjour, merci pour le message",[]
+,neutral,Thank you for checking on me,[]
+,neutral,Nimekunywa dawa zote leo,[]
+,neutral,J'ai pris tous mes médicaments ce matin,[]

@@ -1,0 +1,156 @@
+{
+  "config_version": "2026-10-04a",
+  "approved": false,
+  "approved_by": "",
+  "approved_on": "",
+  "reviewed_by": "Jake, medical student, 2026-10-04",
+  "approval_note": "Cut-offs reviewed against WHO 2021, ISH 2020 and WHO HEARTS. Awaiting physician signature.",
+  "sources": [
+    {"id": "ISH2020", "title": "2020 International Society of Hypertension global practice guidelines", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8762770"},
+    {"id": "PASCAR2017", "title": "Roadmap to achieve 25% hypertension control in Africa by 2025", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5642030/"},
+    {"id": "WHO2019", "title": "WHO cardiovascular disease risk charts, office-based, Eastern Sub-Saharan Africa", "url": "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(19)30318-3/fulltext"},
+    {"id": "WHO2021", "title": "Guideline for the pharmacological treatment of hypertension in adults, WHO 2021", "url": "https://www.who.int/publications/i/item/9789240033986"},
+    {"id": "HEARTS", "title": "WHO HEARTS technical package", "url": "https://www.who.int/publications/i/item/9789240001367"},
+    {"id": "FAST", "title": "FAST stroke warning signs, American Stroke Association", "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"}
+  ],
+  "baseline_readings": 3,
+  "trend_window_readings": 6,
+  "thresholds": [
+    {"id": "grade2", "sbp_gte": 160, "dbp_gte": 100, "action": "visit_this_week", "source": "ISH2020"},
+    {"id": "severe_with_symptoms", "sbp_gte": 180, "dbp_gte": 110, "requires_any_symptom": true, "action": "emergency_now", "source": "ISH2020; HEARTS"},
+    {"id": "severe_no_symptoms", "sbp_gte": 180, "dbp_gte": 110, "requires_any_symptom": false, "action": "refer_clinic", "urgent_days": 2, "source": "HEARTS"}
+  ],
+  "trend": {
+    "rules": [{"sbp_rise_mmhg": 10, "consecutive_readings": 3}, {"sbp_rise_mmhg": 15, "over_readings": 4}],
+    "action": "recheck_7_days",
+    "source": "Design choice, not a guideline number. ISH 2020 asks for repeat readings over 2 to 3 visits before acting on one reading, so this rule never fires on a single reading."
+  },
+  "bp_goal": {"sbp_lt": 140, "dbp_lt": 90, "source": "WHO2021; ISH2020"},
+  "borderline": {
+    "band_below_goal_mmhg": {"sbp": 10, "dbp": 5},
+    "consecutive_readings": 3,
+    "crossings_in_window": 2,
+    "window_readings": 6,
+    "action": "recheck_7_days",
+    "ask_weekly_sms": true,
+    "source": "ISH 2020 high-normal band 130-139/85-89 for a goal of 140/90; the counts are a design choice",
+    "note": "PLAN.md step 3 (4 October). The band is relative to each patient's own goal. Decided 4 October (engine team, see PLAN.md): dbp band 5 as in the ISH band; consecutive_readings 3 rather than the plan's 2, because 2 fires on noise; never fires before baseline_readings + 1 readings, nor alongside a threshold flag. The weekly SMS stops after two readings in a row below the band."
+  },
+  "bp_goal_high_risk": {"sbp_lt": 130, "dbp_lt": 80, "source": "WHO2021"},
+  "who_risk": {
+    "table": "config/who_risk_eastern_ssa.json",
+    "levels": [
+      {"id": "high", "risk_gte": 20, "action": "visit_this_week", "source": "WHO2019"},
+      {"id": "very_high", "risk_gte": 30, "action": "refer_clinic", "source": "WHO2019"}
+    ],
+    "age_above_chart": "use_top_band",
+    "age_below_chart": "no_risk",
+    "note": "Placeholders until the physician signs: the levels, their actions, and the two age rules. The chart covers ages 40 to 74."
+  },
+  "plausible_bp": {"sbp": [70, 260], "dbp": [40, 150], "min_pulse_pressure": 15,
+                   "note": "Number checks on extracted readings (PLAN.md step 6): outside these ranges, or systolic minus diastolic under min_pulse_pressure, goes to manual entry."},
+  "symptoms_emergency": ["face_droop", "arm_weakness", "speech_difficulty", "sudden_severe_headache", "vision_loss"],
+  "symptoms_other": {"at_goal": "recheck_7_days", "above_goal": "visit_this_week", "always_visit": ["dizziness"], "source": "Design choice. Dizziness may mean low pressure from treatment, so it always earns a visit."},
+  "actions": ["routine", "recheck_7_days", "visit_this_week", "refer_clinic", "emergency_now", "not_sure"],
+  "emergency_protocol": {"file": "docs/emergency_protocol.md", "languages": ["en", "fr"], "source": "Program protocol; square brackets are local facts the physician fills in"},
+  "min_confidence": 0.6,
+  "margin": 0.15,
+  "risk": {
+    "base_table": "config/who_risk_eastern_ssa.json",
+    "base_note": "The WHO 10-year risk (percent x score_per_percent in the table, 0.5) is the base of the score, so 10% WHO risk alone reaches medium and 20% alone reaches high.",
+    "points": {"threshold_flag": 4, "trend_flag": 3, "symptom_flag": 10, "missed_meds": 2, "silent_30_days": 2, "overdue_followup": 2, "missed_appointment": 2, "low_understanding": 2, "borderline_flag": 2},
+    "tiers": {"high": 10, "medium": 5}
+  },
+  "medications": ["amlodipine", "nifedipine", "hydrochlorothiazide", "enalapril", "lisinopril", "losartan", "atenolol", "methyldopa", "furosemide", "aspirin"],
+  "quiz": {
+    "ask_after": ["sms_bp_report", "chw_visit"],
+    "topics": ["medication", "salt_and_diet", "danger_signs", "when_to_seek_care", "what_bp_means"],
+    "repeat_days_wrong": 7,
+    "repeat_days_right": 30,
+    "low_understanding_below": 0.5,
+    "window_days": 90
+  },
+  "trajectory": {"window_readings": 8, "horizon_days": 90, "k": 10, "min_events": 20, "flag_share_gte": 0.5, "points": 4, "show_peers": 3},
+  "capacity": {"hours_per_week": 20, "default_visit_minutes": 30, "default_travel_minutes": 20, "sms_minutes": 3},
+  "reminders": {"days_before_appointment": 2, "follow_up_after_visit_days": 3},
+  "followup_after_decision": {
+    "routine": [{"kind": "chw_visit", "days": 30, "note": "WHO 2021: every 3 to 6 months once at target; monthly CHW contact kept for adherence"}],
+    "recheck_7_days": [{"kind": "sms_check", "days": 7}],
+    "visit_this_week": [{"kind": "chw_visit", "days": 7}, {"kind": "sms_check", "days": 14}],
+    "refer_clinic": [{"kind": "clinic_appointment", "days": 7, "days_if_urgent": 2}, {"kind": "sms_check", "days_after_appointment": 3, "purpose": "confirm attendance"}],
+    "emergency_now": [{"kind": "chw_visit", "days": 1}]
+  },
+  "llm": {
+    "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
+    "fallback_model": "gemma3:1b",
+    "min_free_ram_gb": 3.5,
+    "temperature": 0,
+    "max_tokens": 300,
+    "output_language": "fr",
+    "symptom_codes": ["headache", "vision_change", "chest_pain", "face_droop", "arm_weakness", "speech_difficulty", "dizziness", "none"]
+  },
+  "action_criteria": {
+    "routine": "Blood pressure at goal, medicine taken, no symptoms, nothing in the notes or messages that worries the CHW.",
+    "recheck_7_days": "Mildly above goal or a trend flag, no symptoms, and the patient can be reached by SMS. Also the right step down when a note explains a high reading, for example measured after exertion with a normal repeat.",
+    "visit_this_week": "Grade 2 flag, or missed medication, or a non-emergency symptom with BP above goal, or the text says the patient cannot manage by SMS, for example lives alone, cannot read, or has run out of pills.",
+    "refer_clinic": "Severe BP without symptoms, a side effect that needs a prescriber, or the rule default is refer. Never step down from this option.",
+    "emergency_now": "Handled by the rules. Choose only if the text describes FAST signs, chest pain, sudden severe headache or sudden vision loss that the flags did not already catch.",
+    "not_sure": "The text contradicts the numbers, is unclear, or describes something none of the other options covers."
+  },
+  "context_codes": {
+    "ran_out_of_pills": "The patient has no medicine left or could not get a refill.",
+    "missed_doses": "The patient skipped or forgot doses.",
+    "cannot_read": "The patient cannot read, or cannot read SMS.",
+    "lives_alone": "The patient lives alone, with nobody to help.",
+    "travelling": "The patient is away from home for a while.",
+    "unreachable": "The patient cannot be reached by phone or SMS.",
+    "measured_after_exertion": "The reading was taken right after effort, such as walking, carrying or digging.",
+    "repeat_reading_normal": "A repeat reading after rest was normal or much lower.",
+    "seen_at_clinic_recently": "The patient was seen at the clinic in the last few days.",
+    "side_effect": "A problem that may come from the medicine, such as swollen feet or ankles.",
+    "new_symptom": "A new symptom described in the text, such as chest pain, dizziness or headache.",
+    "caregiver_present": "A family member or carer helps the patient.",
+    "none": "Nothing in the text changes the decision."
+  },
+  "context_lexicon": {
+    "note": "PLAN.md 5b recall fix (decided 4 October): plain phrases per context code in Swahili, French and English, matched in the text (case ignored); the quote is the matched words from the text. Merged with the LLM's codes; the same quote check applies. Written from general wording, not from the synthetic notes.",
+    "ran_out_of_pills": ["ran out", "run out", "no more pills", "no more tablets", "tablets finished", "pills finished", "no tablets left", "imeisha", "zimeisha", "ziliisha", "sina vidonge", "sina dawa", "plus de comprimés", "plus de médicaments", "n'ai plus de"],
+    "missed_doses": ["missed a dose", "missed doses", "forgot my", "forgot to take", "skipped", "nimesahau", "amesahau", "sikunywa", "sijanywa", "nusu ya dawa", "half dose", "half of my", "oublié", "pas pris"],
+    "cannot_read": ["cannot read", "can't read", "does not read", "unable to read", "illiterate", "hajui kusoma", "sijui kusoma", "ne sait pas lire", "ne lit pas"],
+    "lives_alone": ["lives alone", "living alone", "by himself", "by herself", "peke yake", "peke yangu", "vit seul", "habite seul"],
+    "travelling": ["travel", "away until", "away for", "safari", "anasafiri", "nimesafiri", "amesafiri", "en voyage", "voyage", "absent jusqu"],
+    "unreachable": ["no phone", "phone broken", "phone is broken", "cannot be reached", "unreachable", "hana simu", "sina simu", "pas de téléphone"],
+    "measured_after_exertion": ["after walking", "after carrying", "after digging", "after working", "just walked", "baada ya kubeba", "baada ya kutembea", "après une longue marche", "après avoir marché", "après l'effort"],
+    "repeat_reading_normal": ["repeat", "second reading", "after rest", "rested", "baada ya kupumzika", "de repos", "deuxième mesure"],
+    "seen_at_clinic_recently": ["seen at the clinic", "saw the nurse", "alienda kliniki", "vu au centre de santé"],
+    "side_effect": ["swollen", "swelling", "puffy", "kuvimba", "imevimba", "gonflé", "gonflés", "enflé", "side effect"],
+    "new_symptom": ["chest pain", "pain in my chest", "pain in the chest", "kifua kinauma", "maumivu ya kifua", "moyo unauma", "douleur dans la poitrine", "douleur à la poitrine", "dizzy", "kizunguzungu", "vertige"],
+    "caregiver_present": ["daughter helps", "son helps", "family helps", "anasaidiwa", "sa fille l'aide"]
+  },
+  "context_window_days": 30,
+  "step_criteria": {
+    "step_up": ["ran_out_of_pills", "missed_doses", "cannot_read", "lives_alone", "unreachable", "side_effect", "new_symptom"],
+    "step_down": [["measured_after_exertion", "repeat_reading_normal"], ["seen_at_clinic_recently"]],
+    "keep": "no code applies",
+    "note": "PLAN.md section 5b. step_down entries are combinations: every code in one entry must be present."
+  },
+  "julia": {
+    "intent": "fallback_only",
+    "intent_fallback_below": 0.7,
+    "decide": false,
+    "decide_mode": "table",
+    "decide_max_steps": 1,
+    "never_step_down_from": ["refer_clinic", "emergency_now"],
+    "decide_min_text_effect": 0.3,
+    "quiz_reply": true,
+    "decide_note": "PLAN.md 5b gate, 4 October: the codes + table decider passed (plain rows 0.956, emergencies as main) and beat codes + Julia-1 on text-modifier rows (0.54 vs 0.05), so the table decides and julia.decide is false. Revert: decide_mode actions and decide true (Design A), restart the server.",
+    "note": "intent fallback_only means Julia-1 reads a message only when the TF-IDF model's top probability is under intent_fallback_below (0.7). decide is on behind the one-step guardrail. decide_min_text_effect (added by the engine team, 2026-10-04): a move away from the rule default is kept only when removing one note or message lowers the model's chosen action's probability by at least this much, so the model moves the answer only when the text caused it. Measured on the synthetic set (text-modifier rows / plain rows right): 0 gives 10/30 and 57/200, 0.3 gives 7/30 and 107/200, 0.5 gives 6/30 and 123/200; rules only give 0/30 and 200/200. Re-run engine/evaluate.py before changing any of these."
+  },
+  "error_review": {
+    "event_lookback_days": 90,
+    "visit_window_days": 14,
+    "action_window_days": 14,
+    "note": "PLAN.md step 11c. An event counts as event_without_flag when no flag of any type was raised at any contact in event_lookback_days before it. A visit_this_week is low-yield when the next CHW visit within visit_window_days found BP at goal, medicine taken and no symptoms. A flag counts as followed by a confirmed action when a decision other than routine or not_sure was confirmed within action_window_days."
+  },
+  "paths": {"labels_dir": "data/labels", "models_dir": "models", "julia_dir": "models/Julia-1"}
+}

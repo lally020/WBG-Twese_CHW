@@ -1,0 +1,210 @@
+{
+  "lang": "sw",
+  "note": "Example incoming patient SMS for synthetic data and labeled test sets. {sbp} and {dbp} are filled with random numbers. meds_taken and symptoms are gold labels and match the text exactly. Drafted by Claude Code on 2026-10-03; awaiting review by the bilingual teammate.",
+  "examples": [
+    {
+      "intent": "bp_report",
+      "template": "Habari. Leo presha yangu ni {sbp}/{dbp}. Nimekunywa nusu ya dawa tu. Nina maumivu ya kichwa.",
+      "meds_taken": "partial",
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "presha leo {sbp}/{dbp}",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Habari daktari, presha yangu ni {sbp} kwa {dbp}. Nimekunywa dawa zangu.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Shikamoo. Nimepima leo {sbp}/{dbp}, dawa nimekunywa asubuhi.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "presha {sbp} kwa {dbp} sijakunywa dawa tangu juzi",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Leo {sbp}/{dbp}. Dawa zimeisha sijanywa.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Mimi ni mzima. Presha ni {sbp}/{dbp}, nakunywa dawa kila siku.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Habari ya leo. Kipimo changu {sbp}/{dbp}. Nina kizunguzungu kidogo.",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "presha yangu {sbp} kwa {dbp} na macho yanaona ukungu",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Nimepima dispensari {sbp}/{dbp}. Nimekunywa dawa moja tu kati ya mbili.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Asubuhi presha ilikuwa {sbp} kwa {dbp}. Nimesahau kunywa dawa leo.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "{sbp}/{dbp} leo. Asante",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Habari mhudumu. Presha {sbp} kwa {dbp}, nimekunywa dawa lakini kifua kinauma.",
+      "meds_taken": "yes",
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Pressure yangu ni {sbp}/{dbp}, nimekunywa nusu dozi kwa sababu dawa zinakaribia kuisha.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "symptom",
+      "template": "Nina maumivu makali ya kichwa tangu jana usiku.",
+      "meds_taken": null,
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Naona giza machoni, siwezi kuona vizuri.",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Kifua kinaniuma sana leo asubuhi.",
+      "meds_taken": null,
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Mama yangu uso umepinda upande mmoja na hawezi kuongea vizuri.",
+      "meds_taken": null,
+      "symptoms": [
+        "face_droop",
+        "speech_difficulty"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Mkono wangu wa kushoto hauna nguvu tangu asubuhi.",
+      "meds_taken": null,
+      "symptoms": [
+        "arm_weakness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "Nasikia kizunguzungu nikisimama.",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "kichwa kinauma na kizunguzungu pia",
+      "meds_taken": null,
+      "symptoms": [
+        "headache",
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "meds_question",
+      "template": "Dawa zangu zimeisha, nitapata wapi zingine?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Naweza kunywa dawa ya presha pamoja na chakula?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Nikisahau dawa asubuhi, nikunywe jioni?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Dawa hii inanifanya nikojoe sana, ni kawaida?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Je, niendelee kunywa dawa hata kama najisikia vizuri?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Asante sana kwa ujumbe.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Habari za asubuhi, niko safarini wiki hii.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Sawa, nimeelewa.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Mungu akubariki mhudumu.",
+      "meds_taken": null,
+      "symptoms": []
+    }
+  ]
+}

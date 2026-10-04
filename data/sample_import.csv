@@ -1,0 +1,7 @@
+patient_ref,sex,age,number_of_children,smoker,height_cm,weight_kg,village,language,date,source,complaint,tests_performed,positive_results,referral,doctor_recommendation,doctor_notes,chw_notes,bp,blood_sugar,blood_sugar_unit
+IMP-001,F,61,5,no,158,70,Ngozi,sw,2026-07-02,clinic,Kichwa kinauma,bp;blood_sugar,hypertension,,Amlodipine 5 mg once daily,BP high. Start treatment.,,158/96,6.1,mmol/L
+IMP-001,F,61,5,no,158,69,Ngozi,sw,2026-08-14,chw,,bp,,,,,Patient taking medicine.,148/92,,
+IMP-001,F,61,5,no,158,69,Ngozi,sw,2026-09-20,clinic,Routine check,bp,hypertension,,Amlodipine 5 mg once daily,Improving.,,142/90,5.8,mmol/L
+IMP-002,M,54,3,yes,170,88,Gitega,fr,2026-08-01,clinic,Contrôle,bp;weight,hypertension,clinic_review,Hydrochlorothiazide 25 mg once daily,TA élevée.,,164/100,,
+IMP-002,M,54,3,yes,170,88,Gitega,fr,2026-09-03,chw,,bp,,,,,Fume encore.,152,,
+IMP-003,M,47,2,no,,,Gitega,fr,2026-09-10,clinic,,bp,hypertension,,,,,high,,

@@ -1,0 +1,64 @@
+id,patient_id,date,type,value,reason_text,guideline_ref,emergency
+1,5,2026-10-03,threshold,172/107,Latest BP 172/107 on 2026-09-28 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+2,5,2026-10-03,trend,+25,"Systolic BP averaged 163 over the last 4 readings (2026-09-05 to 2026-09-28), 25 mmHg above the baseline of 139 (first 3 readings), and still rising about 2.3 mmHg per reading.",local rule (physician to confirm),no
+3,9,2026-10-03,threshold,174/105,Latest BP 174/105 on 2026-10-02 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+4,9,2026-10-03,trend,+20,"Systolic BP averaged 161 over the last 4 readings (2026-09-16 to 2026-10-02), 20 mmHg above the baseline of 141 (first 3 readings), and still rising about 4.6 mmHg per reading.",local rule (physician to confirm),no
+5,9,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-10-02.,config.symptoms_other_action,no
+6,10,2026-10-03,threshold,167/101,Latest BP 167/101 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+7,10,2026-10-03,trend,+23,"Systolic BP averaged 163 over the last 4 readings (2026-09-11 to 2026-10-01), 23 mmHg above the baseline of 140 (first 3 readings), and still rising about 3.3 mmHg per reading.",local rule (physician to confirm),no
+8,10,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-10-01.,config.symptoms_other_action,no
+9,11,2026-10-03,threshold,163/111,Latest BP 163/111 on 2026-09-25 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+10,11,2026-10-03,trend,+14,"Systolic BP averaged 157 over the last 4 readings (2026-08-30 to 2026-09-25), 14 mmHg above the baseline of 143 (first 3 readings), and still rising about 2.5 mmHg per reading.",local rule (physician to confirm),no
+11,17,2026-10-03,threshold,162/100,Latest BP 162/100 on 2026-10-01 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+12,17,2026-10-03,trend,+13,"Systolic BP averaged 154 over the last 4 readings (2026-09-05 to 2026-10-01), 13 mmHg above the baseline of 141 (first 3 readings), and still rising about 1.8 mmHg per reading.",local rule (physician to confirm),no
+13,17,2026-10-03,symptom,speech_difficulty,Symptom 'speech_difficulty' reported on 2026-10-01 - on the emergency symptom list.,config.symptoms_emergency,yes
+14,18,2026-10-03,threshold,160/98,Latest BP 160/98 on 2026-09-24 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+15,18,2026-10-03,who_risk,30%,"WHO 10-year CVD risk 30% (man, smoker, age 70-74, SBP 160-179, BMI 30-34 (32.3)) on the reading of 2026-09-24: at or above the 'very_high' level (30%). Note: age 77 is above the chart: read as 70-74, so the risk is likely higher.",WHO2019,no
+16,18,2026-10-03,trend,+17,"Systolic BP averaged 154 over the last 4 readings (2026-09-10 to 2026-09-24), 17 mmHg above the baseline of 137 (first 3 readings), and still rising about 1.5 mmHg per reading.",local rule (physician to confirm),no
+17,19,2026-10-03,trend,+16,"Systolic BP averaged 154 over the last 4 readings (2026-09-07 to 2026-09-21), 16 mmHg above the baseline of 138 (first 3 readings), and still rising about 1.3 mmHg per reading.",local rule (physician to confirm),no
+18,21,2026-10-03,threshold,171/113,Latest BP 171/113 on 2026-09-30 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+19,21,2026-10-03,trend,+26,"Systolic BP averaged 165 over the last 4 readings (2026-09-25 to 2026-09-30), 26 mmHg above the baseline of 139 (first 3 readings), and still rising about 4.7 mmHg per reading.",local rule (physician to confirm),no
+20,21,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-09-30.,config.symptoms_other_action,no
+21,23,2026-10-03,threshold,157/100,Latest BP 157/100 on 2026-09-20 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+22,23,2026-10-03,trend,+18,"Systolic BP averaged 162 over the last 4 readings (2026-09-02 to 2026-09-20), 18 mmHg above the baseline of 144 (first 3 readings), and still rising about 0.2 mmHg per reading.",local rule (physician to confirm),no
+23,25,2026-10-03,threshold,156/101,Latest BP 156/101 on 2026-09-27 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+24,27,2026-10-03,threshold,160/99,Latest BP 160/99 on 2026-10-02 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+25,27,2026-10-03,who_risk,22%,"WHO 10-year CVD risk 22% (man, non-smoker, age 70-74, SBP 160-179, BMI 25-29 (27.7)) on the reading of 2026-10-02: at or above the 'high' level (20%).",WHO2019,no
+26,27,2026-10-03,trend,+18,"Systolic BP averaged 148 over the last 4 readings (2026-09-13 to 2026-10-02), 18 mmHg above the baseline of 130 (first 3 readings), and still rising about 4.3 mmHg per reading.",local rule (physician to confirm),no
+27,27,2026-10-03,symptom,arm_weakness,Symptom 'arm_weakness' reported on 2026-10-02 - on the emergency symptom list.,config.symptoms_emergency,yes
+28,30,2026-10-03,threshold,153/100,Latest BP 153/100 on 2026-10-02 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+29,44,2026-10-03,trend,+22,"Systolic BP averaged 158 over the last 4 readings (2026-09-01 to 2026-09-28), 22 mmHg above the baseline of 136 (first 3 readings), and still rising about 0.4 mmHg per reading.",local rule (physician to confirm),no
+30,49,2026-10-03,trend,+18,"Systolic BP averaged 145 over the last 4 readings (2026-09-05 to 2026-09-22), 18 mmHg above the baseline of 127 (first 3 readings), and still rising about 0.1 mmHg per reading.",local rule (physician to confirm),no
+31,52,2026-10-03,trend,+20,"Systolic BP averaged 142 over the last 4 readings (2026-09-12 to 2026-10-02), 20 mmHg above the baseline of 123 (first 3 readings), and still rising about 4.3 mmHg per reading.",local rule (physician to confirm),no
+32,52,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-10-02.,config.symptoms_other_action,no
+33,53,2026-10-03,threshold,179/110,Latest BP 179/110 on 2026-10-01 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+34,53,2026-10-03,who_risk,22%,"WHO 10-year CVD risk 22% (woman, smoker, age 70-74, SBP 160-179, BMI 25-29 (28.5)) on the reading of 2026-10-01: at or above the 'high' level (20%). Note: age 77 is above the chart: read as 70-74, so the risk is likely higher.",WHO2019,no
+35,53,2026-10-03,trend,+33,"Systolic BP averaged 166 over the last 4 readings (2026-09-24 to 2026-10-01), 33 mmHg above the baseline of 134 (first 3 readings), and still rising about 7.9 mmHg per reading.",local rule (physician to confirm),no
+36,54,2026-10-03,trend,+22,"Systolic BP averaged 152 over the last 4 readings (2026-09-05 to 2026-09-26), 22 mmHg above the baseline of 130 (first 3 readings), and still rising about 1.1 mmHg per reading.",local rule (physician to confirm),no
+37,64,2026-10-03,threshold,172/111,Latest BP 172/111 on 2026-07-20 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+38,64,2026-10-03,trend,+13,"Systolic BP averaged 161 over the last 4 readings (2026-06-08 to 2026-07-20), 13 mmHg above the baseline of 148 (first 3 readings), and still rising about 6.7 mmHg per reading.",local rule (physician to confirm),no
+39,66,2026-10-03,threshold,180/104,Latest BP 180/104 on 2026-06-30 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+40,66,2026-10-03,who_risk,20%,"WHO 10-year CVD risk 20% (woman, smoker, age 60-64, SBP 180+, BMI 25-29 (26.7)) on the reading of 2026-06-30: at or above the 'high' level (20%).",WHO2019,no
+41,66,2026-10-03,trend,+20,"Systolic BP averaged 162 over the last 4 readings (2026-05-31 to 2026-06-30), 20 mmHg above the baseline of 141 (first 3 readings), and still rising about 8.3 mmHg per reading.",local rule (physician to confirm),no
+42,67,2026-10-03,trend,+12,"Systolic BP averaged 140 over the last 4 readings (2026-06-18 to 2026-07-25), 12 mmHg above the baseline of 128 (first 3 readings), and still rising about 3.0 mmHg per reading.",local rule (physician to confirm),no
+43,68,2026-10-03,threshold,174/114,Latest BP 174/114 on 2026-06-05 is at or above the 'severe' cut-off (180/110).,ISH2020,yes
+44,68,2026-10-03,trend,+13,"Systolic BP averaged 150 over the last 4 readings (2026-04-19 to 2026-06-05), 13 mmHg above the baseline of 137 (first 3 readings), and still rising about 6.3 mmHg per reading.",local rule (physician to confirm),no
+45,68,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-06-05.,config.symptoms_other_action,no
+46,69,2026-10-03,threshold,167/105,Latest BP 167/105 on 2026-05-29 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+47,69,2026-10-03,who_risk,28%,"WHO 10-year CVD risk 28% (man, smoker, age 70-74, SBP 160-179, BMI 25-29 (26.4)) on the reading of 2026-05-29: at or above the 'high' level (20%).",WHO2019,no
+48,70,2026-10-03,threshold,163/99,Latest BP 163/99 on 2026-06-11 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+49,70,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-06-11.,config.symptoms_other_action,no
+50,72,2026-10-03,threshold,162/104,Latest BP 162/104 on 2026-06-29 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+51,72,2026-10-03,trend,+20,"Systolic BP averaged 157 over the last 4 readings (2026-05-27 to 2026-06-29), 20 mmHg above the baseline of 137 (first 3 readings), and still rising about 4.6 mmHg per reading.",local rule (physician to confirm),no
+52,73,2026-10-03,threshold,161/93,Latest BP 161/93 on 2026-06-06 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+53,73,2026-10-03,trend,+14,"Systolic BP averaged 140 over the last 4 readings (2026-04-21 to 2026-06-06), 14 mmHg above the baseline of 125 (first 3 readings), and still rising about 6.1 mmHg per reading.",local rule (physician to confirm),no
+54,74,2026-10-03,threshold,161/94,Latest BP 161/94 on 2026-07-12 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+55,75,2026-10-03,threshold,154/100,Latest BP 154/100 on 2026-05-27 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+56,75,2026-10-03,trend,+20,"Systolic BP averaged 152 over the last 4 readings (2026-05-06 to 2026-05-27), 20 mmHg above the baseline of 132 (first 3 readings), and still rising about 3.7 mmHg per reading.",local rule (physician to confirm),no
+57,76,2026-10-03,trend,+11,"Systolic BP averaged 149 over the last 4 readings (2026-05-26 to 2026-07-11), 11 mmHg above the baseline of 138 (first 3 readings), and still rising about 3.8 mmHg per reading.",local rule (physician to confirm),no
+58,76,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-07-11.,config.symptoms_other_action,no
+59,77,2026-10-03,threshold,156/101,Latest BP 156/101 on 2026-07-05 is at or above the 'grade2' cut-off (160/100).,ISH2020,no
+60,77,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-07-05.,config.symptoms_other_action,no
+61,78,2026-10-03,trend,+18,"Systolic BP averaged 144 over the last 4 readings (2026-02-18 to 2026-04-07), 18 mmHg above the baseline of 126 (first 3 readings), and still rising about 4.9 mmHg per reading.",local rule (physician to confirm),no
+62,78,2026-10-03,symptom,headache,Symptom 'headache' reported on 2026-04-07.,config.symptoms_other_action,no
+63,83,2026-10-03,who_risk,22%,"WHO 10-year CVD risk 22% (man, smoker, age 70-74, SBP 140-159, BMI 20-24 (21.1)) on the reading of 2026-06-27: at or above the 'high' level (20%). Note: age 78 is above the chart: read as 70-74, so the risk is likely higher.",WHO2019,no

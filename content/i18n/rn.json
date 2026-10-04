@@ -1,0 +1,15 @@
+{
+  "lang": "rn",
+  "language_name": "Ikirundi",
+  "verified": false,
+  "verified_by": "",
+  "note": "Draft translation, not yet verified. Plan: regenerate with NLLB-200 (run_Latn) from fr.json and have a speaker check.",
+  "strings": {
+    "reminder_appointment": "Amahoro. Ibutsa riva ku muremesha w'amagara: mufise umubonano ku ivuriro ku wa {date}. Muze muzanye imiti yanyu. Murakoze.",
+    "follow_up_after_visit": "Amahoro, ni umuremesha wanyu w'amagara. Mumeze gute? Muranywa imiti yanyu imisi yose? Nimwaba mufise igipimo c'umuvuduko w'amaraso, nimunyishure, nk'akarorero 140/90.",
+    "sms_check": "Amahoro, ni ukubaza kw'indwi kuva ku muremesha wanyu w'amagara. Nimunyishure: umuvuduko w'amaraso nimba muwufise (nk'akarorero 140/90), nimba mwanyoye imiti, n'ingene mwiyumva.",
+    "quiz_reply_instruction": "Mwishure 1, 2 canke 3",
+    "report_received": "Murakoze. Umuremesha wanyu w'amagara yakiriye ubutumwa bwanyu.",
+    "danger_signs_seek_care": "Ni ngombwa: nimubona mu maso hagoramye uruhande rumwe, ukuboko gucitse intege, ingorane zo kuvuga, umutwe ubabaza cane giturumbuka canke kutabona, nimuje ku ivuriro ubu nyene kandi muhamagare umuremesha w'amagara."
+  }
+}

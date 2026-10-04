@@ -1,0 +1,210 @@
+{
+  "lang": "en",
+  "note": "Example incoming patient SMS for synthetic data and labeled test sets. {sbp} and {dbp} are filled with random numbers. meds_taken and symptoms are gold labels and match the text exactly. English source examples.",
+  "examples": [
+    {
+      "intent": "bp_report",
+      "template": "Hi, my BP today is {sbp}/{dbp}. I took my medicine.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "bp {sbp}/{dbp}",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "My pressure is {sbp} over {dbp} this morning",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "{sbp} over {dbp}, did not take meds yesterday or today",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "BP {sbp}/{dbp}. My tablets are finished so I took nothing.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "Good evening. BP {sbp}/{dbp}, I only took half of my tablets.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "bp {sbp}/{dbp} and headache since morning",
+      "meds_taken": null,
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Checked at the health centre: {sbp}/{dbp}. Meds taken.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "pressure {sbp}/{dbp}, feeling dizzy",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "Hello, {sbp} over {dbp}, I forgot my pills today.",
+      "meds_taken": "no",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "BP {sbp}/{dbp}. Took one of my two medicines.",
+      "meds_taken": "partial",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "This morning {sbp}/{dbp}, my eyes are blurry.",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "bp_report",
+      "template": "My BP is {sbp} over {dbp}, taking my medicine every day.",
+      "meds_taken": "yes",
+      "symptoms": []
+    },
+    {
+      "intent": "bp_report",
+      "template": "bp {sbp}/{dbp} took my meds but chest is paining",
+      "meds_taken": "yes",
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "I have a very bad headache since last night.",
+      "meds_taken": null,
+      "symptoms": [
+        "headache"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "My vision is blurry since morning.",
+      "meds_taken": null,
+      "symptoms": [
+        "vision_change"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "I have pain in my chest.",
+      "meds_taken": null,
+      "symptoms": [
+        "chest_pain"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "My husband's face is drooping on one side and he can't talk well.",
+      "meds_taken": null,
+      "symptoms": [
+        "face_droop",
+        "speech_difficulty"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "My right arm is weak, I can't lift it.",
+      "meds_taken": null,
+      "symptoms": [
+        "arm_weakness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "I feel dizzy when I stand up.",
+      "meds_taken": null,
+      "symptoms": [
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "symptom",
+      "template": "headache and dizziness for two days",
+      "meds_taken": null,
+      "symptoms": [
+        "headache",
+        "dizziness"
+      ]
+    },
+    {
+      "intent": "meds_question",
+      "template": "My medicine is finished, where can I get more?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Can I stop the tablets if I feel fine?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "The medicine makes my feet swell, is that normal?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Should I take the tablet in the morning or at night?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "meds_question",
+      "template": "Can I take my tablets with traditional medicine?",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Thank you very much.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Hello, I am travelling this week.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "Ok, I understand.",
+      "meds_taken": null,
+      "symptoms": []
+    },
+    {
+      "intent": "other",
+      "template": "God bless you.",
+      "meds_taken": null,
+      "symptoms": []
+    }
+  ]
+}
