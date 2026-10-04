@@ -1,0 +1,84 @@
+{
+  "version": "synthetic-auto-20261004T095824Z",
+  "C": 3.0,
+  "urgent_threshold": 0.5,
+  "nonurgent_threshold": 0.4,
+  "extra": [
+    {
+      "text": "Hi there, is anyone able to read this message?",
+      "label": "nonurgent"
+    },
+    {
+      "text": "I am pregnant and have a severe headache with blurred vision",
+      "label": "urgent"
+    },
+    {
+      "text": "I can barely get air even though I am sitting down",
+      "label": "urgent"
+    },
+    {
+      "text": "I have a plan to kill myself tonight",
+      "label": "urgent"
+    },
+    {
+      "text": "I have had the same mild shoulder ache for months with no new symptoms",
+      "label": "nonurgent"
+    },
+    {
+      "text": "I passed out twice today and still feel very unwell",
+      "label": "urgent"
+    },
+    {
+      "text": "I ran out of rice, but I have my medicine and feel well",
+      "label": "nonurgent"
+    },
+    {
+      "text": "I swallowed the whole bottle of tablets just now",
+      "label": "urgent"
+    },
+    {
+      "text": "I woke up with slurred speech and a weak left arm",
+      "label": "urgent"
+    },
+    {
+      "text": "My baby will not wake up when I call or touch her",
+      "label": "urgent"
+    },
+    {
+      "text": "My bottle of blood pressure pills is empty; how do I ask for a refill?",
+      "label": "nonurgent"
+    },
+    {
+      "text": "My father had chest pain years ago; I feel well and want a routine checkup",
+      "label": "nonurgent"
+    },
+    {
+      "text": "My left knee has a mild ache after walking yesterday and I can walk normally",
+      "label": "nonurgent"
+    },
+    {
+      "text": "My partner has face drooping that started a few minutes ago",
+      "label": "urgent"
+    },
+    {
+      "text": "My tongue is getting bigger and I am struggling to swallow",
+      "label": "urgent"
+    },
+    {
+      "text": "There is no chest pain and I am breathing normally; I only need my appointment date",
+      "label": "nonurgent"
+    },
+    {
+      "text": "There is pressure in my chest and breathing is difficult right now",
+      "label": "urgent"
+    },
+    {
+      "text": "What does the phrase cannot breathe mean on your poster? I have no symptoms",
+      "label": "nonurgent"
+    },
+    {
+      "text": "cant breath chest hurts pls help",
+      "label": "urgent"
+    }
+  ]
+}

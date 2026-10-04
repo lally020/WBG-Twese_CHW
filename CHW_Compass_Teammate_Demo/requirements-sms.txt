@@ -1,0 +1,3 @@
+-r requirements.txt
+twilio>=9,<10
+httpx>=0.27,<1

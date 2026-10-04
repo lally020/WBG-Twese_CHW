@@ -1,0 +1,5 @@
+fastapi>=0.110,<1
+uvicorn>=0.29,<1
+cryptography>=42,<47
+scikit-learn>=1.4,<2
+numpy>=1.26,<3

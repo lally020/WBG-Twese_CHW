@@ -1,0 +1,27 @@
+CHW COMPASS — RUN THE OFFLINE DEMO
+
+MAC: Double-click run_mac.command. If blocked, use Terminal:
+  cd /path/to/chw_compass_mvp
+  bash run_mac.command
+
+WINDOWS:
+  py -m venv .venv
+  .venv\Scripts\activate
+  pip install -r requirements.txt
+  py launch.py
+
+BROWSER: http://127.0.0.1:8765
+First launch prompts for a 12+ character passphrase for the encrypted demo database.
+Keep the passphrase. The demo uses 24 fictional patients and sends NO real SMS.
+Internet is only needed the first time to install Python packages.
+
+DEMO FLOW:
+  Overview -> Patient review -> SMS agent -> Outreach planner ->
+  Education & quizzes -> Validation & learning -> Human approvals
+
+IMPORTANT:
+  Research demo only. No patient data. No clinical decision-making.
+  Local safety thresholds and sample lessons are placeholders needing approval.
+  Actual SMS requires an authorized gateway + patient consent.
+
+README.md = full instructions; PITCH_AND_EVALUATION.md = video guide.

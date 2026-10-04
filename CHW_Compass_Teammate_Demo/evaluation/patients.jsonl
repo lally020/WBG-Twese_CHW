@@ -1,0 +1,16 @@
+{"id": "p01", "bp": [124, 78], "expected_priority": "routine", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p02", "bp": [139, 89], "expected_priority": "routine", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p03", "bp": [140, 89], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p04", "bp": [139, 90], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p05", "bp": [159, 99], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p06", "bp": [160, 100], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p07", "bp": [179, 119], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p08", "bp": [180, 80], "expected_priority": "urgent", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p09", "bp": [120, 120], "expected_priority": "urgent", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p10", "bp": [192, 126], "expected_priority": "urgent", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p11", "bp": null, "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard"}
+{"id": "p12", "bp": [125, 78], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard", "adherence": [1, 0, 0, 1, 1, 1, 1]}
+{"id": "p13", "bp": [125, 78], "expected_priority": "routine", "label_status": "demo_policy_spec_not_clinical_gold_standard", "adherence": [1, 1, 1, 1, 1, 1, 1]}
+{"id": "p14", "bp": [125, 78], "expected_priority": "urgent", "label_status": "demo_policy_spec_not_clinical_gold_standard", "open_urgent": true}
+{"id": "p15", "bp": [125, 78], "expected_priority": "urgent", "label_status": "demo_policy_spec_not_clinical_gold_standard", "message": "Today I have chest pain and feel unwell"}
+{"id": "p16", "bp": [139, 82], "expected_priority": "followup", "label_status": "demo_policy_spec_not_clinical_gold_standard", "history": [[120, 78], [124, 78], [116, 78], [123, 78], [117, 78], [120, 78]]}

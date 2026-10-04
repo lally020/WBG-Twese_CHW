@@ -1,0 +1,7 @@
+{
+  "version": "synthetic-urgency-v1",
+  "C": 1.0,
+  "urgent_threshold": 0.6,
+  "nonurgent_threshold": 0.4,
+  "extra": []
+}
